@@ -137,3 +137,88 @@ class MPM(nn.Module):
             "padding_mask": mel_padding_mask,
         }
 
+class Classifier(nn.Module):
+    """
+    Masked Prosody Model
+    """
+
+    def __init__(
+        self,
+        in_channels=256,
+        filter_size=256,
+        kernel_size=1,
+        dropout=0.1,
+        depthwise=True,
+        nlayers=2,
+    ):
+        super().__init__()
+        in_channels = in_channels
+        num_outputs = 2
+
+        self.in_layer = nn.Sequential(
+            nn.Linear(in_channels, filter_size),
+            nn.BatchNorm1d(filter_size),
+            nn.GELU(),
+            nn.Linear(filter_size, filter_size),
+            nn.BatchNorm1d(filter_size),
+            nn.GELU(),
+        )
+
+        self.in_layer = nn.Linear(in_channels, filter_size)
+
+        self.positional_encoding = PositionalEncoding(filter_size)
+
+        self.transformer = TransformerEncoder(
+            ConformerLayer(
+                filter_size,
+                2,
+                conv_in=filter_size,
+                conv_filter_size=filter_size,
+                conv_kernel=(kernel_size, 1),
+                batch_first=True,
+                dropout=dropout,
+                conv_depthwise=depthwise,
+            ),
+            num_layers=nlayers,
+        )
+
+        self.output_layer = nn.Sequential(
+            nn.Linear(filter_size, filter_size),
+            nn.BatchNorm1d(filter_size),
+            nn.GELU(),
+            nn.Linear(filter_size, num_outputs),
+        )
+
+        self.apply(self._init_weights)
+
+        # save hparams
+        self.hparams = {
+            "in_channels": in_channels,
+            "filter_size": filter_size,
+            "kernel_size": kernel_size,
+            "dropout": dropout,
+            "depthwise": depthwise,
+            "nlayers": nlayers,
+        }
+
+    def _init_weights(self, module):
+        if isinstance(module, nn.Linear):
+            module.weight.data.normal_(mean=0.0, std=0.02)
+            if module.bias is not None:
+                module.bias.data.zero_()
+        elif isinstance(module, nn.LayerNorm):
+            module.bias.data.zero_()
+            module.weight.data.fill_(1.0)
+
+    def forward(self, input, pitch, energy, vad):
+        padding_mask = input.sum(dim=-1) != 0
+        padding_mask = padding_mask.to(input.dtype)
+        x = self.in_layer(input)
+        x = self.positional_encoding(x)
+        x = self.transformer(x, src_key_padding_mask=padding_mask)
+        results = self.output_layer(x)
+        return {
+            "break": results[:, :, 0],
+            "prominence": results[:, :, 1],
+            "padding_mask": padding_mask,
+        }
