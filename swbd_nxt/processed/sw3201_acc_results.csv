@@ -1,0 +1,924 @@
+,msstateID,msstate,accent_id,phonword_id,start,end,phonword,atype,strength,da,phrase_id,phrase_start,phrase_end,type,binary_accent
+0,sw3201A-ms98-a-0001-6,sw3201A-ms98-a-0001,sw3201.A.acc1.aw6,ms1A_pw4,0.69,0.82,have,Not Found: accent@type,full,yn_q,,,,,True
+1,sw3201A-ms98-a-0001-8,sw3201A-ms98-a-0001,sw3201.A.acc2.aw8,ms1A_pw6,0.93,1.51,recycling,Not Found: accent@type,full,yn_q,,,,,True
+2,sw3201A-ms98-a-0001-10,sw3201A-ms98-a-0001,sw3201.A.acc3.aw10,ms1A_pw8,2.01,2.29,there,Not Found: accent@type,full,yn_q,,,,,True
+3,sw3201A-ms98-a-0008-26,sw3201A-ms98-a-0008,sw3201.A.acc4.aw26,ms8A_pw13,22.14675,22.297875,we've,Not Found: accent@type,full,statement,,,,,True
+5,sw3201A-ms98-a-0008-29,sw3201A-ms98-a-0008,sw3201.A.acc5.aw29,ms8A_pw16,22.917875,23.137875,little,Not Found: accent@type,full,statement,,,,,True
+6,sw3201A-ms98-a-0008-33,sw3201A-ms98-a-0008,sw3201.A.acc6.aw33,ms8A_pw20,23.827875,24.257875,that,Not Found: accent@type,full,statement,,,,,True
+7,sw3201A-ms98-a-0008-35,sw3201A-ms98-a-0008,sw3201.A.acc7.aw35,ms8A_pw22,24.557875,24.987875,actually,Not Found: accent@type,full,statement,,,,,True
+8,sw3201A-ms98-a-0008-37,sw3201A-ms98-a-0008,sw3201.A.acc8.aw37,ms8A_pw24,25.107875,25.477875,have,Not Found: accent@type,full,statement,,,,,True
+9,sw3201A-ms98-a-0008-39,sw3201A-ms98-a-0008,sw3201.A.acc9.aw39,ms8A_pw26,25.677875,26.067875,parts,Not Found: accent@type,full,statement,,,,,True
+10,sw3201A-ms98-a-0008-41,sw3201A-ms98-a-0008,sw3201.A.acc10.aw41,ms8A_pw28,26.147875,26.618125,town,Not Found: accent@type,full,statement,,,,,True
+11,sw3201A-ms98-a-0009-45,sw3201A-ms98-a-0009,sw3201.A.acc11.aw45,ms9A_pw30,27.439625,27.589625,may,Not Found: accent@type,full,statement,,,,,True
+12,sw3201A-ms98-a-0009-48,sw3201A-ms98-a-0009,sw3201.A.acc12.aw48,ms9A_pw33,27.919625,28.299625,spread,Not Found: accent@type,full,statement,,,,,True
+13,sw3201A-ms98-a-0009-52,sw3201A-ms98-a-0009,sw3201.A.acc13.aw52,ms9A_pw37,28.619625,28.869625,whole,Not Found: accent@type,full,statement,,,,,True
+14,sw3201A-ms98-a-0009-59,sw3201A-ms98-a-0009,sw3201.A.acc14.aw59,ms9A_pw42,30.939625,31.119625,have,Not Found: accent@type,full,statement,,,,,True
+15,sw3201A-ms98-a-0009-61,sw3201A-ms98-a-0009,sw3201.A.acc15.aw61,ms9A_pw44,31.349625,31.809625,green,Not Found: accent@type,full,statement,,,,,True
+16,sw3201A-ms98-a-0009-62,sw3201A-ms98-a-0009,sw3201.A.acc16.aw62,ms9A_pw45,31.809625,32.47175,bins,Not Found: accent@type,full,statement,,,,,True
+17,sw3201A-ms98-a-0010-67,sw3201A-ms98-a-0010,sw3201.A.acc17.aw67,ms10A_pw48,33.539,33.829,just,Not Found: accent@type,full,statement,,,,,True
+18,sw3201A-ms98-a-0010-69,sw3201A-ms98-a-0010,sw3201.A.acc18.aw69,ms10A_pw50,33.949,34.589,standard,Not Found: accent@type,full,statement,,,,,True
+19,sw3201A-ms98-a-0010-73,sw3201A-ms98-a-0010,sw3201.A.acc19.aw73,ms10A_pw54,35.299,35.589,regular,Not Found: accent@type,full,statement,,,,,True
+20,sw3201A-ms98-a-0010-74,sw3201A-ms98-a-0010,sw3201.A.acc20.aw74,ms10A_pw55,35.589,36.029,trash,Not Found: accent@type,full,statement,,,,,True
+21,sw3201A-ms98-a-0010-80,sw3201A-ms98-a-0010,sw3201.A.acc21.aw80,ms10A_pw60,37.379,37.579,by,Not Found: accent@type,full,statement,,,,,True
+22,sw3201A-ms98-a-0010-83,sw3201A-ms98-a-0010,sw3201.A.acc22.aw83,ms10A_pw63,37.939,38.159,up,Not Found: accent@type,full,statement,,,,,True
+23,sw3201A-ms98-a-0010-85,sw3201A-ms98-a-0010,sw3201.A.acc23.aw85,ms10A_pw65,38.339,38.759125,dump,Not Found: accent@type,full,statement,,,,,True
+24,sw3201A-ms98-a-0011-88,sw3201A-ms98-a-0011,sw3201.A.acc24.aw88,ms11A_pw66,39.633875,39.90325,and,Not Found: accent@type,full,statement,,,,,True
+25,sw3201A-ms98-a-0011-90,sw3201A-ms98-a-0011,sw3201.A.acc25.aw90,ms11A_pw68,40.18325,40.43325,just,Not Found: accent@type,weak,statement,,,,,True
+26,sw3201A-ms98-a-0011-94,sw3201A-ms98-a-0011,sw3201.A.acc26.aw94,ms11A_pw72,40.80325,41.16325,trash,Not Found: accent@type,full,statement,,,,,True
+27,sw3201A-ms98-a-0011-102,sw3201A-ms98-a-0011,sw3201.A.acc27.aw102,ms11A_pw78,42.43325,42.75325,green,Not Found: accent@type,full,statement,,,,,True
+28,sw3201A-ms98-a-0011-105,sw3201A-ms98-a-0011,sw3201.A.acc28.aw105,ms11A_pw80,43.327875,43.67125,bin,Not Found: accent@type,full,statement,,,,,True
+29,sw3201A-ms98-a-0011-107,sw3201A-ms98-a-0011,sw3201.A.acc29.aw107,ms11A_pw81,44.32325,44.59325,and,Not Found: accent@type,full,statement,,,,,True
+30,sw3201A-ms98-a-0011-109,sw3201A-ms98-a-0011,sw3201.A.acc30.aw109,ms11A_pw83,44.67325,44.98325,put,Not Found: accent@type,weak,statement,,,,,True
+31,sw3201A-ms98-a-0011-111,sw3201A-ms98-a-0011,sw3201.A.acc31.aw111,ms11A_pw85,45.08325,45.53325,bottles,Not Found: accent@type,full,statement,,,,,True
+32,sw3201A-ms98-a-0011-115,sw3201A-ms98-a-0011,sw3201.A.acc32.aw115,ms11A_pw89,46.27325,46.96325,paper,Not Found: accent@type,full,statement,,,,,True
+33,sw3201A-ms98-a-0012-123,sw3201A-ms98-a-0012,sw3201.A.acc33.aw123,ms12A_pw94,49.571000000000005,49.711000000000006,all,Not Found: accent@type,full,statement,,,,,True
+34,sw3201A-ms98-a-0012-125,sw3201A-ms98-a-0012,sw3201.A.acc34.aw125,ms12A_pw96,49.911,50.179125,things,Not Found: accent@type,full,statement,,,,,True
+35,sw3201A-ms98-a-0012-128,sw3201A-ms98-a-0012,sw3201.A.acc35.aw128,ms12A_pw98,50.511,51.22025,aluminum,Not Found: accent@type,full,statement,,,,,True
+36,sw3201A-ms98-a-0012-130,sw3201A-ms98-a-0012,sw3201.A.acc36.aw130,ms12A_pw99,51.291000000000004,51.381,you,Not Found: accent@type,full,statement,,,,,True
+37,sw3201A-ms98-a-0012-132,sw3201A-ms98-a-0012,sw3201.A.acc37.aw132,ms12A_pw101,51.49100000000001,51.81100000000001,anything,Not Found: accent@type,full,statement,,,,,True
+38,sw3201A-ms98-a-0012-136,sw3201A-ms98-a-0012,sw3201.A.acc38.aw136,ms12A_pw105,52.351000000000006,53.011,recycled,Not Found: accent@type,full,statement,,,,,True
+39,sw3201A-ms98-a-0012-139,sw3201A-ms98-a-0012,sw3201.A.acc39.aw139,ms12A_pw108,53.321000000000005,53.481,put,Not Found: accent@type,full,statement,,,,,True
+40,sw3201A-ms98-a-0012-142,sw3201A-ms98-a-0012,sw3201.A.acc40.aw142,ms12A_pw111,53.67100000000001,54.081,bin,Not Found: accent@type,full,statement,,,,,True
+41,sw3201A-ms98-a-0013-148,sw3201A-ms98-a-0013,sw3201.A.acc41.aw148,ms13A_pw115,55.935,56.165,guess,Not Found: accent@type,full,statement,,,,,True
+42,sw3201A-ms98-a-0013-155,sw3201A-ms98-a-0013,sw3201.A.acc42.aw155,ms13A_pw121,57.145,57.325,lot,Not Found: accent@type,full,statement,,,,,True
+43,sw3201A-ms98-a-0013-158,sw3201A-ms98-a-0013,sw3201.A.acc43.aw158,ms13A_pw124,57.495,58.36325,restaurants,Not Found: accent@type,full,statement,,,,,True
+44,sw3201A-ms98-a-0014-161,sw3201A-ms98-a-0014,sw3201.A.acc44.aw161,ms14A_pw125,58.947625,59.05775,they,Not Found: accent@type,full,statement,,,,,True
+45,sw3201A-ms98-a-0014-163,sw3201A-ms98-a-0014,sw3201.A.acc45.aw163,ms14A_pw127,59.36775,59.70775,have,Not Found: accent@type,full,statement,,,,,True
+46,sw3201A-ms98-a-0014-166,sw3201A-ms98-a-0014,sw3201.A.acc46.aw166,ms14A_pw129,60.52125,61.02775,places,Not Found: accent@type,full,statement,,,,,True
+47,sw3201A-ms98-a-0014-170,sw3201A-ms98-a-0014,sw3201.A.acc47.aw170,ms14A_pw133,61.38775,61.60775,throw,Not Found: accent@type,weak,statement,,,,,True
+48,sw3201A-ms98-a-0014-172,sw3201A-ms98-a-0014,sw3201.A.acc48.aw172,ms14A_pw135,61.99775,62.45775,especially,Not Found: accent@type,full,statement,,,,,True
+49,sw3201A-ms98-a-0014-173,sw3201A-ms98-a-0014,sw3201.A.acc49.aw173,ms14A_pw136,62.45775,62.68775,beer,Not Found: accent@type,full,statement,,,,,True
+50,sw3201A-ms98-a-0015-180,sw3201A-ms98-a-0015,sw3201.A.acc50.aw180,ms15A_pw141,64.18025,64.41025,throw,Not Found: accent@type,full,statement,,,,,True
+51,sw3201A-ms98-a-0015-182,sw3201A-ms98-a-0015,sw3201.A.acc51.aw182,ms15A_pw143,64.63025,64.99025,green,Not Found: accent@type,full,statement,,,,,True
+52,sw3201A-ms98-a-0015-188,sw3201A-ms98-a-0015,sw3201.A.acc52.aw188,ms15A_pw148,66.16025,66.56025,brown,Not Found: accent@type,full,statement,,,,,True
+53,sw3201A-ms98-a-0016-198,sw3201A-ms98-a-0016,sw3201.A.acc53.aw198,ms16A_pw154,69.97125,70.11125,don't,Not Found: accent@type,full,hedge,,,,,True
+55,sw3201A-ms98-a-0016-201,sw3201A-ms98-a-0016,sw3201.A.acc54.aw201,ms16A_pw157,70.31125,70.59125,guess,Not Found: accent@type,full,statement,,,,,True
+56,sw3201A-ms98-a-0016-204,sw3201A-ms98-a-0016,sw3201.A.acc55.aw204,ms16A_pw159,71.12,71.23125,you,Not Found: accent@type,full,statement,,,,,True
+57,sw3201A-ms98-a-0016-206,sw3201A-ms98-a-0016,sw3201.A.acc56.aw206,ms16A_pw161,71.34125,71.71125,clear,Not Found: accent@type,full,statement,,,,,True
+58,sw3201A-ms98-a-0016-209,sw3201A-ms98-a-0016,sw3201.A.acc57.aw209,ms16A_pw163,72.779125,73.0975,so,Not Found: accent@type,full,statement,,,,,True
+59,sw3201A-ms98-a-0016-211,sw3201A-ms98-a-0016,sw3201.A.acc58.aw211,ms16A_pw165,73.49125,73.60125,you,Not Found: accent@type,full,statement,,,,,True
+60,sw3201A-ms98-a-0016-214,sw3201A-ms98-a-0016,sw3201.A.acc59.aw214,ms16A_pw168,73.73125,73.84125,lot,Not Found: accent@type,full,statement,,,,,True
+61,sw3201A-ms98-a-0016-217,sw3201A-ms98-a-0016,sw3201.A.acc60.aw217,ms16A_pw171,74.12125,74.30125,do,Not Found: accent@type,full,statement,,,,,True
+62,sw3201A-ms98-a-0016-219,sw3201A-ms98-a-0016,sw3201.A.acc61.aw219,ms16A_pw173,74.55125,74.82125,those,Not Found: accent@type,full,statement,,,,,True
+63,sw3201A-ms98-a-0017-225,sw3201A-ms98-a-0017,sw3201.A.acc62.aw225,ms17A_pw177,76.6835,77.0735,course,Not Found: accent@type,full,statement,,,,,True
+64,sw3201A-ms98-a-0017-228,sw3201A-ms98-a-0017,sw3201.A.acc63.aw228,ms17A_pw179,77.3835,77.7535,have,Not Found: accent@type,full,statement,,,,,True
+65,sw3201A-ms98-a-0017-232,sw3201A-ms98-a-0017,sw3201.A.acc64.aw232,ms17A_pw182,78.6335,79.4835,dumpsters,Not Found: accent@type,full,statement,,,,,True
+66,sw3201A-ms98-a-0017-236,sw3201A-ms98-a-0017,sw3201.A.acc65.aw236,ms17A_pw186,80.1435,80.934875,igloos,Not Found: accent@type,full,statement,,,,,True
+67,sw3201A-ms98-a-0018-241,sw3201A-ms98-a-0018,sw3201.A.acc66.aw241,ms18A_pw189,82.416375,82.516375,they,Not Found: accent@type,full,statement,,,,,True
+68,sw3201A-ms98-a-0018-243,sw3201A-ms98-a-0018,sw3201.A.acc67.aw243,ms18A_pw191,82.696375,82.916375,those,Not Found: accent@type,weak,statement,,,,,True
+69,sw3201A-ms98-a-0018-246,sw3201A-ms98-a-0018,sw3201.A.acc68.aw246,ms18A_pw193,83.516375,84.48700000000001,strategically,Not Found: accent@type,full,statement,,,,,True
+70,sw3201A-ms98-a-0018-248,sw3201A-ms98-a-0018,sw3201.A.acc69.aw248,ms18A_pw194,84.55475,84.906375,placed,Not Found: accent@type,full,statement,,,,,True
+71,sw3201A-ms98-a-0018-251,sw3201A-ms98-a-0018,sw3201.A.acc70.aw251,ms18A_pw197,85.256375,85.75175,city,Not Found: accent@type,full,statement,,,,,True
+72,sw3201A-ms98-a-0019-254,sw3201A-ms98-a-0019,sw3201.A.acc71.aw254,ms19A_pw198,86.55775,86.8635,and,Not Found: accent@type,full,statement,,,,,True
+73,sw3201A-ms98-a-0019-259,sw3201A-ms98-a-0019,sw3201.A.acc72.aw259,ms19A_pw202,87.8335,88.2935,actually,Not Found: accent@type,full,statement,,,,,True
+74,sw3201A-ms98-a-0019-261,sw3201A-ms98-a-0019,sw3201.A.acc73.aw261,ms19A_pw204,88.4835,89.1435,extend,Not Found: accent@type,full,statement,,,,,True
+75,sw3201A-ms98-a-0019-264,sw3201A-ms98-a-0019,sw3201.A.acc74.aw264,ms19A_pw207,89.4435,89.6935,think,Not Found: accent@type,full,statement,,,,,True
+76,sw3201A-ms98-a-0019-265,sw3201A-ms98-a-0019,sw3201.A.acc75.aw265,ms19A_pw208,89.6935,89.8535,one,Not Found: accent@type,full,statement,,,,,True
+77,sw3201A-ms98-a-0019-271,sw3201A-ms98-a-0019,sw3201.A.acc76.aw271,ms19A_pw214,90.9735,91.3935,apartment,Not Found: accent@type,full,statement,,,,,True
+78,sw3201A-ms98-a-0020-280,sw3201A-ms98-a-0020,sw3201.A.acc77.aw280,ms20A_pw221,94.161,94.331,that,Not Found: accent@type,full,hedge,,,,,True
+79,sw3201A-ms98-a-0020-285,sw3201A-ms98-a-0020,sw3201.A.acc78.aw285,ms20A_pw225,95.491,95.73100000000001,guess,Not Found: accent@type,full,opinion,,,,,True
+80,sw3201A-ms98-a-0020-288,sw3201A-ms98-a-0020,sw3201.A.acc79.aw288,ms20A_pw228,95.931,96.071,live,Not Found: accent@type,full,opinion,,,,,True
+81,sw3201A-ms98-a-0020-292,sw3201A-ms98-a-0020,sw3201.A.acc80.aw292,ms20A_pw232,96.461,96.891,city,Not Found: accent@type,full,opinion,,,,,True
+82,sw3201A-ms98-a-0020-296,sw3201A-ms98-a-0020,sw3201.A.acc81.aw296,ms20A_pw235,97.301,97.791,really,Not Found: accent@type,full,opinion,,,,,True
+83,sw3201A-ms98-a-0020-300,sw3201A-ms98-a-0020,sw3201.A.acc82.aw300,ms20A_pw238,99.038,100.0985,necessary,Not Found: accent@type,full,opinion,,,,,True
+84,sw3201A-ms98-a-0030-330,sw3201A-ms98-a-0030,sw3201.A.acc83.aw330,ms30A_pw250,121.840375,122.450375,grandparents,Not Found: accent@type,full,statement,,,,,True
+85,sw3201A-ms98-a-0030-335,sw3201A-ms98-a-0030,sw3201.A.acc84.aw335,ms30A_pw255,122.850375,123.4385,always,Not Found: accent@type,full,statement,,,,,True
+86,sw3201A-ms98-a-0030-342,sw3201A-ms98-a-0030,sw3201.A.acc85.aw342,ms30A_pw261,124.120375,124.400375,road,Not Found: accent@type,full,statement,,,,,True
+87,sw3201A-ms98-a-0030-346,sw3201A-ms98-a-0030,sw3201.A.acc86.aw346,ms30A_pw265,124.880375,125.060375,beer,Not Found: accent@type,full,statement,,,,,True
+88,sw3201A-ms98-a-0034-362,sw3201A-ms98-a-0034,sw3201.A.acc87.aw362,ms34A_pw271,148.43175,148.56175,they're,Not Found: accent@type,full,statement,,,,,True
+90,sw3201A-ms98-a-0034-365,sw3201A-ms98-a-0034,sw3201.A.acc88.aw365,ms34A_pw274,148.84175,149.03175,real,Not Found: accent@type,full,statement,,,,,True
+91,sw3201A-ms98-a-0034-367,sw3201A-ms98-a-0034,sw3201.A.acc89.aw367,ms34A_pw276,149.21175,149.47175,job,Not Found: accent@type,full,statement,,,,,True
+92,sw3201A-ms98-a-0034-370,sw3201A-ms98-a-0034,sw3201.A.acc90.aw370,ms34A_pw279,149.86175,150.53175,separating,Not Found: accent@type,full,statement,,,,,True
+93,sw3201A-ms98-a-0034-376,sw3201A-ms98-a-0034,sw3201.A.acc91.aw376,ms34A_pw284,151.62175,151.99175,course,Not Found: accent@type,full,statement,,,,,True
+94,sw3201A-ms98-a-0034-377,sw3201A-ms98-a-0034,sw3201.A.acc92.aw377,ms34A_pw285,151.99175,152.26175,there,Not Found: accent@type,full,statement,,,,,True
+95,sw3201A-ms98-a-0034-379,sw3201A-ms98-a-0034,sw3201.A.acc93.aw379,ms34A_pw287,152.36175,152.48175,know,Not Found: accent@type,full,statement,,,,,True
+96,sw3201A-ms98-a-0034-381,sw3201A-ms98-a-0034,sw3201.A.acc94.aw381,ms34A_pw289,152.64175,153.29175,have,Not Found: accent@type,full,statement,,,,,True
+97,sw3201A-ms98-a-0034-384,sw3201A-ms98-a-0034,sw3201.A.acc95.aw384,ms34A_pw292,153.96175,154.17175,place,Not Found: accent@type,full,statement,,,,,True
+98,sw3201A-ms98-a-0034-388,sw3201A-ms98-a-0034,sw3201.A.acc96.aw388,ms34A_pw296,154.54175,155.1525,paper,Not Found: accent@type,full,statement,,,,,True
+99,sw3201A-ms98-a-0035-394,sw3201A-ms98-a-0035,sw3201.A.acc97.aw394,ms35A_pw300,156.269375,156.479375,try,Not Found: accent@type,full,statement,,,,,True
+100,sw3201A-ms98-a-0035-402,sw3201A-ms98-a-0035,sw3201.A.acc98.aw402,ms35A_pw308,157.269375,157.769375,separate,Not Found: accent@type,full,statement,,,,,True
+101,sw3201A-ms98-a-0035-407,sw3201A-ms98-a-0035,sw3201.A.acc99.aw407,ms35A_pw313,158.419375,158.839375,actually,Not Found: accent@type,full,statement,,,,,True
+102,sw3201A-ms98-a-0035-408,sw3201A-ms98-a-0035,sw3201.A.acc100.aw408,ms35A_pw314,158.839375,159.089375,have,Not Found: accent@type,full,statement,,,,,True
+103,sw3201A-ms98-a-0035-413,sw3201A-ms98-a-0035,sw3201.A.acc101.aw413,ms35A_pw319,159.759375,160.36375,pickup,Not Found: accent@type,full,statement,,,,,True
+104,sw3201A-ms98-a-0035-421,sw3201A-ms98-a-0035,sw3201.A.acc102.aw421,ms35A_pw325,162.079375,162.289375,think,Not Found: accent@type,full,statement,,,,,True
+105,sw3201A-ms98-a-0035-424,sw3201A-ms98-a-0035,sw3201.A.acc103.aw424,ms35A_pw328,162.789375,162.969375,out,Not Found: accent@type,full,statement,,,,,True
+106,sw3201A-ms98-a-0036-432,sw3201A-ms98-a-0036,sw3201.A.acc104.aw432,ms36A_pw334,165.307375,165.377375,of,Not Found: accent@type,full,statement,,,,,True
+107,sw3201A-ms98-a-0036-434,sw3201A-ms98-a-0036,sw3201.A.acc105.aw434,ms36A_pw336,165.437375,165.957375,test,Not Found: accent@type,full,statement,,,,,True
+108,sw3201A-ms98-a-0036-436,sw3201A-ms98-a-0036,sw3201.A.acc106.aw436,ms36A_pw338,166.007375,166.337375,pilot,Not Found: accent@type,full,statement,,,,,True
+109,sw3201A-ms98-a-0036-441,sw3201A-ms98-a-0036,sw3201.A.acc107.aw441,ms36A_pw342,167.447375,167.617375,went,Not Found: accent@type,full,statement,,,,,True
+110,sw3201A-ms98-a-0036-445,sw3201A-ms98-a-0036,sw3201.A.acc108.aw445,ms36A_pw345,168.122,168.447375,well,Not Found: accent@type,full,statement,,,,,True
+111,sw3201A-ms98-a-0036-449,sw3201A-ms98-a-0036,sw3201.A.acc109.aw449,ms36A_pw349,168.977375,169.547375,extended,Not Found: accent@type,full,statement,,,,,True
+112,sw3201A-ms98-a-0036-454,sw3201A-ms98-a-0036,sw3201.A.acc110.aw454,ms36A_pw353,170.657375,171.167375,almost,Not Found: accent@type,full,statement,,,,,True
+113,sw3201A-ms98-a-0036-458,sw3201A-ms98-a-0036,sw3201.A.acc111.aw458,ms36A_pw357,171.617375,171.697375,know,Not Found: accent@type,full,statement,,,,,True
+114,sw3201A-ms98-a-0036-464,sw3201A-ms98-a-0036,sw3201.A.acc112.aw464,ms36A_pw363,172.337375,172.757375,private,Not Found: accent@type,full,statement,,,,,True
+115,sw3201A-ms98-a-0036-467,sw3201A-ms98-a-0036,sw3201.A.acc113.aw467,ms36A_pw366,173.267375,173.577375,not,Not Found: accent@type,full,statement,,,,,True
+116,sw3201A-ms98-a-0036-470,sw3201A-ms98-a-0036,sw3201.A.acc114.aw470,ms36A_pw368,173.757375,173.947375,may,Not Found: accent@type,full,statement,,,,,True
+117,sw3201A-ms98-a-0036-471,sw3201A-ms98-a-0036,sw3201.A.acc115.aw471,ms36A_pw369,173.947375,174.301125,be,Not Found: accent@type,full,statement,,,,,True
+118,sw3201A-ms98-a-0037-479,sw3201A-ms98-a-0037,sw3201.A.acc116.aw479,ms37A_pw375,175.87125,176.20125,around,Not Found: accent@type,full,statement,,,,,True
+119,sw3201A-ms98-a-0037-481,sw3201A-ms98-a-0037,sw3201.A.acc117.aw481,ms37A_pw377,176.31125,176.68125,each,Not Found: accent@type,full,statement,,,,,True
+120,sw3201A-ms98-a-0037-483,sw3201A-ms98-a-0037,sw3201.A.acc118.aw483,ms37A_pw379,177.012,177.580625,door,Not Found: accent@type,full,statement,,,,,True
+121,sw3201A-ms98-a-0037-487,sw3201A-ms98-a-0037,sw3201.A.acc119.aw487,ms37A_pw383,178.09125,178.44375,up,Not Found: accent@type,full,statement,,,,,True
+122,sw3201A-ms98-a-0039-493,sw3201A-ms98-a-0039,sw3201.A.acc120.aw493,ms39A_pw385,181.025625,181.28975,let's,Not Found: accent@type,weak,hold,,,,,True
+124,sw3201A-ms98-a-0039-494,sw3201A-ms98-a-0039,sw3201.A.acc121.aw494,ms39A_pw386,181.28975,181.67975,see,Not Found: accent@type,full,hold,,,,,True
+125,sw3201A-ms98-a-0039-497,sw3201A-ms98-a-0039,sw3201.A.acc122.aw497,ms39A_pw389,182.17975,182.43975,every,Not Found: accent@type,weak,statement,,,,,True
+126,sw3201A-ms98-a-0039-498,sw3201A-ms98-a-0039,sw3201.A.acc123.aw498,ms39A_pw390,182.43975,182.74975,year,Not Found: accent@type,full,statement,,,,,True
+127,sw3201A-ms98-a-0039-500,sw3201A-ms98-a-0039,sw3201.A.acc124.aw500,ms39A_pw392,182.83975,183.24975,course,Not Found: accent@type,full,statement,,,,,True
+128,sw3201A-ms98-a-0039-502,sw3201A-ms98-a-0039,sw3201.A.acc125.aw502,ms39A_pw394,183.33975,183.73975,phone,Not Found: accent@type,full,statement,,,,,True
+129,sw3201A-ms98-a-0040-507,sw3201A-ms98-a-0040,sw3201.A.acc126.aw507,ms40A_pw397,185.58725,185.78725,they,Not Found: accent@type,full,statement,,,,,True
+130,sw3201A-ms98-a-0040-509,sw3201A-ms98-a-0040,sw3201.A.acc127.aw509,ms40A_pw399,186.16725,186.63725,everybody,Not Found: accent@type,full,statement,,,,,True
+131,sw3201A-ms98-a-0040-512,sw3201A-ms98-a-0040,sw3201.A.acc128.aw512,ms40A_pw402,187.06725,187.436375,city,Not Found: accent@type,full,statement,,,,,True
+132,sw3201A-ms98-a-0040-517,sw3201A-ms98-a-0040,sw3201.A.acc129.aw517,ms40A_pw406,188.390375,188.58725,all,Not Found: accent@type,full,statement,,,,,True
+133,sw3201A-ms98-a-0040-519,sw3201A-ms98-a-0040,sw3201.A.acc130.aw519,ms40A_pw408,188.68725,189.01725,phone,Not Found: accent@type,full,statement,,,,,True
+134,sw3201A-ms98-a-0040-526,sw3201A-ms98-a-0040,sw3201.A.acc131.aw526,ms40A_pw414,190.63725,191.13725,recycle,Not Found: accent@type,full,statement,,,,,True
+135,sw3201A-ms98-a-0041-530,sw3201A-ms98-a-0041,sw3201.A.acc132.aw530,ms41A_pw416,193.0695,193.379375,because,Not Found: accent@type,weak,statement,,,,,True
+136,sw3201A-ms98-a-0041-531,sw3201A-ms98-a-0041,sw3201.A.acc133.aw531,ms41A_pw417,193.379375,193.449375,you,Not Found: accent@type,full,statement,,,,,True
+137,sw3201A-ms98-a-0041-534,sw3201A-ms98-a-0041,sw3201.A.acc134.aw534,ms41A_pw419,193.70775,193.899375,phone,Not Found: accent@type,full,statement,,,,,True
+138,sw3201A-ms98-a-0041-537,sw3201A-ms98-a-0041,sw3201.A.acc135.aw537,ms41A_pw422,194.169375,194.409375,pretty,Not Found: accent@type,weak,statement,,,,,True
+139,sw3201A-ms98-a-0041-538,sw3201A-ms98-a-0041,sw3201.A.acc136.aw538,ms41A_pw423,194.409375,194.709375,well,Not Found: accent@type,full,statement,,,,,True
+140,sw3201A-ms98-a-0041-541,sw3201A-ms98-a-0041,sw3201.A.acc137.aw541,ms41A_pw426,194.979375,195.209375,bigger,Not Found: accent@type,full,statement,,,,,True
+141,sw3201A-ms98-a-0041-544,sw3201A-ms98-a-0041,sw3201.A.acc138.aw544,ms41A_pw429,195.649375,195.889375,pretty,Not Found: accent@type,full,statement,,,,,True
+142,sw3201A-ms98-a-0041-545,sw3201A-ms98-a-0041,sw3201.A.acc139.aw545,ms41A_pw430,195.889375,196.41825,thick,Not Found: accent@type,full,statement,,,,,True
+143,sw3201A-ms98-a-0041-549,sw3201A-ms98-a-0041,sw3201.A.acc140.aw549,ms41A_pw433,196.879375,197.309375,sometimes,Not Found: accent@type,full,statement,,,,,True
+144,sw3201A-ms98-a-0041-553,sw3201A-ms98-a-0041,sw3201.A.acc141.aw553,ms41A_pw437,197.709375,197.979375,two,Not Found: accent@type,full,statement,,,,,True
+145,sw3201A-ms98-a-0041-555,sw3201A-ms98-a-0041,sw3201.A.acc142.aw555,ms41A_pw439,198.089375,198.55425,three,Not Found: accent@type,full,statement,,,,,True
+146,sw3201A-ms98-a-0042-560,sw3201A-ms98-a-0042,sw3201.A.acc143.aw560,ms42A_pw442,200.176375,200.59925,that's,Not Found: accent@type,full,opinion,,,,,True
+148,sw3201A-ms98-a-0042-561,sw3201A-ms98-a-0042,sw3201.A.acc144.aw561,ms42A_pw443,200.59925,200.80925,that's,Not Found: accent@type,full,opinion,,,,,True
+150,sw3201A-ms98-a-0042-566,sw3201A-ms98-a-0042,sw3201.A.acc145.aw566,ms42A_pw448,201.76925,201.97925,there,Not Found: accent@type,full,opinion,,,,,True
+151,sw3201A-ms98-a-0042-568,sw3201A-ms98-a-0042,sw3201.A.acc146.aw568,ms42A_pw450,202.10925,202.80125,itself,Not Found: accent@type,full,opinion,,,,,True
+152,sw3201A-ms98-a-0047-584,sw3201A-ms98-a-0047,sw3201.A.acc147.aw584,ms47A_pw457,218.993125,219.213125,thing,Not Found: accent@type,full,statement,,,,,True
+153,sw3201A-ms98-a-0047-587,sw3201A-ms98-a-0047,sw3201.A.acc148.aw587,ms47A_pw459,219.61525,220.553125,newspapers,Not Found: accent@type,full,statement,,,,,True
+154,sw3201A-ms98-a-0047-587,sw3201A-ms98-a-0047,sw3201.A.acc149.aw587,ms47A_pw459,219.61525,220.553125,newspapers,Not Found: accent@type,weak,statement,,,,,True
+155,sw3201A-ms98-a-0047-589,sw3201A-ms98-a-0047,sw3201.A.acc150.aw589,ms47A_pw461,220.813125,221.35625,paper,Not Found: accent@type,full,statement,,,,,True
+156,sw3201A-ms98-a-0047-591,sw3201A-ms98-a-0047,sw3201.A.acc151.aw591,ms47A_pw462,221.958875,222.463125,recycled,Not Found: accent@type,full,statement,,,,,True
+157,sw3201A-ms98-a-0047-592,sw3201A-ms98-a-0047,sw3201.A.acc152.aw592,ms47A_pw463,222.463125,222.883125,paper,Not Found: accent@type,weak,statement,,,,,True
+158,sw3201A-ms98-a-0047-594,sw3201A-ms98-a-0047,sw3201.A.acc153.aw594,ms47A_pw465,222.983125,223.373125,actually,Not Found: accent@type,full,statement,,,,,True
+159,sw3201A-ms98-a-0047-596,sw3201A-ms98-a-0047,sw3201.A.acc154.aw596,ms47A_pw467,223.603125,224.330125,expensive,Not Found: accent@type,full,statement,,,,,True
+160,sw3201A-ms98-a-0048-600,sw3201A-ms98-a-0048,sw3201.A.acc155.aw600,ms48A_pw468,225.288375,225.698375,so,Not Found: accent@type,full,statement,,,,,True
+161,sw3201A-ms98-a-0048-603,sw3201A-ms98-a-0048,sw3201.A.acc156.aw603,ms48A_pw471,225.948375,226.168375,see,Not Found: accent@type,full,statement,,,,,True
+162,sw3201A-ms98-a-0048-607,sw3201A-ms98-a-0048,sw3201.A.acc157.aw607,ms48A_pw475,226.948375,227.458375,recycled,Not Found: accent@type,full,statement,,,,,True
+163,sw3201A-ms98-a-0048-608,sw3201A-ms98-a-0048,sw3201.A.acc158.aw608,ms48A_pw476,227.458375,227.868375,paper,Not Found: accent@type,full,statement,,,,,True
+164,sw3201A-ms98-a-0048-610,sw3201A-ms98-a-0048,sw3201.A.acc159.aw610,ms48A_pw478,228.068375,228.448375,actually,Not Found: accent@type,full,statement,,,,,True
+165,sw3201A-ms98-a-0048-614,sw3201A-ms98-a-0048,sw3201.A.acc160.aw614,ms48A_pw482,228.858375,229.028375,lot,Not Found: accent@type,full,statement,,,,,True
+166,sw3201A-ms98-a-0048-616,sw3201A-ms98-a-0048,sw3201.A.acc161.aw616,ms48A_pw484,229.118375,229.658375,expense,Not Found: accent@type,full,statement,,,,,True
+167,sw3201A-ms98-a-0048-618,sw3201A-ms98-a-0048,sw3201.A.acc162.aw618,ms48A_pw486,229.798375,229.978375,do,Not Found: accent@type,full,statement,,,,,True
+168,sw3201A-ms98-a-0048-624,sw3201A-ms98-a-0048,sw3201.A.acc163.aw624,ms48A_pw491,231.498375,231.718375,not,Not Found: accent@type,full,statement,,,,,True
+169,sw3201A-ms98-a-0048-627,sw3201A-ms98-a-0048,sw3201.A.acc164.aw627,ms48A_pw494,232.218375,232.558375,ahead,Not Found: accent@type,full,statement,,,,,True
+170,sw3201A-ms98-a-0048-629,sw3201A-ms98-a-0048,sw3201.A.acc165.aw629,ms48A_pw496,232.678375,233.095,all,Not Found: accent@type,full,statement,,,,,True
+171,sw3201A-ms98-a-0049-635,sw3201A-ms98-a-0049,sw3201.A.acc166.aw635,ms49A_pw500,234.676375,234.886375,really,Not Found: accent@type,full,statement,,,,,True
+172,sw3201A-ms98-a-0049-637,sw3201A-ms98-a-0049,sw3201.A.acc167.aw637,ms49A_pw502,234.926375,235.60725,cost,Not Found: accent@type,full,statement,,,,,True
+173,sw3201A-ms98-a-0051-641,sw3201A-ms98-a-0051,sw3201.A.acc168.aw641,ms51A_pw503,237.992375,238.477625,yeah,Not Found: accent@type,full,backchannel,,,,,True
+174,sw3201A-ms98-a-0052-645,sw3201A-ms98-a-0052,sw3201.A.acc169.aw645,ms52A_pw505,239.451625,239.56900000000002,mean,Not Found: accent@type,full,opinion,,,,,True
+175,sw3201A-ms98-a-0052-648,sw3201A-ms98-a-0052,sw3201.A.acc170.aw648,ms52A_pw508,239.78900000000002,240.27900000000002,sounds,Not Found: accent@type,full,opinion,,,,,True
+176,sw3201A-ms98-a-0052-652,sw3201A-ms98-a-0052,sw3201.A.acc171.aw652,ms52A_pw512,240.649,241.11900000000003,public,Not Found: accent@type,full,opinion,,,,,True
+177,sw3201A-ms98-a-0052-655,sw3201A-ms98-a-0052,sw3201.A.acc172.aw655,ms52A_pw515,241.479,241.929,really,Not Found: accent@type,full,statement,,,,,True
+178,sw3201A-ms98-a-0052-658,sw3201A-ms98-a-0052,sw3201.A.acc173.aw658,ms52A_pw518,242.239,242.729,cost,Not Found: accent@type,full,statement,,,,,True
+179,sw3201A-ms98-a-0052-659,sw3201A-ms98-a-0052,sw3201.A.acc174.aw659,ms52A_pw519,242.729,243.302375,incurred,Not Found: accent@type,full,statement,,,,,True
+180,sw3201A-ms98-a-0052-663,sw3201A-ms98-a-0052,sw3201.A.acc175.aw663,ms52A_pw522,244.00900000000001,244.209,do,Not Found: accent@type,full,statement,,,,,True
+181,sw3201A-ms98-a-0052-664,sw3201A-ms98-a-0052,sw3201.A.acc176.aw664,ms52A_pw523,244.209,244.77900000000002,recycle,Not Found: accent@type,full,statement,,,,,True
+182,sw3201A-ms98-a-0052-667,sw3201A-ms98-a-0052,sw3201.A.acc177.aw667,ms52A_pw526,245.49900000000002,246.05900000000003,aluminum,Not Found: accent@type,full,statement,,,,,True
+183,sw3201A-ms98-a-0052-670,sw3201A-ms98-a-0052,sw3201.A.acc178.aw670,ms52A_pw529,246.30900000000003,246.519,know,Not Found: accent@type,full,statement,,,,,True
+184,sw3201A-ms98-a-0052-672,sw3201A-ms98-a-0052,sw3201.A.acc179.aw672,ms52A_pw531,246.609,246.78900000000002,may,Not Found: accent@type,full,opinion,,,,,True
+185,sw3201A-ms98-a-0052-676,sw3201A-ms98-a-0052,sw3201.A.acc180.aw676,ms52A_pw535,247.30900000000003,247.746625,ahead,Not Found: accent@type,full,opinion,,,,,True
+186,sw3201A-ms98-a-0053-680,sw3201A-ms98-a-0053,sw3201.A.acc181.aw680,ms53A_pw537,248.450625,248.550625,i,Not Found: accent@type,full,statement,,,,,True
+187,sw3201A-ms98-a-0053-684,sw3201A-ms98-a-0053,sw3201.A.acc182.aw684,ms53A_pw541,248.920625,249.220625,fact,Not Found: accent@type,full,statement,,,,,True
+188,sw3201A-ms98-a-0053-687,sw3201A-ms98-a-0053,sw3201.A.acc183.aw687,ms53A_pw544,249.420625,250.11075,paper,Not Found: accent@type,full,statement,,,,,True
+189,sw3201A-ms98-a-0054-693,sw3201A-ms98-a-0054,sw3201.A.acc184.aw693,ms54A_pw547,251.712625,251.942625,that,Not Found: accent@type,full,statement,,,,,True
+190,sw3201A-ms98-a-0054-701,sw3201A-ms98-a-0054,sw3201.A.acc185.aw701,ms54A_pw552,253.992625,254.153875,know,Not Found: accent@type,full,statement,,,,,True
+191,sw3201A-ms98-a-0054-703,sw3201A-ms98-a-0054,sw3201.A.acc186.aw703,ms54A_pw553,254.443875,254.772625,it's,Not Found: accent@type,full,opinion,,,,,True
+193,sw3201A-ms98-a-0054-707,sw3201A-ms98-a-0054,sw3201.A.acc187.aw707,ms54A_pw557,255.172625,255.782625,recycle,Not Found: accent@type,full,opinion,,,,,True
+194,sw3201A-ms98-a-0054-712,sw3201A-ms98-a-0054,sw3201.A.acc188.aw712,ms54A_pw561,257.322625,257.492625,not,Not Found: accent@type,full,statement,,,,,True
+195,sw3201A-ms98-a-0054-715,sw3201A-ms98-a-0054,sw3201.A.acc189.aw715,ms54A_pw564,257.722625,258.52775,advantage,Not Found: accent@type,full,statement,,,,,True
+196,sw3201A-ms98-a-0054-719,sw3201A-ms98-a-0054,sw3201.A.acc190.aw719,ms54A_pw567,258.802625,259.122625,costs,Not Found: accent@type,full,statement,,,,,True
+197,sw3201A-ms98-a-0056-724,sw3201A-ms98-a-0056,sw3201.A.acc191.aw724,ms56A_pw569,264.654375,264.786375,i,Not Found: accent@type,full,statement,,,,,True
+198,sw3201A-ms98-a-0056-726,sw3201A-ms98-a-0056,sw3201.A.acc192.aw726,ms56A_pw571,265.044375,265.234375,think,Not Found: accent@type,full,statement,,,,,True
+199,sw3201A-ms98-a-0056-729,sw3201A-ms98-a-0056,sw3201.A.acc193.aw729,ms56A_pw574,265.714375,266.185625,else,Not Found: accent@type,full,statement,,,,,True
+200,sw3201A-ms98-a-0056-731,sw3201A-ms98-a-0056,sw3201.A.acc194.aw731,ms56A_pw575,266.6225,267.52975,[laughter-okay],Not Found: accent@type,full,backchannel,,,,,True
+201,sw3201A-ms98-a-0059-738,sw3201A-ms98-a-0059,sw3201.A.acc195.aw738,ms59A_pw577,271.948625,272.16200000000003,well,Not Found: accent@type,full,statement,,,,,True
+202,sw3201A-ms98-a-0059-740,sw3201A-ms98-a-0059,sw3201.A.acc196.aw740,ms59A_pw579,272.314,272.55400000000003,hope,Not Found: accent@type,full,statement,,,,,True
+203,sw3201A-ms98-a-0059-741,sw3201A-ms98-a-0059,sw3201.A.acc197.aw741,ms59A_pw580,272.55400000000003,272.884,y'all,Not Found: accent@type,weak,statement,,,,,True
+205,sw3201A-ms98-a-0059-746,sw3201A-ms98-a-0059,sw3201.A.acc198.aw746,ms59A_pw584,274.084,274.43175,along,Not Found: accent@type,full,statement,,,,,True
+206,sw3201A-ms98-a-0059-750,sw3201A-ms98-a-0059,sw3201.A.acc199.aw750,ms59A_pw587,274.914,275.334,farther,Not Found: accent@type,full,statement,,,,,True
+207,sw3201A-ms98-a-0059-753,sw3201A-ms98-a-0059,sw3201.A.acc200.aw753,ms59A_pw590,275.474,275.995,future,Not Found: accent@type,full,statement,,,,,True
+208,sw3201A-ms98-a-0060-758,sw3201A-ms98-a-0060,sw3201.A.acc201.aw758,ms60A_pw593,277.14599999999996,277.406,nice,Not Found: accent@type,full,close,,,,,True
+209,sw3201A-ms98-a-0060-759,sw3201A-ms98-a-0060,sw3201.A.acc202.aw759,ms60A_pw594,277.406,277.746,talking,Not Found: accent@type,full,close,,,,,True
+210,sw3201A-ms98-a-0060-763,sw3201A-ms98-a-0060,sw3201.A.acc203.aw763,ms60A_pw597,278.653375,279.116375,bye-bye,Not Found: accent@type,full,close,,,,,True
+211,sw3201B-ms98-a-0002-5,sw3201B-ms98-a-0002,sw3201.B.acc1.aw5,ms2B_pw2,3.58625,3.702625,i,Not Found: accent@type,full,neg,,,,,True
+212,sw3201B-ms98-a-0002-7,sw3201B-ms98-a-0002,sw3201.B.acc2.aw7,ms2B_pw4,3.90475,4.19475,really,Not Found: accent@type,full,neg,,,,,True
+213,sw3201B-ms98-a-0002-8,sw3201B-ms98-a-0002,sw3201.B.acc3.aw8,ms2B_pw5,4.19475,4.46475,think,Not Found: accent@type,full,neg,,,,,True
+214,sw3201B-ms98-a-0002-10,sw3201B-ms98-a-0002,sw3201.B.acc4.aw10,ms2B_pw7,4.60475,4.80475,have,Not Found: accent@type,full,neg,,,,,True
+215,sw3201B-ms98-a-0003-16,sw3201B-ms98-a-0003,sw3201.B.acc5.aw16,ms3B_pw11,6.3905,6.899375,works,Not Found: accent@type,full,neg,,,,,True
+216,sw3201B-ms98-a-0003-20,sw3201B-ms98-a-0003,sw3201.B.acc6.aw20,ms3B_pw14,7.8405,8.3255,yet,Not Found: accent@type,full,neg,,,,,True
+217,sw3201B-ms98-a-0003-23,sw3201B-ms98-a-0003,sw3201.B.acc7.aw23,ms3B_pw16,8.9305,9.1005,we're,Not Found: accent@type,full,statement,,,,,True
+219,sw3201B-ms98-a-0003-25,sw3201B-ms98-a-0003,sw3201.B.acc8.aw25,ms3B_pw18,9.4005,9.8605,small,Not Found: accent@type,full,statement,,,,,True
+220,sw3201B-ms98-a-0003-26,sw3201B-ms98-a-0003,sw3201.B.acc9.aw26,ms3B_pw19,9.8605,10.4205,town,Not Found: accent@type,full,statement,,,,,True
+221,sw3201B-ms98-a-0003-32,sw3201B-ms98-a-0003,sw3201.B.acc10.aw32,ms3B_pw23,12.5605,13.0605,closest,Not Found: accent@type,full,statement,,,,,True
+222,sw3201B-ms98-a-0003-38,sw3201B-ms98-a-0003,sw3201.B.acc11.aw38,ms3B_pw28,13.986375,14.3605,bins,Not Found: accent@type,full,statement,,,,,True
+223,sw3201B-ms98-a-0003-40,sw3201B-ms98-a-0003,sw3201.B.acc12.aw40,ms3B_pw30,14.6305,14.8105,out,Not Found: accent@type,full,statement,,,,,True
+224,sw3201B-ms98-a-0003-45,sw3201B-ms98-a-0003,sw3201.B.acc13.aw45,ms3B_pw34,15.1905,15.781375,Wal-Mart,Not Found: accent@type,full,statement,,,,,True
+225,sw3201B-ms98-a-0004-49,sw3201B-ms98-a-0004,sw3201.B.acc14.aw49,ms4B_pw36,16.83725,17.40725,show,Not Found: accent@type,full,statement,,,,,True
+226,sw3201B-ms98-a-0004-51,sw3201B-ms98-a-0004,sw3201.B.acc15.aw51,ms4B_pw37,17.46725,17.57725,you,Not Found: accent@type,full,statement,,,,,True
+227,sw3201B-ms98-a-0004-53,sw3201B-ms98-a-0004,sw3201.B.acc16.aw53,ms4B_pw39,17.70725,18.3485,plastics,Not Found: accent@type,full,statement,,,,,True
+228,sw3201B-ms98-a-0005-56,sw3201B-ms98-a-0005,sw3201.B.acc17.aw56,ms5B_pw40,19.1295,19.592,paper,Not Found: accent@type,full,statement,,,,,True
+229,sw3201B-ms98-a-0006-59,sw3201B-ms98-a-0006,sw3201.B.acc18.aw59,ms6B_pw41,20.877,21.11575,liter,Not Found: accent@type,full,statement,,,,,True
+230,sw3201B-ms98-a-0006-63,sw3201B-ms98-a-0006,sw3201.B.acc19.aw63,ms6B_pw44,21.719125,22.02325,cetera,Not Found: accent@type,full,statement,,,,,True
+231,sw3201B-ms98-a-0006-65,sw3201B-ms98-a-0006,sw3201.B.acc20.aw65,ms6B_pw46,22.113625,22.45475,cetera,Not Found: accent@type,full,statement,,,,,True
+232,sw3201B-ms98-a-0025-106,sw3201B-ms98-a-0025,sw3201.B.acc21.aw106,ms25B_pw57,92.641125,92.871125,that'd,Not Found: accent@type,full,opinion,,,,,True
+234,sw3201B-ms98-a-0025-108,sw3201B-ms98-a-0025,sw3201.B.acc22.aw108,ms25B_pw59,92.991125,93.4185,good,Not Found: accent@type,full,opinion,,,,,True
+235,sw3201B-ms98-a-0027-112,sw3201B-ms98-a-0027,sw3201.B.acc23.aw112,ms27B_pw60,98.56675,98.96675,yeah,Not Found: accent@type,full,backchannel,,,,,True
+236,sw3201B-ms98-a-0027-113,sw3201B-ms98-a-0027,sw3201.B.acc24.aw113,ms27B_pw61,98.96675,99.23675,see,Not Found: accent@type,weak,statement,,,,,True
+237,sw3201B-ms98-a-0027-114,sw3201B-ms98-a-0027,sw3201.B.acc25.aw114,ms27B_pw62,99.23675,99.49675,it's,Not Found: accent@type,full,statement,,,,,True
+239,sw3201B-ms98-a-0027-116,sw3201B-ms98-a-0027,sw3201.B.acc26.aw116,ms27B_pw64,99.74675,100.19675,anywhere,Not Found: accent@type,full,statement,,,,,True
+240,sw3201B-ms98-a-0027-118,sw3201B-ms98-a-0027,sw3201.B.acc27.aw118,ms27B_pw66,100.47675,101.00675,that,Not Found: accent@type,full,statement,,,,,True
+241,sw3201B-ms98-a-0027-121,sw3201B-ms98-a-0027,sw3201.B.acc28.aw121,ms27B_pw68,101.39275,101.919875,we,Not Found: accent@type,full,abandon,,,,,True
+242,sw3201B-ms98-a-0027-125,sw3201B-ms98-a-0027,sw3201.B.acc29.aw125,ms27B_pw71,102.42675,102.68675,know,Not Found: accent@type,full,abandon,,,,,True
+243,sw3201B-ms98-a-0027-129,sw3201B-ms98-a-0027,sw3201.B.acc30.aw129,ms27B_pw75,103.10675,103.29675,our,Not Found: accent@type,full,statement,,,,,True
+244,sw3201B-ms98-a-0027-131,sw3201B-ms98-a-0027,sw3201.B.acc31.aw131,ms27B_pw77,103.48675,103.78675,pitch,Not Found: accent@type,full,statement,,,,,True
+245,sw3201B-ms98-a-0027-136,sw3201B-ms98-a-0027,sw3201.B.acc32.aw136,ms27B_pw82,104.22675,104.39675,do,Not Found: accent@type,full,statement,,,,,True
+246,sw3201B-ms98-a-0027-140,sw3201B-ms98-a-0027,sw3201.B.acc33.aw140,ms27B_pw86,105.51675,105.973625,cans,Not Found: accent@type,full,statement,,,,,True
+247,sw3201B-ms98-a-0028-144,sw3201B-ms98-a-0028,sw3201.B.acc34.aw144,ms28B_pw88,106.72125,106.92125,that's,Not Found: accent@type,full,statement,,,,,True
+249,sw3201B-ms98-a-0028-148,sw3201B-ms98-a-0028,sw3201.B.acc35.aw148,ms28B_pw92,107.42125,107.59125,we,Not Found: accent@type,full,statement,,,,,True
+250,sw3201B-ms98-a-0028-151,sw3201B-ms98-a-0028,sw3201.B.acc36.aw151,ms28B_pw95,107.98125,108.13025,i,Not Found: accent@type,full,statement,,,,,True
+251,sw3201B-ms98-a-0028-158,sw3201B-ms98-a-0028,sw3201.B.acc37.aw158,ms28B_pw102,108.93125,109.25125,work,Not Found: accent@type,full,statement,,,,,True
+252,sw3201B-ms98-a-0028-160,sw3201B-ms98-a-0028,sw3201.B.acc38.aw160,ms28B_pw104,109.37125,109.584,she,Not Found: accent@type,full,statement,,,,,True
+253,sw3201B-ms98-a-0028-162,sw3201B-ms98-a-0028,sw3201.B.acc39.aw162,ms28B_pw105,109.745875,109.98125,goes,Not Found: accent@type,weak,statement,,,,,True
+254,sw3201B-ms98-a-0028-166,sw3201B-ms98-a-0028,sw3201.B.acc40.aw166,ms28B_pw109,110.57125,110.77125,in,Not Found: accent@type,full,statement,,,,,True
+255,sw3201B-ms98-a-0028-169,sw3201B-ms98-a-0028,sw3201.B.acc41.aw169,ms28B_pw111,111.70125,111.80125,you,Not Found: accent@type,full,statement,,,,,True
+256,sw3201B-ms98-a-0028-172,sw3201B-ms98-a-0028,sw3201.B.acc42.aw172,ms28B_pw113,112.154875,112.31125,i,Not Found: accent@type,weak,statement,,,,,True
+257,sw3201B-ms98-a-0029-178,sw3201B-ms98-a-0029,sw3201.B.acc43.aw178,ms29B_pw117,113.573375,113.683375,do,Not Found: accent@type,full,statement,,,,,True
+258,sw3201B-ms98-a-0029-181,sw3201B-ms98-a-0029,sw3201.B.acc44.aw181,ms29B_pw120,113.973375,114.286,her,Not Found: accent@type,full,statement,,,,,True
+259,sw3201B-ms98-a-0029-185,sw3201B-ms98-a-0029,sw3201.B.acc45.aw185,ms29B_pw123,114.993375,115.093375,i,Not Found: accent@type,full,statement,,,,,True
+260,sw3201B-ms98-a-0029-189,sw3201B-ms98-a-0029,sw3201.B.acc46.aw189,ms29B_pw127,115.513375,115.843375,hassle,Not Found: accent@type,full,statement,,,,,True
+261,sw3201B-ms98-a-0029-191,sw3201B-ms98-a-0029,sw3201.B.acc47.aw191,ms29B_pw129,116.013375,116.123375,we,Not Found: accent@type,full,statement,,,,,True
+262,sw3201B-ms98-a-0029-197,sw3201B-ms98-a-0029,sw3201.B.acc48.aw197,ms29B_pw135,116.743375,117.023375,town,Not Found: accent@type,full,statement,,,,,True
+263,sw3201B-ms98-a-0029-199,sw3201B-ms98-a-0029,sw3201.B.acc49.aw199,ms29B_pw137,117.133375,117.323375,do,Not Found: accent@type,full,statement,,,,,True
+264,sw3201B-ms98-a-0030-207,sw3201B-ms98-a-0030,sw3201.B.acc50.aw207,ms30B_pw143,119.029,119.149,have,Not Found: accent@type,full,statement,,,,,True
+265,sw3201B-ms98-a-0030-211,sw3201B-ms98-a-0030,sw3201.B.acc51.aw211,ms30B_pw147,119.679,120.062875,Belton,Not Found: accent@type,full,statement,,,,,True
+266,sw3201B-ms98-a-0030-215,sw3201B-ms98-a-0030,sw3201.B.acc52.aw215,ms30B_pw151,120.484625,120.729,pretty,Not Found: accent@type,full,statement,,,,,True
+267,sw3201B-ms98-a-0030-218,sw3201B-ms98-a-0030,sw3201.B.acc53.aw218,ms30B_pw154,121.12899999999999,121.5365,town,Not Found: accent@type,full,statement,,,,,True
+268,sw3201B-ms98-a-0033-225,sw3201B-ms98-a-0033,sw3201.B.acc54.aw225,ms33B_pw156,126.782375,127.268625,so,Not Found: accent@type,full,statement,,,,,True
+269,sw3201B-ms98-a-0034-229,sw3201B-ms98-a-0034,sw3201.B.acc55.aw229,ms34B_pw158,128.457125,128.757125,that's,Not Found: accent@type,full,statement,,,,,True
+271,sw3201B-ms98-a-0034-231,sw3201B-ms98-a-0034,sw3201.B.acc56.aw231,ms34B_pw160,128.967125,129.227125,all,Not Found: accent@type,full,statement,,,,,True
+272,sw3201B-ms98-a-0034-238,sw3201B-ms98-a-0034,sw3201.B.acc57.aw238,ms34B_pw165,130.517125,131.01,here,Not Found: accent@type,full,statement,,,,,True
+273,sw3201B-ms98-a-0035-246,sw3201B-ms98-a-0035,sw3201.B.acc58.aw246,ms35B_pw169,133.457125,133.77825,getting,Not Found: accent@type,full,statement,,,,,True
+274,sw3201B-ms98-a-0035-250,sw3201B-ms98-a-0035,sw3201.B.acc59.aw250,ms35B_pw173,134.20825,134.52825,more,Not Found: accent@type,full,statement,,,,,True
+275,sw3201B-ms98-a-0036-255,sw3201B-ms98-a-0036,sw3201.B.acc60.aw255,ms36B_pw176,136.33925,136.52925,need,Not Found: accent@type,full,opinion,,,,,True
+276,sw3201B-ms98-a-0036-258,sw3201B-ms98-a-0036,sw3201.B.acc61.aw258,ms36B_pw179,136.66925,136.87925,lot,Not Found: accent@type,full,opinion,,,,,True
+277,sw3201B-ms98-a-0036-263,sw3201B-ms98-a-0036,sw3201.B.acc62.aw263,ms36B_pw183,138.01925,138.439625,awareness,Not Found: accent@type,full,opinion,,,,,True
+278,sw3201B-ms98-a-0036-267,sw3201B-ms98-a-0036,sw3201.B.acc63.aw267,ms36B_pw186,138.851625,139.14925,what,Not Found: accent@type,full,opinion,,,,,True
+279,sw3201B-ms98-a-0036-272,sw3201B-ms98-a-0036,sw3201.B.acc64.aw272,ms36B_pw191,139.77925,140.29925,recycle,Not Found: accent@type,full,opinion,,,,,True
+280,sw3201B-ms98-a-0036-274,sw3201B-ms98-a-0036,sw3201.B.acc65.aw274,ms36B_pw193,140.48925,140.66925,what,Not Found: accent@type,full,opinion,,,,,True
+281,sw3201B-ms98-a-0036-275,sw3201B-ms98-a-0036,sw3201.B.acc66.aw275,ms36B_pw194,140.66925,140.94925,can,Not Found: accent@type,full,opinion,,,,,True
+282,sw3201B-ms98-a-0036-281,sw3201B-ms98-a-0036,sw3201.B.acc67.aw281,ms36B_pw200,141.89925,142.40675,can't,Not Found: accent@type,full,opinion,,,,,True
+284,sw3201B-ms98-a-0037-286,sw3201B-ms98-a-0037,sw3201.B.acc68.aw286,ms37B_pw202,143.612875,143.708,you,Not Found: accent@type,full,opinion,,,,,True
+285,sw3201B-ms98-a-0037-289,sw3201B-ms98-a-0037,sw3201.B.acc69.aw289,ms37B_pw204,144.15475,144.328,not,Not Found: accent@type,full,opinion,,,,,True
+286,sw3201B-ms98-a-0037-294,sw3201B-ms98-a-0037,sw3201.B.acc70.aw294,ms37B_pw209,144.878,145.22975,do,Not Found: accent@type,full,opinion,,,,,True
+287,sw3201B-ms98-a-0037-297,sw3201B-ms98-a-0037,sw3201.B.acc71.aw297,ms37B_pw210,145.97799999999998,146.25799999999998,really,Not Found: accent@type,full,opinion,,,,,True
+288,sw3201B-ms98-a-0037-299,sw3201B-ms98-a-0037,sw3201.B.acc72.aw299,ms37B_pw212,146.528,146.84799999999998,what,Not Found: accent@type,full,opinion,,,,,True
+289,sw3201B-ms98-a-0037-301,sw3201B-ms98-a-0037,sw3201.B.acc73.aw301,ms37B_pw213,147.498,147.588,you,Not Found: accent@type,full,opinion,,,,,True
+290,sw3201B-ms98-a-0038-308,sw3201B-ms98-a-0038,sw3201.B.acc74.aw308,ms38B_pw217,149.216125,149.58875,for,Not Found: accent@type,full,opinion,,,,,True
+291,sw3201B-ms98-a-0044-321,sw3201B-ms98-a-0044,sw3201.B.acc75.aw321,ms44B_pw220,178.61125,178.80775,wow,Not Found: accent@type,full,apprec,,,,,True
+292,sw3201B-ms98-a-0044-322,sw3201B-ms98-a-0044,sw3201.B.acc76.aw322,ms44B_pw221,178.80775,179.02775,that's,Not Found: accent@type,weak,apprec,,,,,True
+294,sw3201B-ms98-a-0044-323,sw3201B-ms98-a-0044,sw3201.B.acc77.aw323,ms44B_pw222,179.02775,179.518125,excellent,Not Found: accent@type,full,apprec,,,,,True
+295,sw3201B-ms98-a-0044-325,sw3201B-ms98-a-0044,sw3201.B.acc78.aw325,ms44B_pw223,180.150875,180.341875,that's,Not Found: accent@type,weak,apprec,,,,,True
+297,sw3201B-ms98-a-0044-327,sw3201B-ms98-a-0044,sw3201.B.acc79.aw327,ms44B_pw224,180.394375,180.655625,good,Not Found: accent@type,full,apprec,,,,,True
+298,sw3201B-ms98-a-0050-339,sw3201B-ms98-a-0050,sw3201.B.acc80.aw339,ms50B_pw227,196.251375,196.6605,yeah,Not Found: accent@type,full,agree,,,,,True
+299,sw3201B-ms98-a-0050-341,sw3201B-ms98-a-0050,sw3201.B.acc81.aw341,ms50B_pw228,196.8105,196.971125,they,Not Found: accent@type,weak,statement,,,,,True
+300,sw3201B-ms98-a-0051-345,sw3201B-ms98-a-0051,sw3201.B.acc82.aw345,ms51B_pw230,198.57125,199.187875,exactly,Not Found: accent@type,full,agree,,,,,True
+301,sw3201B-ms98-a-0053-350,sw3201B-ms98-a-0053,sw3201.B.acc83.aw350,ms53B_pw232,202.061125,202.401125,see,Not Found: accent@type,weak,statement,,,,,True
+302,sw3201B-ms98-a-0053-351,sw3201B-ms98-a-0053,sw3201.B.acc84.aw351,ms53B_pw233,202.401125,202.681125,ours,Not Found: accent@type,full,statement,,,,,True
+303,sw3201B-ms98-a-0053-357,sw3201B-ms98-a-0053,sw3201.B.acc85.aw357,ms53B_pw239,203.501125,204.0095,trash,Not Found: accent@type,full,statement,,,,,True
+304,sw3201B-ms98-a-0053-361,sw3201B-ms98-a-0053,sw3201.B.acc86.aw361,ms53B_pw242,204.921125,205.021125,you,Not Found: accent@type,weak,statement,,,,,True
+305,sw3201B-ms98-a-0053-366,sw3201B-ms98-a-0053,sw3201.B.acc87.aw366,ms53B_pw245,206.053125,206.181125,not,Not Found: accent@type,full,statement,,,,,True
+306,sw3201B-ms98-a-0053-369,sw3201B-ms98-a-0053,sw3201.B.acc88.aw369,ms53B_pw248,206.421125,206.69799999999998,lot,Not Found: accent@type,full,statement,,,,,True
+307,sw3201B-ms98-a-0053-373,sw3201B-ms98-a-0053,sw3201.B.acc89.aw373,ms53B_pw251,207.481125,207.891125,are,Not Found: accent@type,full,statement,,,,,True
+308,sw3201B-ms98-a-0053-374,sw3201B-ms98-a-0053,sw3201.B.acc90.aw374,ms53B_pw252,207.891125,208.031125,you,Not Found: accent@type,full,statement,,,,,True
+309,sw3201B-ms98-a-0053-376,sw3201B-ms98-a-0053,sw3201.B.acc91.aw376,ms53B_pw254,208.161125,208.391125,some,Not Found: accent@type,full,statement,,,,,True
+310,sw3201B-ms98-a-0054-383,sw3201B-ms98-a-0054,sw3201.B.acc92.aw383,ms54B_pw259,210.865625,211.065625,up,Not Found: accent@type,full,statement,,,,,True
+311,sw3201B-ms98-a-0054-385,sw3201B-ms98-a-0054,sw3201.B.acc93.aw385,ms54B_pw261,211.195625,211.394,know,Not Found: accent@type,full,statement,,,,,True
+312,sw3201B-ms98-a-0054-389,sw3201B-ms98-a-0054,sw3201.B.acc94.aw389,ms54B_pw264,211.885625,212.485625,newspapers,Not Found: accent@type,full,statement,,,,,True
+313,sw3201B-ms98-a-0054-391,sw3201B-ms98-a-0054,sw3201.B.acc95.aw391,ms54B_pw266,212.605625,212.925,stuff,Not Found: accent@type,weak,statement,,,,,True
+314,sw3201B-ms98-a-0054-393,sw3201B-ms98-a-0054,sw3201.B.acc96.aw393,ms54B_pw267,213.633125,213.936125,but,Not Found: accent@type,full,statement,,,,,True
+315,sw3201B-ms98-a-0054-395,sw3201B-ms98-a-0054,sw3201.B.acc97.aw395,ms54B_pw268,214.568875,215.145625,usually,Not Found: accent@type,full,statement,,,,,True
+316,sw3201B-ms98-a-0055-401,sw3201B-ms98-a-0055,sw3201.B.acc98.aw401,ms55B_pw272,216.42700000000002,216.727,hasn't,Not Found: accent@type,full,statement,,,,,True
+318,sw3201B-ms98-a-0055-403,sw3201B-ms98-a-0055,sw3201.B.acc99.aw403,ms55B_pw274,216.917,217.08700000000002,on,Not Found: accent@type,weak,statement,,,,,True
+319,sw3201B-ms98-a-0055-406,sw3201B-ms98-a-0055,sw3201.B.acc100.aw406,ms55B_pw277,217.42700000000002,217.747,hoping,Not Found: accent@type,weak,statement,,,,,True
+320,sw3201B-ms98-a-0055-408,sw3201B-ms98-a-0055,sw3201.B.acc101.aw408,ms55B_pw279,217.857,218.047,will,Not Found: accent@type,full,statement,,,,,True
+321,sw3201B-ms98-a-0059-424,sw3201B-ms98-a-0059,sw3201.B.acc102.aw424,ms59B_pw286,237.368375,237.588375,aware,Not Found: accent@type,full,statement,,,,,True
+322,sw3201B-ms98-a-0067-444,sw3201B-ms98-a-0067,sw3201.B.acc103.aw444,ms67B_pw293,261.85375,262.21925,well,Not Found: accent@type,full,abandon,,,,,True
+323,sw3201B-ms98-a-0069-449,sw3201B-ms98-a-0069,sw3201.B.acc104.aw449,ms69B_pw295,266.012125,266.462125,can't,Not Found: accent@type,full,statement,,,,,True
+325,sw3201B-ms98-a-0069-449,sw3201B-ms98-a-0069,sw3201.B.acc105.aw449,ms69B_pw295,266.012125,266.462125,can't,Not Found: accent@type,full,statement,,,,,True
+327,sw3201B-ms98-a-0069-452,sw3201B-ms98-a-0069,sw3201.B.acc106.aw452,ms69B_pw298,266.972125,267.282125,we're,Not Found: accent@type,full,statement,,,,,True
+329,sw3201B-ms98-a-0069-453,sw3201B-ms98-a-0069,sw3201.B.acc107.aw453,ms69B_pw299,267.282125,267.532125,we're,Not Found: accent@type,full,statement,,,,,True
+331,sw3201B-ms98-a-0069-460,sw3201B-ms98-a-0069,sw3201.B.acc108.aw460,ms69B_pw305,269.032125,269.412125,beginning,Not Found: accent@type,full,statement,,,,,True
+332,sw3201B-ms98-a-0069-461,sw3201B-ms98-a-0069,sw3201.B.acc109.aw461,ms69B_pw306,269.412125,269.922125,stages,Not Found: accent@type,full,statement,,,,,True
+333,sw3201B-ms98-a-0069-462,sw3201B-ms98-a-0069,sw3201.B.acc110.aw462,ms69B_pw307,269.922125,270.299125,so,Not Found: accent@type,weak,abandon,,,,,True
+334,sw3201B-ms98-a-0070-465,sw3201B-ms98-a-0070,sw3201.B.acc111.aw465,ms70B_pw308,271.065625,271.131875,we,Not Found: accent@type,weak,statement,,,,,True
+335,sw3201B-ms98-a-0070-467,sw3201B-ms98-a-0070,sw3201.B.acc112.aw467,ms70B_pw310,271.311875,271.601875,forward,Not Found: accent@type,full,statement,,,,,True
+336,sw3201B-ms98-a-0070-472,sw3201B-ms98-a-0070,sw3201.B.acc113.aw472,ms70B_pw315,272.061875,272.35975,better,Not Found: accent@type,full,statement,,,,,True
+337,sw3201B-ms98-a-0072-479,sw3201B-ms98-a-0072,sw3201.B.acc115.aw479,ms72B_pw319,275.870375,276.216,yeah,Not Found: accent@type,full,agree,,,,,True
+338,sw3201B-ms98-a-0072-481,sw3201B-ms98-a-0072,sw3201.B.acc116.aw481,ms72B_pw321,276.376,276.804375,too,Not Found: accent@type,full,statement,,,,,True
+339,sw3201B-ms98-a-0073-485,sw3201B-ms98-a-0073,sw3201.B.acc117.aw485,ms73B_pw323,278.004125,278.446375,too,Not Found: accent@type,full,close,,,,,True
+340,sw3201B-ms98-a-0073-487,sw3201B-ms98-a-0073,sw3201.B.acc118.aw487,ms73B_pw324,278.726625,279.099875,bye,Not Found: accent@type,full,close,,,,,True
+341,,,,ms1A_pw1,0.318625,0.47,so,,,,sw3201A.phrase.2,0.318625,0.47,disfluent,False
+342,,,,ms1A_pw2,0.47,0.6,do,,,,sw3201A.phrase.3,0.47,2.01,minor,False
+343,,,,ms1A_pw3,0.6,0.69,you,,,,sw3201A.phrase.3,0.47,2.01,minor,False
+344,,,,ms1A_pw5,0.82,0.93,any,,,,sw3201A.phrase.3,0.47,2.01,minor,False
+345,,,,ms1A_pw7,1.51,2.01,programs,,,,sw3201A.phrase.3,0.47,2.01,minor,False
+346,,,,ms2B_pw1,2.43475,2.960875,um,,,,sw3201B.phrase.1,2.43475,2.960875,backchannel,False
+347,,,,ms2B_pw3,3.702625,3.90475,don't,,,,sw3201B.phrase.2,3.58625,4.46475,minor,False
+348,,,,ms2B_pw6,4.46475,4.60475,we,,,,sw3201B.phrase.3,4.46475,5.481875,disfluent,False
+349,,,,ms2B_pw8,4.80475,5.481875,anything,,,,sw3201B.phrase.3,4.46475,5.481875,disfluent,False
+350,,,,ms3B_pw9,6.165875,6.3105,in,,,,sw3201B.phrase.4,6.165875,6.899375,major,False
+351,,,,ms3B_pw10,6.3105,6.3905,the,,,,sw3201B.phrase.4,6.165875,6.899375,major,False
+352,,,,ms3B_pw12,7.487,7.7205,as,,,,sw3201B.phrase.5,7.487,8.3255,major,False
+353,,,,ms3B_pw13,7.7205,7.8405,of,,,,sw3201B.phrase.5,7.487,8.3255,major,False
+354,,,,ms3A_pw9,8.562875,8.97675,uh-huh,,,,sw3201A.phrase.5,8.562875,8.97675,backchannel,False
+355,,,,ms3B_pw15,8.6005,8.9305,uh,,,,sw3201B.phrase.6,8.6005,8.9305,backchannel,False
+356,,,,ms3B_pw17,9.1005,9.4005,pretty,,,,sw3201B.phrase.7,8.9305,10.4205,major,False
+357,,,,ms3B_pw20,10.9705,11.6005,and,,,,sw3201B.phrase.8,10.9705,11.6005,disfluent,False
+358,,,,ms3B_pw21,11.6005,12.1405,um,,,,sw3201B.phrase.9,11.6005,12.1405,backchannel,False
+359,,,,ms3B_pw22,12.4505,12.5605,the,,,,sw3201B.phrase.10,12.4505,13.7505,major,False
+360,,,,ms3B_pw24,13.0605,13.2505,thing,,,,sw3201B.phrase.10,12.4505,13.7505,major,False
+361,,,,ms3B_pw25,13.2505,13.4005,we,,,,sw3201B.phrase.10,12.4505,13.7505,major,False
+362,,,,ms3B_pw26,13.4005,13.7505,have,,,,sw3201B.phrase.10,12.4505,13.7505,major,False
+363,,,,ms3B_pw27,13.7505,13.926125,are,,,,sw3201B.phrase.11,13.7505,13.926125,NONE,False
+364,,,,ms3B_pw29,14.3605,14.6305,like,,,,sw3201B.phrase.13,14.3605,15.1205,NONE,False
+365,,,,ms3B_pw31,14.8105,14.8705,in,,,,sw3201B.phrase.13,14.3605,15.1205,NONE,False
+366,,,,ms3B_pw32,14.8705,15.0605,front,,,,sw3201B.phrase.13,14.3605,15.1205,NONE,False
+367,,,,ms3B_pw33,15.0605,15.1205,of,,,,sw3201B.phrase.13,14.3605,15.1205,NONE,False
+368,,,,ms5A_pw10,16.04975,16.303875,oh,,,,sw3201A.phrase.6,16.04975,16.303875,backchannel,False
+369,,,,ms5A_pw11,16.303875,16.723875,uh-huh,,,,sw3201A.phrase.7,16.303875,16.723875,backchannel,False
+370,,,,ms4B_pw35,16.691125,16.83725,that,,,,sw3201B.phrase.15,16.691125,17.40725,major,False
+371,,,,ms4B_pw38,17.57725,17.70725,know,,,,sw3201B.phrase.16,17.46725,17.70725,major,False
+372,,,,ms7A_pw12,20.326875,20.836875,yeah,,,,sw3201A.phrase.8,20.326875,20.836875,backchannel,False
+373,,,,ms6B_pw42,21.11575,21.5095,bottles,,,,sw3201B.phrase.19,20.877,21.5095,major,False
+374,,,,ms6B_pw43,21.576,21.719125,et,,,,sw3201B.phrase.20,21.576,22.02325,minor,False
+375,,,,ms6B_pw45,22.02325,22.113625,et,,,,sw3201B.phrase.21,22.02325,22.45475,major,False
+376,,,,ms8A_pw14,22.297875,22.837875,progressed,,,,sw3201A.phrase.9,22.14675,22.837875,major,False
+377,,,,ms8A_pw15,22.837875,22.917875,a,,,,sw3201A.phrase.10,22.837875,24.257875,major,False
+378,,,,ms8A_pw17,23.137875,23.347875,bit,,,,sw3201A.phrase.10,22.837875,24.257875,major,False
+379,,,,ms8A_pw18,23.347875,23.667875,farther,,,,sw3201A.phrase.10,22.837875,24.257875,major,False
+380,,,,ms8A_pw19,23.667875,23.827875,than,,,,sw3201A.phrase.10,22.837875,24.257875,major,False
+381,,,,ms8A_pw21,24.257875,24.557875,um,,,,sw3201A.phrase.11,24.257875,24.557875,backchannel,False
+382,,,,ms7B_pw47,24.434375,24.780875,yeah,,,,sw3201B.phrase.23,24.434375,24.780875,backchannel,False
+383,,,,ms8A_pw23,24.987875,25.107875,they,,,,sw3201A.phrase.13,24.987875,25.477875,disfluent,False
+384,,,,ms8A_pw25,25.477875,25.677875,uh,,,,sw3201A.phrase.14,25.477875,25.677875,backchannel,False
+385,,,,ms8A_pw27,26.067875,26.147875,of,,,,sw3201A.phrase.15,25.677875,26.618125,major,False
+386,,,,ms9A_pw29,27.292125,27.439625,it,,,,sw3201A.phrase.16,27.292125,27.919625,minor,False
+387,,,,ms9A_pw31,27.589625,27.699625,have,,,,sw3201A.phrase.16,27.292125,27.919625,minor,False
+388,,,,ms9A_pw32,27.699625,27.919625,even,,,,sw3201A.phrase.16,27.292125,27.919625,minor,False
+389,,,,ms9A_pw34,28.299625,28.409625,all,,,,sw3201A.phrase.17,27.919625,28.619625,minor,False
+390,,,,ms9A_pw35,28.409625,28.539625,over,,,,sw3201A.phrase.17,27.919625,28.619625,minor,False
+391,,,,ms9A_pw36,28.539625,28.619625,the,,,,sw3201A.phrase.17,27.919625,28.619625,minor,False
+392,,,,ms9A_pw38,28.869625,29.20625,town,,,,sw3201A.phrase.18,28.619625,29.20625,major,False
+393,,,,ms9A_pw39,29.823875,30.159625,and,,,,sw3201A.phrase.19,29.823875,30.159625,disfluent,False
+394,,,,ms9A_pw40,30.159625,30.477125,um,,,,sw3201A.phrase.20,30.159625,30.477125,backchannel,False
+395,,,,ms9A_pw41,30.823625,30.939625,they,,,,sw3201A.phrase.21,30.823625,31.349625,minor,False
+396,,,,ms9A_pw43,31.119625,31.349625,these,,,,sw3201A.phrase.21,30.823625,31.349625,minor,False
+397,,,,ms9B_pw48,32.509625,32.98275,um-hum,,,,sw3201B.phrase.24,32.509625,32.98275,backchannel,False
+398,,,,ms10A_pw46,33.14525,33.339,and,,,,sw3201A.phrase.24,33.14525,35.299,disfluent,False
+399,,,,ms10A_pw47,33.339,33.539,it's,,,,sw3201A.phrase.24,33.14525,35.299,disfluent,False
+400,,,,ms10A_pw49,33.829,33.949,as,,,,sw3201A.phrase.24,33.14525,35.299,disfluent,False
+401,,,,ms10A_pw51,34.589,34.889,as,,,,sw3201A.phrase.24,33.14525,35.299,disfluent,False
+402,,,,ms10A_pw52,34.889,35.229,a,,,,sw3201A.phrase.24,33.14525,35.299,disfluent,False
+403,,,,ms10A_pw53,35.229,35.299,a,,,,sw3201A.phrase.24,33.14525,35.299,disfluent,False
+404,,,,ms10A_pw56,36.029,36.400999999999996,can,,,,sw3201A.phrase.25,35.299,36.400999999999996,major,False
+405,,,,ms10A_pw57,36.92825,37.049,that,,,,sw3201A.phrase.26,36.92825,37.579,minor,False
+406,,,,ms10A_pw58,37.049,37.149,they,,,,sw3201A.phrase.26,36.92825,37.579,minor,False
+407,,,,ms10A_pw59,37.149,37.379,come,,,,sw3201A.phrase.26,36.92825,37.579,minor,False
+408,,,,ms10A_pw61,37.579,37.719,and,,,,sw3201A.phrase.27,37.579,38.159,minor,False
+409,,,,ms10A_pw62,37.719,37.939,pick,,,,sw3201A.phrase.27,37.579,38.159,minor,False
+410,,,,ms10A_pw64,38.159,38.339,and,,,,sw3201A.phrase.28,38.159,38.759125,major,False
+411,,,,ms11B_pw49,39.123375,39.538375,yeah,,,,sw3201B.phrase.25,39.123375,39.538375,backchannel,False
+412,,,,ms11A_pw67,39.90325,40.18325,uh,,,,sw3201A.phrase.30,39.90325,40.18325,backchannel,False
+413,,,,ms11A_pw69,40.43325,40.65325,along,,,,sw3201A.phrase.31,40.18325,41.42325,major,False
+414,,,,ms11A_pw70,40.65325,40.76325,with,,,,sw3201A.phrase.31,40.18325,41.42325,major,False
+415,,,,ms11A_pw71,40.76325,40.80325,a,,,,sw3201A.phrase.31,40.18325,41.42325,major,False
+416,,,,ms11A_pw73,41.16325,41.42325,can,,,,sw3201A.phrase.31,40.18325,41.42325,major,False
+417,,,,ms11A_pw74,41.42325,41.51325,you,,,,sw3201A.phrase.32,41.42325,41.788875,disfluent,False
+418,,,,ms11A_pw75,41.51325,41.788875,have,,,,sw3201A.phrase.32,41.42325,41.788875,disfluent,False
+419,,,,ms11A_pw76,41.852875,42.118625,this,,,,sw3201A.phrase.33,41.852875,42.118625,disfluent,False
+420,,,,ms11A_pw77,42.2015,42.43325,this,,,,sw3201A.phrase.34,42.2015,42.75325,minor,False
+421,,,,ms11A_pw79,42.75325,43.278875,plastic,,,,sw3201A.phrase.35,42.75325,43.278875,minor,False
+422,,,,ms11A_pw82,44.59325,44.67325,you,,,,sw3201A.phrase.37,44.32325,45.95325,major,False
+423,,,,ms11A_pw84,44.98325,45.08325,your,,,,sw3201A.phrase.37,44.32325,45.95325,major,False
+424,,,,ms11A_pw86,45.53325,45.69325,in,,,,sw3201A.phrase.37,44.32325,45.95325,major,False
+425,,,,ms11A_pw87,45.69325,45.95325,it,,,,sw3201A.phrase.37,44.32325,45.95325,major,False
+426,,,,ms11A_pw88,45.95325,46.27325,and,,,,sw3201A.phrase.38,45.95325,46.96325,major,False
+427,,,,ms12A_pw90,47.601000000000006,47.981,and,,,,sw3201A.phrase.39,47.601000000000006,47.981,disfluent,False
+428,,,,ms12A_pw91,47.981,48.416125,um,,,,sw3201A.phrase.40,47.981,48.416125,backchannel,False
+429,,,,ms12A_pw92,49.18825,49.321000000000005,you,,,,sw3201A.phrase.41,49.18825,49.571000000000005,major,False
+430,,,,ms12A_pw93,49.321000000000005,49.571000000000005,know,,,,sw3201A.phrase.41,49.18825,49.571000000000005,major,False
+431,,,,ms12A_pw95,49.711000000000006,49.911,those,,,,sw3201A.phrase.42,49.571000000000005,50.344875,disfluent,False
+432,,,,ms12A_pw97,50.179125,50.344875,that,,,,sw3201A.phrase.42,49.571000000000005,50.344875,disfluent,False
+433,,,,ms12A_pw100,51.381,51.49100000000001,know,,,,sw3201A.phrase.45,51.291000000000004,51.49100000000001,major,False
+434,,,,ms12A_pw102,51.81100000000001,51.971000000000004,that,,,,sw3201A.phrase.46,51.49100000000001,53.011,major,False
+435,,,,ms12A_pw103,51.971000000000004,52.211000000000006,can,,,,sw3201A.phrase.46,51.49100000000001,53.011,major,False
+436,,,,ms12A_pw104,52.211000000000006,52.351000000000006,be,,,,sw3201A.phrase.46,51.49100000000001,53.011,major,False
+437,,,,ms12A_pw106,53.011,53.141000000000005,you,,,,sw3201A.phrase.47,53.011,54.081,major,False
+438,,,,ms12A_pw107,53.141000000000005,53.321000000000005,just,,,,sw3201A.phrase.47,53.011,54.081,major,False
+439,,,,ms12A_pw109,53.481,53.541000000000004,in,,,,sw3201A.phrase.47,53.011,54.081,major,False
+440,,,,ms12A_pw110,53.541000000000004,53.67100000000001,that,,,,sw3201A.phrase.47,53.011,54.081,major,False
+441,,,,ms13B_pw50,54.651,55.17625,oh,,,,sw3201B.phrase.26,54.651,55.17625,backchannel,False
+442,,,,ms13A_pw112,55.305,55.595,and,,,,sw3201A.phrase.48,55.305,55.595,disfluent,False
+443,,,,ms13A_pw113,55.595,55.825,uh,,,,sw3201A.phrase.49,55.595,55.825,backchannel,False
+444,,,,ms13A_pw114,55.825,55.935,i,,,,sw3201A.phrase.50,55.825,56.59375,disfluent,False
+445,,,,ms13A_pw116,56.165,56.235,you,,,,sw3201A.phrase.50,55.825,56.59375,disfluent,False
+446,,,,ms13A_pw117,56.235,56.355,can,,,,sw3201A.phrase.50,55.825,56.59375,disfluent,False
+447,,,,ms13A_pw118,56.355,56.59375,al[so]-,,,,sw3201A.phrase.50,55.825,56.59375,disfluent,False
+448,,,,ms13A_pw119,56.865,57.085,and,,,,sw3201A.phrase.51,56.865,58.36325,major,False
+449,,,,ms13A_pw120,57.085,57.145,a,,,,sw3201A.phrase.51,56.865,58.36325,major,False
+450,,,,ms13A_pw122,57.325,57.385,of,,,,sw3201A.phrase.51,56.865,58.36325,major,False
+451,,,,ms13A_pw123,57.385,57.495,the,,,,sw3201A.phrase.51,56.865,58.36325,major,False
+452,,,,ms15B_pw51,58.447375,58.82425,yeah,,,,sw3201B.phrase.27,58.447375,58.82425,backchannel,False
+453,,,,ms14A_pw126,59.05775,59.36775,just,,,,sw3201A.phrase.52,58.947625,59.70775,disfluent,False
+454,,,,ms14A_pw128,59.70775,60.0655,uh,,,,sw3201A.phrase.53,59.70775,60.0655,backchannel,False
+455,,,,ms14A_pw130,61.02775,61.13775,where,,,,sw3201A.phrase.54,60.52125,61.99775,disfluent,False
+456,,,,ms14A_pw131,61.13775,61.22775,you,,,,sw3201A.phrase.54,60.52125,61.99775,disfluent,False
+457,,,,ms14A_pw132,61.22775,61.38775,can,,,,sw3201A.phrase.54,60.52125,61.99775,disfluent,False
+458,,,,ms14A_pw134,61.60775,61.99775,away,,,,sw3201A.phrase.54,60.52125,61.99775,disfluent,False
+459,,,,ms14A_pw137,62.68775,63.19775,places,,,,sw3201A.phrase.56,62.45775,63.19775,major,False
+460,,,,ms15A_pw138,63.8255,63.93025,where,,,,sw3201A.phrase.57,63.8255,64.63025,minor,False
+461,,,,ms15A_pw139,63.93025,64.01025,you,,,,sw3201A.phrase.57,63.8255,64.63025,minor,False
+462,,,,ms15A_pw140,64.01025,64.18025,can,,,,sw3201A.phrase.57,63.8255,64.63025,minor,False
+463,,,,ms15A_pw142,64.41025,64.63025,away,,,,sw3201A.phrase.57,63.8255,64.63025,minor,False
+464,,,,ms15A_pw144,64.99025,65.58025,bottles,,,,sw3201A.phrase.58,64.63025,65.58025,major,False
+465,,,,ms15A_pw145,65.80025,65.98025,and,,,,sw3201A.phrase.59,65.80025,67.153125,major,False
+466,,,,ms15A_pw146,65.98025,66.10025,then,,,,sw3201A.phrase.59,65.80025,67.153125,major,False
+467,,,,ms15A_pw147,66.10025,66.16025,the,,,,sw3201A.phrase.59,65.80025,67.153125,major,False
+468,,,,ms15A_pw149,66.56025,67.153125,bottles,,,,sw3201A.phrase.59,65.80025,67.153125,major,False
+469,,,,ms17B_pw52,65.990125,66.375875,huh,,,,sw3201B.phrase.28,65.990125,66.375875,backchannel,False
+470,,,,ms15A_pw150,67.846125,68.26025,and,,,,sw3201A.phrase.60,67.846125,68.26025,disfluent,False
+471,,,,ms15A_pw151,68.26025,68.712,uh,,,,sw3201A.phrase.61,68.26025,68.712,backchannel,False
+472,,,,ms16A_pw152,69.79125,69.91125,oh,,,,sw3201A.phrase.63,69.79125,69.97125,backchannel,False
+473,,,,ms16A_pw153,69.91125,69.97125,i,,,,sw3201A.phrase.63,69.79125,69.97125,backchannel,False
+474,,,,ms16A_pw155,70.11125,70.21125,know,,,,sw3201A.phrase.64,69.97125,70.21125,major,False
+475,,,,ms16A_pw156,70.21125,70.31125,i,,,,sw3201A.phrase.65,70.21125,70.828125,disfluent,False
+476,,,,ms16A_pw158,70.59125,70.828125,they're,,,,sw3201A.phrase.65,70.21125,70.828125,disfluent,False
+477,,,,ms16A_pw160,71.23125,71.34125,know,,,,sw3201A.phrase.66,71.12,71.34125,major,False
+478,,,,ms16A_pw162,71.71125,72.259375,bottles,,,,sw3201A.phrase.67,71.34125,72.259375,major,False
+479,,,,ms19B_pw53,72.543375,72.982125,yeah,,,,sw3201B.phrase.29,72.543375,72.982125,backchannel,False
+480,,,,ms16A_pw164,73.0975,73.49125,um,,,,sw3201A.phrase.69,73.0975,73.49125,backchannel,False
+481,,,,ms16A_pw166,73.60125,73.70125,know,,,,sw3201A.phrase.70,73.49125,73.70125,major,False
+482,,,,ms16A_pw167,73.70125,73.73125,a,,,,sw3201A.phrase.71,73.70125,75.48125,major,False
+483,,,,ms16A_pw169,73.84125,73.90125,of,,,,sw3201A.phrase.71,73.70125,75.48125,major,False
+484,,,,ms16A_pw170,73.90125,74.12125,people,,,,sw3201A.phrase.71,73.70125,75.48125,major,False
+485,,,,ms16A_pw172,74.30125,74.55125,have,,,,sw3201A.phrase.71,73.70125,75.48125,major,False
+486,,,,ms16A_pw174,74.82125,75.48125,separated,,,,sw3201A.phrase.71,73.70125,75.48125,major,False
+487,,,,ms17A_pw175,76.4935,76.6235,and,,,,sw3201A.phrase.72,76.4935,77.0735,major,False
+488,,,,ms17A_pw176,76.6235,76.6835,of,,,,sw3201A.phrase.72,76.4935,77.0735,major,False
+489,,,,ms17A_pw178,77.273125,77.3835,they,,,,sw3201A.phrase.73,77.273125,77.8235,disfluent,False
+490,,,,ms17A_pw180,77.7535,77.8235,the,,,,sw3201A.phrase.73,77.273125,77.8235,disfluent,False
+491,,,,ms17A_pw181,77.8235,78.4235,um,,,,sw3201A.phrase.74,77.8235,78.4235,backchannel,False
+492,,,,ms17A_pw183,79.4835,79.6735,uh,,,,sw3201A.phrase.76,79.4835,80.1435,backchannel,False
+493,,,,ms17A_pw184,79.6735,79.9635,the,,,,sw3201A.phrase.76,79.4835,80.1435,backchannel,False
+494,,,,ms17A_pw185,79.9635,80.1435,the,,,,sw3201A.phrase.76,79.4835,80.1435,backchannel,False
+495,,,,ms21B_pw54,81.460375,81.80375,yeah,,,,sw3201B.phrase.30,81.460375,81.80375,backchannel,False
+496,,,,ms18A_pw187,81.967875,82.206375,uh,,,,sw3201A.phrase.78,81.967875,82.206375,backchannel,False
+497,,,,ms18A_pw188,82.206375,82.416375,and,,,,sw3201A.phrase.79,82.206375,83.38,NONE,False
+498,,,,ms18A_pw190,82.516375,82.696375,have,,,,sw3201A.phrase.79,82.206375,83.38,NONE,False
+499,,,,ms18A_pw192,82.916375,83.38,strateg[ically]-,,,,sw3201A.phrase.79,82.206375,83.38,NONE,False
+500,,,,ms18A_pw195,84.906375,85.186375,around,,,,sw3201A.phrase.82,84.906375,85.75175,major,False
+501,,,,ms18A_pw196,85.186375,85.256375,the,,,,sw3201A.phrase.82,84.906375,85.75175,major,False
+502,,,,ms23B_pw55,85.987125,86.562875,oh,,,,sw3201B.phrase.31,85.987125,86.562875,backchannel,False
+503,,,,ms19A_pw199,86.8635,87.0035,uh,,,,sw3201A.phrase.84,86.8635,87.0035,backchannel,False
+504,,,,ms19A_pw200,87.0035,87.31775,they're,,,,sw3201A.phrase.85,87.0035,87.31775,disfluent,False
+505,,,,ms19A_pw201,87.71700000000001,87.8335,they're,,,,sw3201A.phrase.86,87.71700000000001,88.2935,minor,False
+506,,,,ms19A_pw203,88.2935,88.4835,gonna,,,,sw3201A.phrase.87,88.2935,89.3035,major,False
+507,,,,ms19A_pw205,89.1435,89.3035,it,,,,sw3201A.phrase.87,88.2935,89.3035,major,False
+508,,,,ms19A_pw206,89.3035,89.4435,i,,,,sw3201A.phrase.88,89.3035,89.6935,major,False
+509,,,,ms19A_pw209,89.8535,89.9135,of,,,,sw3201A.phrase.89,89.6935,90.4335,major,False
+510,,,,ms19A_pw210,89.9135,90.1035,these,,,,sw3201A.phrase.89,89.6935,90.4335,major,False
+511,,,,ms19A_pw211,90.1035,90.4335,days,,,,sw3201A.phrase.89,89.6935,90.4335,major,False
+512,,,,ms19A_pw212,90.4335,90.6835,maybe,,,,sw3201A.phrase.90,90.4335,92.3235,major,False
+513,,,,ms19A_pw213,90.6835,90.9735,to,,,,sw3201A.phrase.90,90.4335,92.3235,major,False
+514,,,,ms19A_pw215,91.3935,92.3235,complexes,,,,sw3201A.phrase.90,90.4335,92.3235,major,False
+515,,,,ms19A_pw216,92.3235,92.6035,and,,,,sw3201A.phrase.91,92.3235,92.6035,disfluent,False
+516,,,,ms25B_pw56,92.451125,92.641125,oh,,,,sw3201B.phrase.32,92.451125,92.641125,backchannel,False
+517,,,,ms19A_pw217,92.6035,92.796875,uh,,,,sw3201A.phrase.92,92.6035,92.796875,backchannel,False
+518,,,,ms25B_pw58,92.871125,92.991125,be,,,,sw3201B.phrase.33,92.641125,93.4185,major,False
+519,,,,ms20A_pw218,93.461,93.824875,yeah,,,,sw3201A.phrase.93,93.461,93.824875,major,False
+520,,,,ms20A_pw219,93.824875,94.081,things,,,,sw3201A.phrase.94,93.824875,94.711,major,False
+521,,,,ms20A_pw220,94.081,94.161,of,,,,sw3201A.phrase.94,93.824875,94.711,major,False
+522,,,,ms20A_pw222,94.331,94.711,nature,,,,sw3201A.phrase.94,93.824875,94.711,major,False
+523,,,,ms20A_pw223,94.711,95.023125,so,,,,sw3201A.phrase.95,94.711,95.023125,disfluent,False
+524,,,,ms20A_pw224,95.411125,95.491,i,,,,sw3201A.phrase.96,95.411125,95.73100000000001,major,False
+525,,,,ms20A_pw226,95.73100000000001,95.821,when,,,,sw3201A.phrase.97,95.73100000000001,96.891,major,False
+526,,,,ms20A_pw227,95.821,95.931,you,,,,sw3201A.phrase.97,95.73100000000001,96.891,major,False
+527,,,,ms20A_pw229,96.071,96.131,in,,,,sw3201A.phrase.97,95.73100000000001,96.891,major,False
+528,,,,ms20A_pw230,96.131,96.20100000000001,a,,,,sw3201A.phrase.97,95.73100000000001,96.891,major,False
+529,,,,ms20A_pw231,96.20100000000001,96.461,bigger,,,,sw3201A.phrase.97,95.73100000000001,96.891,major,False
+530,,,,ms20A_pw233,96.891,97.0215,it,,,,sw3201A.phrase.98,96.891,97.0215,NONE,False
+531,,,,ms20A_pw234,97.1005,97.301,it,,,,sw3201A.phrase.99,97.1005,98.361,disfluent,False
+532,,,,ms20A_pw236,97.791,98.361,becomes,,,,sw3201A.phrase.99,97.1005,98.361,disfluent,False
+533,,,,ms20A_pw237,98.361,98.838375,uh,,,,sw3201A.phrase.100,98.361,98.838375,backchannel,False
+534,,,,ms27B_pw63,99.49675,99.74675,not,,,,sw3201B.phrase.36,99.23675,100.19675,minor,False
+535,,,,ms27B_pw65,100.19675,100.47675,near,,,,sw3201B.phrase.37,100.19675,101.00675,major,False
+536,,,,ms27B_pw67,101.00675,101.260875,uh,,,,sw3201B.phrase.38,101.00675,101.260875,backchannel,False
+537,,,,ms27B_pw69,102.17225,102.31675,uh,,,,sw3201B.phrase.40,102.17225,102.31675,backchannel,False
+538,,,,ms27B_pw70,102.31675,102.42675,you,,,,sw3201B.phrase.41,102.31675,102.68675,major,False
+539,,,,ms27B_pw72,102.68675,102.83675,as,,,,sw3201B.phrase.42,102.68675,104.09675,major,False
+540,,,,ms27B_pw73,102.83675,103.03675,far,,,,sw3201B.phrase.42,102.68675,104.09675,major,False
+541,,,,ms27B_pw74,103.03675,103.10675,as,,,,sw3201B.phrase.42,102.68675,104.09675,major,False
+542,,,,ms27B_pw76,103.29675,103.48675,little,,,,sw3201B.phrase.42,102.68675,104.09675,major,False
+543,,,,ms27B_pw78,103.78675,103.87675,in,,,,sw3201B.phrase.42,102.68675,104.09675,major,False
+544,,,,ms27B_pw79,103.87675,103.96675,to,,,,sw3201B.phrase.42,102.68675,104.09675,major,False
+545,,,,ms27B_pw80,103.96675,104.09675,it,,,,sw3201B.phrase.42,102.68675,104.09675,major,False
+546,,,,ms27B_pw81,104.09675,104.22675,we,,,,sw3201B.phrase.43,104.09675,105.973625,major,False
+547,,,,ms27B_pw83,104.39675,104.90675,recycle,,,,sw3201B.phrase.43,104.09675,105.973625,major,False
+548,,,,ms27B_pw84,104.90675,105.06675,our,,,,sw3201B.phrase.43,104.09675,105.973625,major,False
+549,,,,ms27B_pw85,105.06675,105.51675,aluminum,,,,sw3201B.phrase.43,104.09675,105.973625,major,False
+550,,,,ms23A_pw239,106.262625,106.375625,oh,,,,sw3201A.phrase.103,106.262625,106.375625,backchannel,False
+551,,,,ms23A_pw240,106.375625,106.631,yeah,,,,sw3201A.phrase.104,106.375625,106.631,backchannel,False
+552,,,,ms28B_pw87,106.596,106.72125,but,,,,sw3201B.phrase.44,106.596,107.86675,major,False
+553,,,,ms28B_pw89,106.92125,107.07125,as,,,,sw3201B.phrase.44,106.596,107.86675,major,False
+554,,,,ms28B_pw90,107.07125,107.33125,far,,,,sw3201B.phrase.44,106.596,107.86675,major,False
+555,,,,ms28B_pw91,107.33125,107.42125,as,,,,sw3201B.phrase.44,106.596,107.86675,major,False
+556,,,,ms28B_pw93,107.59125,107.86675,go,,,,sw3201B.phrase.44,106.596,107.86675,major,False
+557,,,,ms28B_pw94,107.86675,107.98125,because_1,,,,sw3201B.phrase.45,107.86675,109.25125,major,False
+558,,,,ms28B_pw96,108.13025,108.38125,take,,,,sw3201B.phrase.45,107.86675,109.25125,major,False
+559,,,,ms28B_pw97,108.38125,108.44125,them_1,,,,sw3201B.phrase.45,107.86675,109.25125,major,False
+560,,,,ms28B_pw98,108.44125,108.54125,to,,,,sw3201B.phrase.45,107.86675,109.25125,major,False
+561,,,,ms28B_pw99,108.54125,108.64125,a,,,,sw3201B.phrase.45,107.86675,109.25125,major,False
+562,,,,ms28B_pw100,108.64125,108.84125,girl,,,,sw3201B.phrase.45,107.86675,109.25125,major,False
+563,,,,ms28B_pw101,108.84125,108.93125,at,,,,sw3201B.phrase.45,107.86675,109.25125,major,False
+564,,,,ms28B_pw103,109.25125,109.37125,and,,,,sw3201B.phrase.46,109.25125,109.584,disfluent,False
+565,,,,ms28B_pw106,109.98125,110.09125,and,,,,sw3201B.phrase.47,109.745875,110.77125,major,False
+566,,,,ms28B_pw107,110.09125,110.46125,cashes,,,,sw3201B.phrase.47,109.745875,110.77125,major,False
+567,,,,ms28B_pw108,110.46125,110.57125,them,,,,sw3201B.phrase.47,109.745875,110.77125,major,False
+568,,,,ms28B_pw110,110.77125,111.06125,because,,,,sw3201B.phrase.48,110.77125,111.06125,disfluent,False
+569,,,,ms28B_pw112,111.80125,112.015375,know,,,,sw3201B.phrase.49,111.70125,112.015375,major,False
+570,,,,ms28B_pw114,112.31125,112.4615,just,,,,sw3201B.phrase.50,112.154875,112.4615,disfluent,False
+571,,,,ms25A_pw241,112.72125,113.08775,uh-huh,,,,sw3201A.phrase.105,112.72125,113.08775,backchannel,False
+572,,,,ms29B_pw115,113.323375,113.433375,i,,,,sw3201B.phrase.51,113.323375,114.286,major,False
+573,,,,ms29B_pw116,113.433375,113.573375,can,,,,sw3201B.phrase.51,113.323375,114.286,major,False
+574,,,,ms29B_pw118,113.683375,113.863375,that,,,,sw3201B.phrase.51,113.323375,114.286,major,False
+575,,,,ms29B_pw119,113.863375,113.973375,for,,,,sw3201B.phrase.51,113.323375,114.286,major,False
+576,,,,ms29B_pw121,114.286,114.477625,and,,,,sw3201B.phrase.52,114.286,114.477625,disfluent,False
+577,,,,ms26A_pw242,114.431125,114.869375,yeah,,,,sw3201A.phrase.106,114.431125,114.869375,backchannel,False
+578,,,,ms29B_pw122,114.873375,114.993375,and,,,,sw3201B.phrase.53,114.873375,115.843375,major,False
+579,,,,ms29B_pw124,115.093375,115.263375,don't,,,,sw3201B.phrase.53,114.873375,115.843375,major,False
+580,,,,ms29B_pw125,115.263375,115.433375,want,,,,sw3201B.phrase.53,114.873375,115.843375,major,False
+581,,,,ms29B_pw126,115.433375,115.513375,the,,,,sw3201B.phrase.53,114.873375,115.843375,major,False
+582,,,,ms29B_pw128,115.843375,116.013375,because_1,,,,sw3201B.phrase.54,115.843375,117.023375,minor,False
+583,,,,ms29B_pw130,116.123375,116.243375,have,,,,sw3201B.phrase.54,115.843375,117.023375,minor,False
+584,,,,ms29B_pw131,116.243375,116.313375,to,,,,sw3201B.phrase.54,115.843375,117.023375,minor,False
+585,,,,ms29B_pw132,116.313375,116.443375,go,,,,sw3201B.phrase.54,115.843375,117.023375,minor,False
+586,,,,ms29B_pw133,116.443375,116.503375,to,,,,sw3201B.phrase.54,115.843375,117.023375,minor,False
+587,,,,ms29B_pw134,116.503375,116.743375,another,,,,sw3201B.phrase.54,115.843375,117.023375,minor,False
+588,,,,ms29B_pw136,117.023375,117.133375,to,,,,sw3201B.phrase.55,117.023375,117.515375,major,False
+589,,,,ms29B_pw138,117.323375,117.515375,it,,,,sw3201B.phrase.55,117.023375,117.515375,major,False
+590,,,,ms28A_pw243,117.757,117.98299999999999,oh,,,,sw3201A.phrase.107,117.757,117.98299999999999,backchannel,False
+591,,,,ms28A_pw244,117.98299999999999,118.460625,really,,,,sw3201A.phrase.108,117.98299999999999,118.460625,backchannel,False
+592,,,,ms30B_pw139,118.34475,118.669,yeah,,,,sw3201B.phrase.56,118.34475,118.669,major,False
+593,,,,ms30B_pw140,118.669,118.809,see,,,,sw3201B.phrase.57,118.669,120.062875,major,False
+594,,,,ms30B_pw141,118.809,118.90899999999999,we,,,,sw3201B.phrase.57,118.669,120.062875,major,False
+595,,,,ms30B_pw142,118.90899999999999,119.029,don't,,,,sw3201B.phrase.57,118.669,120.062875,major,False
+596,,,,ms30B_pw144,119.149,119.429,anything,,,,sw3201B.phrase.57,118.669,120.062875,major,False
+597,,,,ms30B_pw145,119.429,119.569,here,,,,sw3201B.phrase.57,118.669,120.062875,major,False
+598,,,,ms30B_pw146,119.569,119.679,in,,,,sw3201B.phrase.57,118.669,120.062875,major,False
+599,,,,ms28A_pw245,118.9015,119.323625,hm,,,,sw3201A.phrase.109,118.9015,119.323625,backchannel,False
+600,,,,ms30B_pw148,120.062875,120.239875,it's,,,,sw3201B.phrase.58,120.062875,121.5365,major,False
+601,,,,ms30B_pw149,120.239875,120.463875,it's,,,,sw3201B.phrase.58,120.062875,121.5365,major,False
+602,,,,ms30B_pw150,120.463875,120.484625,a,,,,sw3201B.phrase.58,120.062875,121.5365,major,False
+603,,,,ms30B_pw152,120.729,120.969,small,,,,sw3201B.phrase.58,120.062875,121.5365,major,False
+604,,,,ms30B_pw153,120.969,121.12899999999999,little,,,,sw3201B.phrase.58,120.062875,121.5365,major,False
+605,,,,ms30A_pw246,121.2215,121.410375,yeah,,,,sw3201A.phrase.110,121.2215,121.410375,major,False
+606,,,,ms30A_pw247,121.410375,121.440375,i,,,,sw3201A.phrase.111,121.410375,123.4385,major,False
+607,,,,ms30A_pw248,121.440375,121.710375,remember,,,,sw3201A.phrase.111,121.410375,123.4385,major,False
+608,,,,ms30A_pw249,121.710375,121.840375,my,,,,sw3201A.phrase.111,121.410375,123.4385,major,False
+609,,,,ms30A_pw251,122.450375,122.540375,and,,,,sw3201A.phrase.111,121.410375,123.4385,major,False
+610,,,,ms30A_pw252,122.540375,122.610375,i,,,,sw3201A.phrase.111,121.410375,123.4385,major,False
+611,,,,ms30A_pw253,122.610375,122.770375,used,,,,sw3201A.phrase.111,121.410375,123.4385,major,False
+612,,,,ms30A_pw254,122.770375,122.850375,to,,,,sw3201A.phrase.111,121.410375,123.4385,major,False
+613,,,,ms30A_pw256,123.4725,123.570375,get,,,,sw3201A.phrase.112,123.4725,124.400375,major,False
+614,,,,ms30A_pw257,123.570375,123.730375,out,,,,sw3201A.phrase.112,123.4725,124.400375,major,False
+615,,,,ms30A_pw258,123.730375,123.890375,there,,,,sw3201A.phrase.112,123.4725,124.400375,major,False
+616,,,,ms30A_pw259,123.890375,124.020375,on,,,,sw3201A.phrase.112,123.4725,124.400375,major,False
+617,,,,ms30A_pw260,124.020375,124.120375,the,,,,sw3201A.phrase.112,123.4725,124.400375,major,False
+618,,,,ms30A_pw262,124.400375,124.520375,and,,,,sw3201A.phrase.113,124.400375,125.580875,major,False
+619,,,,ms30A_pw263,124.520375,124.720375,pick,,,,sw3201A.phrase.113,124.400375,125.580875,major,False
+620,,,,ms30A_pw264,124.720375,124.880375,up,,,,sw3201A.phrase.113,124.400375,125.580875,major,False
+621,,,,ms30A_pw266,125.060375,125.580875,cans,,,,sw3201A.phrase.113,124.400375,125.580875,major,False
+622,,,,ms32B_pw155,125.62625,126.00475,yeah,,,,sw3201B.phrase.59,125.62625,126.00475,backchannel,False
+623,,,,ms30A_pw267,126.22875,126.506,and,,,,sw3201A.phrase.114,126.22875,126.506,disfluent,False
+624,,,,ms30A_pw268,126.506,126.67399999999999,uh,,,,sw3201A.phrase.115,126.506,126.67399999999999,backchannel,False
+625,,,,ms34B_pw157,128.267125,128.457125,yeah,,,,sw3201B.phrase.61,128.267125,128.457125,backchannel,False
+626,,,,ms34B_pw159,128.757125,128.967125,about,,,,sw3201B.phrase.62,128.457125,129.421,NONE,False
+627,,,,ms34B_pw161,129.227125,129.421,th[at]-,,,,sw3201B.phrase.62,128.457125,129.421,NONE,False
+628,,,,ms34B_pw162,129.711,129.93875,that,,,,sw3201B.phrase.63,129.711,129.93875,disfluent,False
+629,,,,ms34B_pw163,129.98775,130.227125,we're,,,,sw3201B.phrase.64,129.98775,131.01,major,False
+630,,,,ms34B_pw164,130.227125,130.517125,doing,,,,sw3201B.phrase.64,129.98775,131.01,major,False
+631,,,,ms34B_pw166,131.111625,131.337125,uh,,,,sw3201B.phrase.65,131.111625,131.337125,backchannel,False
+632,,,,ms34B_pw167,131.337125,131.57725,they're,,,,sw3201B.phrase.66,131.337125,131.57725,disfluent,False
+633,,,,ms35B_pw168,132.72825,133.20475,uh,,,,sw3201B.phrase.67,132.72825,133.20475,backchannel,False
+634,,,,ms35B_pw170,133.77825,133.84825,a,,,,sw3201B.phrase.68,133.457125,134.20825,minor,False
+635,,,,ms35B_pw171,133.84825,134.05825,little,,,,sw3201B.phrase.68,133.457125,134.20825,minor,False
+636,,,,ms35B_pw172,134.05825,134.20825,bit,,,,sw3201B.phrase.68,133.457125,134.20825,minor,False
+637,,,,ms35B_pw174,134.52825,134.968875,on,,,,sw3201B.phrase.69,134.20825,134.968875,disfluent,False
+638,,,,ms36B_pw175,136.230375,136.33925,they,,,,sw3201B.phrase.70,136.230375,137.32425,disfluent,False
+639,,,,ms36B_pw177,136.52925,136.60925,to,,,,sw3201B.phrase.70,136.230375,137.32425,disfluent,False
+640,,,,ms36B_pw178,136.60925,136.66925,a,,,,sw3201B.phrase.70,136.230375,137.32425,disfluent,False
+641,,,,ms36B_pw180,136.87925,136.90925,a,,,,sw3201B.phrase.70,136.230375,137.32425,disfluent,False
+642,,,,ms36B_pw181,136.90925,137.32425,more,,,,sw3201B.phrase.70,136.230375,137.32425,disfluent,False
+643,,,,ms36B_pw182,137.644375,138.01925,community,,,,sw3201B.phrase.71,137.644375,138.439625,major,False
+644,,,,ms36B_pw184,138.54125,138.60675,of,,,,sw3201B.phrase.72,138.54125,140.29925,major,False
+645,,,,ms36B_pw185,138.60675,138.851625,just,,,,sw3201B.phrase.72,138.54125,140.29925,major,False
+646,,,,ms36B_pw187,139.14925,139.35925,is,,,,sw3201B.phrase.72,138.54125,140.29925,major,False
+647,,,,ms36B_pw188,139.35925,139.43925,it,,,,sw3201B.phrase.72,138.54125,140.29925,major,False
+648,,,,ms36B_pw189,139.43925,139.65925,mean,,,,sw3201B.phrase.72,138.54125,140.29925,major,False
+649,,,,ms36B_pw190,139.65925,139.77925,to,,,,sw3201B.phrase.72,138.54125,140.29925,major,False
+650,,,,ms36B_pw192,140.29925,140.48925,and,,,,sw3201B.phrase.73,140.29925,141.55925,major,False
+651,,,,ms36B_pw195,140.94925,141.04925,you,,,,sw3201B.phrase.73,140.29925,141.55925,major,False
+652,,,,ms36B_pw196,141.04925,141.55925,recycle,,,,sw3201B.phrase.73,140.29925,141.55925,major,False
+653,,,,ms36B_pw197,141.55925,141.64925,and,,,,sw3201B.phrase.74,141.55925,142.40675,major,False
+654,,,,ms36B_pw198,141.64925,141.79925,what,,,,sw3201B.phrase.74,141.55925,142.40675,major,False
+655,,,,ms36B_pw199,141.79925,141.89925,you,,,,sw3201B.phrase.74,141.55925,142.40675,major,False
+656,,,,ms32A_pw269,141.91025,142.2865,uh-huh,,,,sw3201A.phrase.117,141.91025,142.2865,backchannel,False
+657,,,,ms36B_pw201,142.457,142.77525,because,,,,sw3201B.phrase.75,142.457,142.77525,disfluent,False
+658,,,,ms37B_pw203,143.708,143.926125,know,,,,sw3201B.phrase.76,143.612875,143.926125,major,False
+659,,,,ms37B_pw205,144.328,144.358,a,,,,sw3201B.phrase.77,144.15475,145.22975,major,False
+660,,,,ms37B_pw206,144.358,144.528,lot,,,,sw3201B.phrase.77,144.15475,145.22975,major,False
+661,,,,ms37B_pw207,144.528,144.588,of,,,,sw3201B.phrase.77,144.15475,145.22975,major,False
+662,,,,ms37B_pw208,144.588,144.878,people,,,,sw3201B.phrase.77,144.15475,145.22975,major,False
+663,,,,ms37B_pw211,146.25799999999998,146.528,know,,,,sw3201B.phrase.79,145.97799999999998,146.528,minor,False
+664,,,,ms37B_pw214,147.588,147.82675,know,,,,sw3201B.phrase.81,147.498,147.82675,major,False
+665,,,,ms34A_pw270,148.35175,148.43175,yeah,,,,sw3201A.phrase.119,148.35175,148.43175,major,False
+666,,,,ms34A_pw272,148.56175,148.81175,doing,,,,sw3201A.phrase.120,148.43175,149.63175,disfluent,False
+667,,,,ms34A_pw273,148.81175,148.84175,a,,,,sw3201A.phrase.120,148.43175,149.63175,disfluent,False
+668,,,,ms34A_pw275,149.03175,149.21175,good,,,,sw3201A.phrase.120,148.43175,149.63175,disfluent,False
+669,,,,ms34A_pw277,149.47175,149.63175,of,,,,sw3201A.phrase.120,148.43175,149.63175,disfluent,False
+670,,,,ms38B_pw215,148.815625,148.955625,what,,,,sw3201B.phrase.82,148.815625,149.16075,NONE,False
+671,,,,ms38B_pw216,148.955625,149.16075,it's,,,,sw3201B.phrase.82,148.815625,149.16075,NONE,False
+672,,,,ms34A_pw278,149.63175,149.86175,uh,,,,sw3201A.phrase.121,149.63175,149.86175,backchannel,False
+673,,,,ms34A_pw280,150.53175,150.59175,it,,,,sw3201A.phrase.122,149.86175,150.89175,major,False
+674,,,,ms34A_pw281,150.59175,150.89175,here,,,,sw3201A.phrase.122,149.86175,150.89175,major,False
+675,,,,ms34A_pw282,150.89175,151.086375,and,,,,sw3201A.phrase.123,150.89175,151.086375,disfluent,False
+676,,,,ms34A_pw283,151.512,151.62175,of,,,,sw3201A.phrase.124,151.512,151.99175,major,False
+677,,,,ms34A_pw286,152.26175,152.36175,you,,,,sw3201A.phrase.125,151.99175,153.38175,major,False
+678,,,,ms34A_pw288,152.48175,152.64175,you,,,,sw3201A.phrase.125,151.99175,153.38175,major,False
+679,,,,ms34A_pw290,153.29175,153.38175,a,,,,sw3201A.phrase.125,151.99175,153.38175,major,False
+680,,,,ms34A_pw291,153.38175,153.96175,specific,,,,sw3201A.phrase.126,153.38175,155.1525,major,False
+681,,,,ms34A_pw293,154.17175,154.26175,to,,,,sw3201A.phrase.126,153.38175,155.1525,major,False
+682,,,,ms34A_pw294,154.26175,154.45175,put,,,,sw3201A.phrase.126,153.38175,155.1525,major,False
+683,,,,ms34A_pw295,154.45175,154.54175,your,,,,sw3201A.phrase.126,153.38175,155.1525,major,False
+684,,,,ms40B_pw218,155.49925,155.852125,yeah,,,,sw3201B.phrase.85,155.49925,155.852125,backchannel,False
+685,,,,ms35A_pw297,155.811375,156.0595,and,,,,sw3201A.phrase.127,155.811375,156.0595,disfluent,False
+686,,,,ms35A_pw298,156.0595,156.19275,uh,,,,sw3201A.phrase.128,156.0595,156.19275,backchannel,False
+687,,,,ms35A_pw299,156.19275,156.269375,they,,,,sw3201A.phrase.129,156.19275,157.909375,major,False
+688,,,,ms35A_pw301,156.479375,156.569375,to,,,,sw3201A.phrase.129,156.19275,157.909375,major,False
+689,,,,ms35A_pw302,156.569375,156.719375,get,,,,sw3201A.phrase.129,156.19275,157.909375,major,False
+690,,,,ms35A_pw303,156.719375,156.799375,you,,,,sw3201A.phrase.129,156.19275,157.909375,major,False
+691,,,,ms35A_pw304,156.799375,156.879375,to,,,,sw3201A.phrase.129,156.19275,157.909375,major,False
+692,,,,ms35A_pw305,156.879375,156.979375,go,,,,sw3201A.phrase.129,156.19275,157.909375,major,False
+693,,,,ms35A_pw306,156.979375,157.169375,ahead,,,,sw3201A.phrase.129,156.19275,157.909375,major,False
+694,,,,ms35A_pw307,157.169375,157.269375,and,,,,sw3201A.phrase.129,156.19275,157.909375,major,False
+695,,,,ms35A_pw309,157.769375,157.909375,it,,,,sw3201A.phrase.129,156.19275,157.909375,major,False
+696,,,,ms35A_pw310,157.909375,158.189375,but,,,,sw3201A.phrase.130,157.909375,158.189375,disfluent,False
+697,,,,ms35A_pw311,158.189375,158.279375,uh,,,,sw3201A.phrase.131,158.189375,158.279375,backchannel,False
+698,,,,ms35A_pw312,158.279375,158.419375,they,,,,sw3201A.phrase.132,158.279375,158.839375,minor,False
+699,,,,ms35A_pw315,159.089375,159.169375,the,,,,sw3201A.phrase.134,159.089375,160.36375,major,False
+700,,,,ms35A_pw316,159.169375,159.409375,door,,,,sw3201A.phrase.134,159.089375,160.36375,major,False
+701,,,,ms35A_pw317,159.409375,159.539375,to,,,,sw3201A.phrase.134,159.089375,160.36375,major,False
+702,,,,ms35A_pw318,159.539375,159.759375,door,,,,sw3201A.phrase.134,159.089375,160.36375,major,False
+703,,,,ms35A_pw320,160.959375,161.229375,um,,,,sw3201A.phrase.135,160.959375,161.229375,backchannel,False
+704,,,,ms35A_pw321,161.229375,161.379375,and,,,,sw3201A.phrase.136,161.229375,161.711,disfluent,False
+705,,,,ms35A_pw322,161.379375,161.711,it's,,,,sw3201A.phrase.136,161.229375,161.711,disfluent,False
+706,,,,ms35A_pw323,161.83525,162.019375,uh,,,,sw3201A.phrase.137,161.83525,162.079375,backchannel,False
+707,,,,ms35A_pw324,162.019375,162.079375,i,,,,sw3201A.phrase.137,161.83525,162.079375,backchannel,False
+708,,,,ms35A_pw326,162.289375,162.389375,it,,,,sw3201A.phrase.138,162.079375,162.969375,minor,False
+709,,,,ms35A_pw327,162.389375,162.789375,started,,,,sw3201A.phrase.138,162.079375,162.969375,minor,False
+710,,,,ms35A_pw329,162.969375,163.059375,to,,,,sw3201A.phrase.139,162.969375,163.349375,disfluent,False
+711,,,,ms35A_pw330,163.059375,163.349375,be,,,,sw3201A.phrase.139,162.969375,163.349375,disfluent,False
+712,,,,ms35A_pw331,163.349375,163.709375,um,,,,sw3201A.phrase.140,163.349375,163.709375,backchannel,False
+713,,,,ms36A_pw332,164.945,165.127375,just,,,,sw3201A.phrase.141,164.945,165.957375,major,False
+714,,,,ms36A_pw333,165.127375,165.307375,kind,,,,sw3201A.phrase.141,164.945,165.957375,major,False
+715,,,,ms36A_pw335,165.377375,165.437375,a,,,,sw3201A.phrase.141,164.945,165.957375,major,False
+716,,,,ms36A_pw337,165.957375,166.007375,a,,,,sw3201A.phrase.142,165.957375,166.8585,major,False
+717,,,,ms36A_pw339,166.337375,166.8585,project,,,,sw3201A.phrase.142,165.957375,166.8585,major,False
+718,,,,ms42B_pw219,166.931625,167.42425,um-hum,,,,sw3201B.phrase.86,166.931625,167.42425,backchannel,False
+719,,,,ms36A_pw340,167.1975,167.367375,and,,,,sw3201A.phrase.143,167.1975,168.06925,NONE,False
+720,,,,ms36A_pw341,167.367375,167.447375,it,,,,sw3201A.phrase.143,167.1975,168.06925,NONE,False
+721,,,,ms36A_pw343,167.617375,167.797375,over,,,,sw3201A.phrase.143,167.1975,168.06925,NONE,False
+722,,,,ms36A_pw344,167.797375,168.06925,so,,,,sw3201A.phrase.143,167.1975,168.06925,NONE,False
+723,,,,ms36A_pw346,168.447375,168.577375,that,,,,sw3201A.phrase.145,168.447375,169.7065,major,False
+724,,,,ms36A_pw347,168.577375,168.707375,they,,,,sw3201A.phrase.145,168.447375,169.7065,major,False
+725,,,,ms36A_pw348,168.707375,168.977375,just,,,,sw3201A.phrase.145,168.447375,169.7065,major,False
+726,,,,ms36A_pw350,169.547375,169.7065,it,,,,sw3201A.phrase.145,168.447375,169.7065,major,False
+727,,,,ms36A_pw351,170.28275,170.457375,and,,,,sw3201A.phrase.146,170.28275,171.167375,disfluent,False
+728,,,,ms36A_pw352,170.457375,170.657375,it's,,,,sw3201A.phrase.146,170.28275,171.167375,disfluent,False
+729,,,,ms36A_pw354,171.167375,171.38025,uh,,,,sw3201A.phrase.147,171.167375,171.508375,backchannel,False
+730,,,,ms36A_pw355,171.38025,171.508375,i,,,,sw3201A.phrase.147,171.167375,171.508375,backchannel,False
+731,,,,ms36A_pw356,171.508375,171.617375,don't,,,,sw3201A.phrase.148,171.508375,173.207375,minor,False
+732,,,,ms36A_pw358,171.697375,171.817375,if,,,,sw3201A.phrase.148,171.508375,173.207375,minor,False
+733,,,,ms36A_pw359,171.817375,171.987375,it's,,,,sw3201A.phrase.148,171.508375,173.207375,minor,False
+734,,,,ms36A_pw360,171.987375,172.157375,done,,,,sw3201A.phrase.148,171.508375,173.207375,minor,False
+735,,,,ms36A_pw361,172.157375,172.287375,by,,,,sw3201A.phrase.148,171.508375,173.207375,minor,False
+736,,,,ms36A_pw362,172.287375,172.337375,a,,,,sw3201A.phrase.148,171.508375,173.207375,minor,False
+737,,,,ms36A_pw364,172.757375,173.207375,company,,,,sw3201A.phrase.148,171.508375,173.207375,minor,False
+738,,,,ms36A_pw365,173.207375,173.267375,or,,,,sw3201A.phrase.149,173.207375,173.577375,major,False
+739,,,,ms36A_pw367,173.627375,173.757375,it,,,,sw3201A.phrase.150,173.627375,174.301125,major,False
+740,,,,ms37A_pw370,174.92125,175.21125,but,,,,sw3201A.phrase.151,174.92125,175.21125,disfluent,False
+741,,,,ms37A_pw371,175.21125,175.37125,uh,,,,sw3201A.phrase.152,175.21125,175.37125,backchannel,False
+742,,,,ms37A_pw372,175.37125,175.49125,they,,,,sw3201A.phrase.153,175.37125,176.20125,minor,False
+743,,,,ms37A_pw373,175.49125,175.74125,just,,,,sw3201A.phrase.153,175.37125,176.20125,minor,False
+744,,,,ms37A_pw374,175.74125,175.87125,go,,,,sw3201A.phrase.153,175.37125,176.20125,minor,False
+745,,,,ms37A_pw376,176.20125,176.31125,to,,,,sw3201A.phrase.154,176.20125,176.68125,disfluent,False
+746,,,,ms37A_pw378,176.68125,177.012,uh,,,,sw3201A.phrase.155,176.68125,177.012,backchannel,False
+747,,,,ms37A_pw380,177.580625,177.80125,and,,,,sw3201A.phrase.157,177.580625,178.44375,major,False
+748,,,,ms37A_pw381,177.80125,178.01125,pick,,,,sw3201A.phrase.157,177.580625,178.44375,major,False
+749,,,,ms37A_pw382,178.01125,178.09125,it,,,,sw3201A.phrase.157,177.580625,178.44375,major,False
+750,,,,ms38A_pw384,179.597375,180.0135,yeah,,,,sw3201A.phrase.158,179.597375,180.0135,backchannel,False
+751,,,,ms39A_pw387,181.67975,181.87975,oh,,,,sw3201A.phrase.160,181.67975,181.87975,backchannel,False
+752,,,,ms39A_pw388,181.87975,182.17975,and,,,,sw3201A.phrase.161,181.87975,182.74975,major,False
+753,,,,ms39A_pw391,182.74975,182.83975,of,,,,sw3201A.phrase.162,182.74975,183.24975,major,False
+754,,,,ms39A_pw393,183.24975,183.33975,the,,,,sw3201A.phrase.163,183.24975,184.32275,major,False
+755,,,,ms39A_pw395,183.73975,184.32275,books,,,,sw3201A.phrase.163,183.24975,184.32275,major,False
+756,,,,ms46B_pw225,184.48,184.8405,yeah,,,,sw3201B.phrase.91,184.48,184.8405,backchannel,False
+757,,,,ms40A_pw396,185.09725,185.58725,um,,,,sw3201A.phrase.164,185.09725,185.58725,backchannel,False
+758,,,,ms40A_pw398,185.78725,186.16725,tell,,,,sw3201A.phrase.165,185.58725,186.16725,major,False
+759,,,,ms40A_pw400,186.63725,187.00725,across,,,,sw3201A.phrase.166,186.16725,187.63975,disfluent,False
+760,,,,ms40A_pw401,187.00725,187.06725,the,,,,sw3201A.phrase.166,186.16725,187.63975,disfluent,False
+761,,,,ms40A_pw403,187.436375,187.63975,to,,,,sw3201A.phrase.166,186.16725,187.63975,disfluent,False
+762,,,,ms40A_pw404,187.63975,187.989,um,,,,sw3201A.phrase.167,187.63975,187.989,backchannel,False
+763,,,,ms40A_pw405,188.075625,188.390375,put,,,,sw3201A.phrase.168,188.075625,189.59725,disfluent,False
+764,,,,ms40A_pw407,188.58725,188.68725,their,,,,sw3201A.phrase.168,188.075625,189.59725,disfluent,False
+765,,,,ms40A_pw409,189.01725,189.35725,books,,,,sw3201A.phrase.168,188.075625,189.59725,disfluent,False
+766,,,,ms40A_pw410,189.35725,189.59725,in,,,,sw3201A.phrase.168,188.075625,189.59725,disfluent,False
+767,,,,ms40A_pw411,189.59725,189.869875,uh,,,,sw3201A.phrase.169,189.59725,189.869875,backchannel,False
+768,,,,ms40A_pw412,190.13725,190.36725,the,,,,sw3201A.phrase.170,190.13725,190.36725,backchannel,False
+769,,,,ms40A_pw413,190.36725,190.63725,uh,,,,sw3201A.phrase.171,190.36725,190.63725,disfluent,False
+770,,,,ms40A_pw415,191.13725,191.623125,bins,,,,sw3201A.phrase.172,190.63725,191.623125,major,False
+771,,,,ms48B_pw226,191.844125,192.44975,oh,,,,sw3201B.phrase.92,191.844125,192.44975,backchannel,False
+772,,,,ms41A_pw418,193.449375,193.647375,know,,,,sw3201A.phrase.174,193.379375,193.647375,major,False
+773,,,,ms41A_pw420,193.899375,194.109375,books,,,,sw3201A.phrase.175,193.70775,194.409375,disfluent,False
+774,,,,ms41A_pw421,194.109375,194.169375,are,,,,sw3201A.phrase.175,193.70775,194.409375,disfluent,False
+775,,,,ms41A_pw424,194.709375,194.879375,for,,,,sw3201A.phrase.177,194.709375,195.539375,major,False
+776,,,,ms41A_pw425,194.879375,194.979375,a,,,,sw3201A.phrase.177,194.709375,195.539375,major,False
+777,,,,ms41A_pw427,195.209375,195.539375,city,,,,sw3201A.phrase.177,194.709375,195.539375,major,False
+778,,,,ms41A_pw428,195.539375,195.649375,they're,,,,sw3201A.phrase.178,195.539375,196.41825,major,False
+779,,,,ms41A_pw431,196.681875,196.749375,an[d]-,,,,sw3201A.phrase.179,196.681875,197.709375,minor,False
+780,,,,ms41A_pw432,196.749375,196.879375,and,,,,sw3201A.phrase.179,196.681875,197.709375,minor,False
+781,,,,ms41A_pw434,197.309375,197.369375,you,,,,sw3201A.phrase.179,196.681875,197.709375,minor,False
+782,,,,ms41A_pw435,197.369375,197.529375,might,,,,sw3201A.phrase.179,196.681875,197.709375,minor,False
+783,,,,ms41A_pw436,197.529375,197.709375,have,,,,sw3201A.phrase.179,196.681875,197.709375,minor,False
+784,,,,ms50B_pw229,196.971125,197.148375,uh,,,,sw3201B.phrase.95,196.971125,197.148375,backchannel,False
+785,,,,ms41A_pw438,197.979375,198.089375,or,,,,sw3201A.phrase.180,197.709375,198.55425,major,False
+786,,,,ms42A_pw440,199.325375,199.76925,so,,,,sw3201A.phrase.181,199.325375,199.76925,disfluent,False
+787,,,,ms42A_pw441,199.76925,200.176375,uh,,,,sw3201A.phrase.182,199.76925,200.176375,backchannel,False
+788,,,,ms42A_pw444,200.80925,200.85925,a,,,,sw3201A.phrase.183,200.176375,201.97925,major,False
+789,,,,ms42A_pw445,200.85925,201.07925,big,,,,sw3201A.phrase.183,200.176375,201.97925,major,False
+790,,,,ms42A_pw446,201.07925,201.58925,savings,,,,sw3201A.phrase.183,200.176375,201.97925,major,False
+791,,,,ms42A_pw447,201.58925,201.76925,right,,,,sw3201A.phrase.183,200.176375,201.97925,major,False
+792,,,,ms53B_pw231,201.585,202.061125,yeah,,,,sw3201B.phrase.97,201.585,202.061125,backchannel,False
+793,,,,ms42A_pw449,201.97925,202.10925,in,,,,sw3201A.phrase.184,201.97925,202.80125,major,False
+794,,,,ms53B_pw234,202.681125,202.871125,just,,,,sw3201B.phrase.100,202.681125,204.0095,major,False
+795,,,,ms53B_pw235,202.871125,203.091125,goes,,,,sw3201B.phrase.100,202.681125,204.0095,major,False
+796,,,,ms53B_pw236,203.091125,203.161125,in,,,,sw3201B.phrase.100,202.681125,204.0095,major,False
+797,,,,ms53B_pw237,203.161125,203.221125,the,,,,sw3201B.phrase.100,202.681125,204.0095,major,False
+798,,,,ms53B_pw238,203.221125,203.501125,regular,,,,sw3201B.phrase.100,202.681125,204.0095,major,False
+799,,,,ms43A_pw451,204.3725,204.78400000000002,yeah,,,,sw3201A.phrase.185,204.3725,204.78400000000002,backchannel,False
+800,,,,ms53B_pw240,204.3975,204.541125,it,,,,sw3201B.phrase.101,204.3975,204.921125,disfluent,False
+801,,,,ms53B_pw241,204.541125,204.921125,just,,,,sw3201B.phrase.101,204.3975,204.921125,disfluent,False
+802,,,,ms53B_pw243,205.021125,205.231125,know,,,,sw3201B.phrase.102,204.921125,205.231125,major,False
+803,,,,ms43A_pw452,205.061125,205.433125,hm,,,,sw3201A.phrase.186,205.061125,205.433125,backchannel,False
+804,,,,ms53B_pw244,205.861125,206.00799999999998,there's,,,,sw3201B.phrase.103,205.861125,206.69799999999998,major,False
+805,,,,ms53B_pw246,206.181125,206.251125,a,,,,sw3201B.phrase.103,205.861125,206.69799999999998,major,False
+806,,,,ms53B_pw247,206.251125,206.421125,whole,,,,sw3201B.phrase.103,205.861125,206.69799999999998,major,False
+807,,,,ms53B_pw249,207.271125,207.371125,and,,,,sw3201B.phrase.104,207.271125,207.891125,disfluent,False
+808,,,,ms53B_pw250,207.371125,207.481125,there,,,,sw3201B.phrase.104,207.271125,207.891125,disfluent,False
+809,,,,ms53B_pw253,208.031125,208.161125,know,,,,sw3201B.phrase.105,207.891125,208.161125,major,False
+810,,,,ms53B_pw255,208.391125,208.801125,places,,,,sw3201B.phrase.106,208.161125,209.01325,disfluent,False
+811,,,,ms53B_pw256,208.801125,209.01325,that,,,,sw3201B.phrase.106,208.161125,209.01325,disfluent,False
+812,,,,ms54B_pw257,210.349375,210.595625,we'll,,,,sw3201B.phrase.107,210.349375,211.065625,major,False
+813,,,,ms54B_pw258,210.595625,210.865625,set,,,,sw3201B.phrase.107,210.349375,211.065625,major,False
+814,,,,ms54B_pw260,211.065625,211.195625,you,,,,sw3201B.phrase.108,211.065625,211.394,major,False
+815,,,,ms54B_pw262,211.601125,211.705625,for,,,,sw3201B.phrase.109,211.601125,212.925,major,False
+816,,,,ms54B_pw263,211.705625,211.885625,old,,,,sw3201B.phrase.109,211.601125,212.925,major,False
+817,,,,ms54B_pw265,212.485625,212.605625,and,,,,sw3201B.phrase.109,211.601125,212.925,major,False
+818,,,,ms45A_pw453,213.264,213.674,um-hum,,,,sw3201A.phrase.187,213.264,213.674,backchannel,False
+819,,,,ms54B_pw269,215.145625,215.457125,it's,,,,sw3201B.phrase.111,214.568875,215.457125,disfluent,False
+820,,,,ms55B_pw270,216.11175,216.33700000000002,it,,,,sw3201B.phrase.112,216.11175,217.267,major,False
+821,,,,ms55B_pw271,216.33700000000002,216.42700000000002,it,,,,sw3201B.phrase.112,216.11175,217.267,major,False
+822,,,,ms55B_pw273,216.727,216.917,caught,,,,sw3201B.phrase.112,216.11175,217.267,major,False
+823,,,,ms55B_pw275,217.08700000000002,217.267,yet,,,,sw3201B.phrase.112,216.11175,217.267,major,False
+824,,,,ms55B_pw276,217.267,217.42700000000002,i'm,,,,sw3201B.phrase.113,217.267,218.39700000000002,major,False
+825,,,,ms55B_pw278,217.747,217.857,it,,,,sw3201B.phrase.113,217.267,218.39700000000002,major,False
+826,,,,ms55B_pw280,218.047,218.39700000000002,soon,,,,sw3201B.phrase.113,217.267,218.39700000000002,major,False
+827,,,,ms47A_pw454,218.473125,218.813125,um-hum,,,,sw3201A.phrase.188,218.473125,218.813125,backchannel,False
+828,,,,ms47A_pw455,218.813125,218.933125,well,,,,sw3201A.phrase.189,218.813125,219.555,major,False
+829,,,,ms47A_pw456,218.933125,218.993125,the,,,,sw3201A.phrase.189,218.813125,219.555,major,False
+830,,,,ms47A_pw458,219.213125,219.555,about,,,,sw3201A.phrase.189,218.813125,219.555,major,False
+831,,,,ms47A_pw460,220.553125,220.813125,and,,,,sw3201A.phrase.191,220.553125,220.813125,major,False
+832,,,,ms47A_pw464,222.883125,222.983125,is,,,,sw3201A.phrase.194,222.883125,224.330125,major,False
+833,,,,ms47A_pw466,223.373125,223.603125,very,,,,sw3201A.phrase.194,222.883125,224.330125,major,False
+834,,,,ms57B_pw281,224.587625,224.9505,yeah,,,,sw3201B.phrase.114,224.587625,224.9505,backchannel,False
+835,,,,ms48A_pw469,225.698375,225.868375,when,,,,sw3201A.phrase.197,225.698375,227.868375,major,False
+836,,,,ms48A_pw470,225.868375,225.948375,you,,,,sw3201A.phrase.197,225.698375,227.868375,major,False
+837,,,,ms48A_pw472,226.168375,226.568375,something,,,,sw3201A.phrase.197,225.698375,227.868375,major,False
+838,,,,ms48A_pw473,226.568375,226.788375,that's,,,,sw3201A.phrase.197,225.698375,227.868375,major,False
+839,,,,ms48A_pw474,226.788375,226.948375,on,,,,sw3201A.phrase.197,225.698375,227.868375,major,False
+840,,,,ms48A_pw477,227.868375,228.068375,they've,,,,sw3201A.phrase.198,227.868375,228.698375,minor,False
+841,,,,ms48A_pw479,228.448375,228.698375,gone,,,,sw3201A.phrase.198,227.868375,228.698375,minor,False
+842,,,,ms48A_pw480,228.698375,228.828375,to,,,,sw3201A.phrase.199,228.698375,229.658375,minor,False
+843,,,,ms48A_pw481,228.828375,228.858375,a,,,,sw3201A.phrase.199,228.698375,229.658375,minor,False
+844,,,,ms48A_pw483,229.028375,229.118375,of,,,,sw3201A.phrase.199,228.698375,229.658375,minor,False
+845,,,,ms48A_pw485,229.658375,229.798375,to,,,,sw3201A.phrase.200,229.658375,230.238375,major,False
+846,,,,ms48A_pw487,229.978375,230.238375,that,,,,sw3201A.phrase.200,229.658375,230.238375,major,False
+847,,,,ms48A_pw488,230.918375,231.208375,it's,,,,sw3201A.phrase.201,230.918375,231.208375,disfluent,False
+848,,,,ms48A_pw489,231.208375,231.378375,uh,,,,sw3201A.phrase.202,231.208375,231.378375,backchannel,False
+849,,,,ms48A_pw490,231.378375,231.498375,they're,,,,sw3201A.phrase.203,231.378375,232.558375,major,False
+850,,,,ms48A_pw492,231.718375,232.048375,coming,,,,sw3201A.phrase.203,231.378375,232.558375,major,False
+851,,,,ms48A_pw493,232.048375,232.218375,out,,,,sw3201A.phrase.203,231.378375,232.558375,major,False
+852,,,,ms48A_pw495,232.558375,232.678375,at,,,,sw3201A.phrase.204,232.558375,233.095,major,False
+853,,,,ms49A_pw497,233.820375,234.106375,it's,,,,sw3201A.phrase.205,233.820375,234.106375,disfluent,False
+854,,,,ms49A_pw498,234.106375,234.396375,uh,,,,sw3201A.phrase.206,234.106375,234.396375,backchannel,False
+855,,,,ms49A_pw499,234.396375,234.676375,it's,,,,sw3201A.phrase.207,234.396375,235.60725,major,False
+856,,,,ms49A_pw501,234.886375,234.926375,a,,,,sw3201A.phrase.207,234.396375,235.60725,major,False
+857,,,,ms59B_pw282,235.78575,236.153875,hm,,,,sw3201B.phrase.115,235.78575,236.153875,backchannel,False
+858,,,,ms59B_pw283,236.348375,236.438375,i,,,,sw3201B.phrase.117,236.348375,236.962625,disfluent,False
+859,,,,ms59B_pw284,236.438375,236.962625,wasn't,,,,sw3201B.phrase.117,236.348375,236.962625,disfluent,False
+860,,,,ms59B_pw285,237.068125,237.368375,totally,,,,sw3201B.phrase.118,237.068125,237.86525,major,False
+861,,,,ms59B_pw287,237.588375,237.678375,of,,,,sw3201B.phrase.118,237.068125,237.86525,major,False
+862,,,,ms59B_pw288,237.678375,237.86525,that,,,,sw3201B.phrase.118,237.068125,237.86525,major,False
+863,,,,ms60B_pw289,238.83325,239.072375,so,,,,sw3201B.phrase.119,238.83325,239.072375,disfluent,False
+864,,,,ms52A_pw504,239.399,239.451625,i,,,,sw3201A.phrase.209,239.399,240.27900000000002,minor,False
+865,,,,ms52A_pw506,239.56900000000002,239.65900000000002,it,,,,sw3201A.phrase.209,239.399,240.27900000000002,minor,False
+866,,,,ms52A_pw507,239.65900000000002,239.78900000000002,it,,,,sw3201A.phrase.209,239.399,240.27900000000002,minor,False
+867,,,,ms52A_pw509,240.27900000000002,240.479,good,,,,sw3201A.phrase.210,240.27900000000002,241.11900000000003,major,False
+868,,,,ms52A_pw510,240.479,240.56900000000002,to,,,,sw3201A.phrase.210,240.27900000000002,241.11900000000003,major,False
+869,,,,ms52A_pw511,240.56900000000002,240.649,the,,,,sw3201A.phrase.210,240.27900000000002,241.11900000000003,major,False
+870,,,,ms52A_pw513,241.11900000000003,241.25900000000001,but,,,,sw3201A.phrase.211,241.11900000000003,241.929,minor,False
+871,,,,ms52A_pw514,241.25900000000001,241.479,there's,,,,sw3201A.phrase.211,241.11900000000003,241.929,minor,False
+872,,,,ms52A_pw516,241.929,241.99900000000002,a,,,,sw3201A.phrase.212,241.929,242.729,minor,False
+873,,,,ms52A_pw517,241.99900000000002,242.239,big,,,,sw3201A.phrase.212,241.929,242.729,minor,False
+874,,,,ms52A_pw520,243.7845,243.889,when,,,,sw3201A.phrase.214,243.7845,245.239,major,False
+875,,,,ms52A_pw521,243.889,244.00900000000001,you,,,,sw3201A.phrase.214,243.7845,245.239,major,False
+876,,,,ms52A_pw524,244.77900000000002,245.239,something,,,,sw3201A.phrase.214,243.7845,245.239,major,False
+877,,,,ms52A_pw525,245.239,245.49900000000002,now,,,,sw3201A.phrase.215,245.239,245.49900000000002,disfluent,False
+878,,,,ms52A_pw527,246.05900000000003,246.139,i,,,,sw3201A.phrase.217,246.05900000000003,246.519,major,False
+879,,,,ms52A_pw528,246.139,246.30900000000003,don't,,,,sw3201A.phrase.217,246.05900000000003,246.519,major,False
+880,,,,ms52A_pw530,246.519,246.609,they,,,,sw3201A.phrase.218,246.519,247.746625,major,False
+881,,,,ms52A_pw532,246.78900000000002,246.889,be,,,,sw3201A.phrase.218,246.519,247.746625,major,False
+882,,,,ms52A_pw533,246.889,247.169,coming,,,,sw3201A.phrase.218,246.519,247.746625,major,False
+883,,,,ms52A_pw534,247.169,247.30900000000003,out,,,,sw3201A.phrase.218,246.519,247.746625,major,False
+884,,,,ms53A_pw536,248.362375,248.450625,but,,,,sw3201A.phrase.219,248.362375,248.700625,minor,False
+885,,,,ms53A_pw538,248.550625,248.700625,know,,,,sw3201A.phrase.219,248.362375,248.700625,minor,False
+886,,,,ms62B_pw290,248.464375,248.791625,yeah,,,,sw3201B.phrase.120,248.464375,248.791625,backchannel,False
+887,,,,ms53A_pw539,248.700625,248.880625,for,,,,sw3201A.phrase.220,248.700625,249.220625,major,False
+888,,,,ms53A_pw540,248.880625,248.920625,a,,,,sw3201A.phrase.220,248.700625,249.220625,major,False
+889,,,,ms53A_pw542,249.220625,249.360625,that,,,,sw3201A.phrase.221,249.220625,250.11075,major,False
+890,,,,ms53A_pw543,249.360625,249.420625,the,,,,sw3201A.phrase.221,249.220625,250.11075,major,False
+891,,,,ms54A_pw545,250.91099999999997,251.31125,uh,,,,sw3201A.phrase.222,250.91099999999997,251.31125,backchannel,False
+892,,,,ms54A_pw546,251.409125,251.712625,on,,,,sw3201A.phrase.223,251.409125,252.3175,major,False
+893,,,,ms54A_pw548,251.942625,252.3175,end,,,,sw3201A.phrase.223,251.409125,252.3175,major,False
+894,,,,ms54A_pw549,252.355125,252.472625,they're,,,,sw3201A.phrase.224,252.355125,252.680125,disfluent,False
+895,,,,ms54A_pw550,252.472625,252.680125,not,,,,sw3201A.phrase.224,252.355125,252.680125,disfluent,False
+896,,,,ms54A_pw551,253.872625,253.992625,you,,,,sw3201A.phrase.226,253.872625,254.153875,major,False
+897,,,,ms54A_pw554,254.772625,254.922625,it's,,,,sw3201A.phrase.227,254.443875,255.782625,major,False
+898,,,,ms54A_pw555,254.922625,255.102625,good,,,,sw3201A.phrase.227,254.443875,255.782625,major,False
+899,,,,ms54A_pw556,255.102625,255.172625,to,,,,sw3201A.phrase.227,254.443875,255.782625,major,False
+900,,,,ms54A_pw558,255.782625,255.972625,but,,,,sw3201A.phrase.228,255.782625,256.342625,disfluent,False
+901,,,,ms54A_pw559,255.972625,256.342625,it's,,,,sw3201A.phrase.228,255.782625,256.342625,disfluent,False
+902,,,,ms54A_pw560,256.342625,256.599375,uh,,,,sw3201A.phrase.229,256.342625,256.599375,backchannel,False
+903,,,,ms54A_pw562,257.492625,257.572625,to,,,,sw3201A.phrase.230,257.322625,258.52775,major,False
+904,,,,ms54A_pw563,257.572625,257.722625,their,,,,sw3201A.phrase.230,257.322625,258.52775,major,False
+905,,,,ms64B_pw291,258.522625,258.90875,yeah,,,,sw3201B.phrase.121,258.522625,258.90875,backchannel,False
+906,,,,ms54A_pw565,258.59175,258.722625,and,,,,sw3201A.phrase.231,258.59175,259.4325,major,False
+907,,,,ms54A_pw566,258.722625,258.802625,it,,,,sw3201A.phrase.231,258.59175,259.4325,major,False
+908,,,,ms54A_pw568,259.122625,259.4325,less,,,,sw3201A.phrase.231,258.59175,259.4325,major,False
+909,,,,ms65B_pw292,259.7985,260.051,hm,,,,sw3201B.phrase.122,259.7985,260.051,backchannel,False
+910,,,,ms56A_pw570,264.786375,265.044375,can't,,,,sw3201A.phrase.232,264.654375,266.185625,major,False
+911,,,,ms56A_pw572,265.234375,265.304375,of,,,,sw3201A.phrase.232,264.654375,266.185625,major,False
+912,,,,ms56A_pw573,265.304375,265.714375,anything,,,,sw3201A.phrase.232,264.654375,266.185625,major,False
+913,,,,ms69B_pw294,265.86475,266.012125,i,,,,sw3201B.phrase.124,265.86475,266.572125,major,False
+914,,,,ms69B_pw296,266.462125,266.572125,either,,,,sw3201B.phrase.124,265.86475,266.572125,major,False
+915,,,,ms69B_pw297,266.572125,266.972125,because_1,,,,sw3201B.phrase.125,266.572125,268.122125,disfluent,False
+916,,,,ms69B_pw300,267.532125,267.672125,at,,,,sw3201B.phrase.125,266.572125,268.122125,disfluent,False
+917,,,,ms69B_pw301,267.672125,267.722125,a,,,,sw3201B.phrase.125,266.572125,268.122125,disfluent,False
+918,,,,ms69B_pw302,267.722125,268.122125,very,,,,sw3201B.phrase.125,266.572125,268.122125,disfluent,False
+919,,,,ms69B_pw303,268.732125,268.862125,you,,,,sw3201B.phrase.126,268.732125,269.032125,major,False
+920,,,,ms69B_pw304,268.862125,269.032125,know,,,,sw3201B.phrase.126,268.732125,269.032125,major,False
+921,,,,ms58A_pw576,270.57,270.90525,uh-huh,,,,sw3201A.phrase.234,270.57,270.90525,backchannel,False
+922,,,,ms70B_pw309,271.131875,271.311875,look,,,,sw3201B.phrase.129,271.065625,271.781875,major,False
+923,,,,ms70B_pw311,271.601875,271.661875,to,,,,sw3201B.phrase.129,271.065625,271.781875,major,False
+924,,,,ms70B_pw312,271.661875,271.781875,it,,,,sw3201B.phrase.129,271.065625,271.781875,major,False
+925,,,,ms70B_pw313,271.781875,271.861875,to,,,,sw3201B.phrase.130,271.781875,272.35975,major,False
+926,,,,ms70B_pw314,271.861875,272.061875,get,,,,sw3201B.phrase.130,271.781875,272.35975,major,False
+927,,,,ms59A_pw578,272.16200000000003,272.314,i,,,,sw3201A.phrase.236,272.16200000000003,272.884,disfluent,False
+928,,,,ms70B_pw316,272.35975,272.513625,but,,,,sw3201B.phrase.131,272.35975,272.931375,major,False
+929,,,,ms70B_pw317,272.513625,272.7205,that's,,,,sw3201B.phrase.131,272.35975,272.931375,major,False
+930,,,,ms70B_pw318,272.7205,272.931375,it,,,,sw3201B.phrase.131,272.35975,272.931375,major,False
+931,,,,ms59A_pw581,272.884,273.265125,um,,,,sw3201A.phrase.237,272.884,273.265125,backchannel,False
+932,,,,ms59A_pw582,273.622875,273.824,uh,,,,sw3201A.phrase.238,273.622875,273.824,backchannel,False
+933,,,,ms59A_pw583,273.824,274.084,come,,,,sw3201A.phrase.239,273.824,274.43175,disfluent,False
+934,,,,ms59A_pw585,274.6125,274.714,a,,,,sw3201A.phrase.240,274.6125,275.334,major,False
+935,,,,ms59A_pw586,274.714,274.914,little,,,,sw3201A.phrase.240,274.6125,275.334,major,False
+936,,,,ms59A_pw588,275.334,275.414,in,,,,sw3201A.phrase.241,275.334,275.995,major,False
+937,,,,ms59A_pw589,275.414,275.474,the,,,,sw3201A.phrase.241,275.334,275.995,major,False
+938,,,,ms72B_pw320,276.216,276.376,me,,,,sw3201B.phrase.133,276.216,276.804375,major,False
+939,,,,ms60A_pw591,276.836,276.996,it,,,,sw3201A.phrase.242,276.836,278.103125,major,False
+940,,,,ms60A_pw592,276.996,277.14599999999996,was,,,,sw3201A.phrase.242,276.836,278.103125,major,False
+941,,,,ms60A_pw595,277.746,277.828,to,,,,sw3201A.phrase.242,276.836,278.103125,major,False
+942,,,,ms60A_pw596,277.828,278.103125,you,,,,sw3201A.phrase.242,276.836,278.103125,major,False
+943,,,,ms73B_pw322,277.849,278.004125,you,,,,sw3201B.phrase.134,277.849,278.446375,major,False
