@@ -4,6 +4,7 @@ import torchaudio
 import torch
 import numpy as np
 from pathlib import Path
+import warnings
 
 class VocexCollator:
     def __init__(self, vocex_path="cdminix/vocex", max_length=256, num_reprs=1, override=False, use_prosody=False):
@@ -83,3 +84,116 @@ class VocexCollator:
         batch["word_durations"] = torch.tensor(np.array([np.pad(wd, (0,max_len-wd.shape[0])) for wd in batch["word_durations"]]))
         batch["mask"] = torch.tensor(mask)
         return batch
+
+# max pitch: tensor(1.9839) min pitch: tensor(-2.4998)
+# max energy: tensor(3.9196) min energy: tensor(-2.4935)
+# max vad: tensor(1.0000) min vad: tensor(-0.9999)
+
+class MPMCollator:
+    def __init__(
+        self,
+        vocex_path="cdminix/vocex",
+        max_length=512,
+        override=False,
+        mask_p=0.08,
+        mask_l=10,
+        bin_size=128,
+        min_pitch=-2.5,
+        max_pitch=2,
+        min_energy=-2.5,
+        max_energy=4,
+        min_vad=-1,
+        max_vad=1,
+    ):
+        self.vocex = Vocex.from_pretrained(vocex_path)
+        self.max_length = max_length
+        self.override = override
+        self.mask_p = mask_p
+        self.mask_l = mask_l
+        self.bin_size = bin_size
+        self.min_pitch = min_pitch
+        self.max_pitch = max_pitch
+        self.min_energy = min_energy
+        self.max_energy = max_energy
+        self.min_vad = min_vad
+        self.max_vad = max_vad
+        self.pitch_bins = torch.linspace(min_pitch, max_pitch, bin_size)
+        self.energy_bins = torch.linspace(min_energy, max_energy, bin_size)
+        self.vad_bins = torch.linspace(min_vad, max_vad, bin_size)
+
+    def collate_fn(self, batch):
+        result = {
+            "audio": [],
+            "pitch": [],
+            "energy": [],
+            "vad": [],
+            "pad_mask": [],
+        }
+        for i, item in enumerate(batch):
+            audio_path = Path(item["audio"])
+            if audio_path.with_suffix(".pitch.pt").exists() and not self.override:
+                result["pitch"].append(torch.load(audio_path.with_suffix(".pitch.pt")))
+                result["energy"].append(torch.load(audio_path.with_suffix(".energy.pt")))
+                result["vad"].append(torch.load(audio_path.with_suffix(".vad.pt")))
+                continue
+            audio, sr = librosa.load(item["audio"], sr=22050)
+            # if shorter than max_length * 256, pad
+            if len(audio) < self.max_length * 256:
+                # pad mask
+                pad_mask = torch.zeros(self.max_length+1)
+                pad_mask[:len(audio)//256+1] = 1
+                result["pad_mask"].append(pad_mask)
+                audio = np.pad(audio, (0, self.max_length * 256 - len(audio)))
+            # if longer than max_length * 256, get random window
+            elif len(audio) > self.max_length * 256:
+                start = np.random.randint(0, len(audio) - self.max_length * 256)
+                audio = audio[start:start+self.max_length * 256]
+            result["audio"].append(audio)
+            with warnings.catch_warnings():
+                warnings.simplefilter("ignore")
+                vocex_result = self.vocex(audio, sr)
+            pitch = self.vocex.model.scalers["pitch"].transform(vocex_result["measures"]["pitch"])[0]
+            energy = self.vocex.model.scalers["energy"].transform(vocex_result["measures"]["energy"])[0]
+            vad = vocex_result["measures"]["voice_activity_binary"][0] * 2 - 1
+            result["pitch"].append(pitch)
+            result["energy"].append(energy)
+            result["vad"].append(vad)
+            torch.save(pitch, audio_path.with_suffix(".pitch.pt"))
+            torch.save(energy, audio_path.with_suffix(".energy.pt"))
+            torch.save(vad, audio_path.with_suffix(".vad.pt"))
+        # stack
+        result["pitch"] = torch.stack(result["pitch"])
+        result["energy"] = torch.stack(result["energy"])
+        result["vad"] = torch.stack(result["vad"])
+        # mask
+        # We adopt the same strategies used in SpanBERT and wav2vec 2.0 for mask generation, where
+        # p% of the frames are randomly selected as start indices, and spans
+        # of l frames are masked.
+        result["mask"] = torch.ones_like(result["pitch"])
+        # we use the same mask for pitch, energy and vad, to not allow the model to cheat
+        for i in range(result["pitch"].shape[0]):
+            mask = torch.ones_like(result["pitch"][i])
+            # get random indices
+            indices = torch.rand(result["pitch"][i].shape[0]) < self.mask_p
+            indices = torch.where(indices)[0]
+            # get random lengths
+            lengths = torch.randint(1, self.mask_l, (indices.shape[0],))
+            # mask
+            for j, idx in enumerate(indices):
+                mask[idx:idx+lengths[j]] = 0
+            result["mask"][i] = mask  
+        result["mask"] = result["mask"].long()
+        # bin
+        result["pitch"] = torch.bucketize(result["pitch"], self.pitch_bins).long()
+        result["energy"] = torch.bucketize(result["energy"], self.energy_bins).long()
+        result["vad"] = torch.bucketize(result["vad"], self.vad_bins).long()
+        # shift by 1 to allow for the mask token to be 0
+        result["pitch"] += 1
+        result["energy"] += 1
+        result["vad"] += 1
+        result["masked_pitch"] = result["pitch"] * result["mask"]
+        result["masked_energy"] = result["energy"] * result["mask"]
+        result["masked_vad"] = result["vad"] * result["mask"]
+        if len(result["pad_mask"]) > 0:
+            result["pad_mask"] = torch.stack(result["pad_mask"])
+        return result
