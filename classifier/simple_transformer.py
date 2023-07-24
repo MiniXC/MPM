@@ -32,17 +32,23 @@ class ProminenceBreakTransformer(nn.Module):
         dropout=0.1,
         nlayers=2,
         num_outputs=2,
+        word_durations=False,
     ):
         super().__init__()
         in_channels = in_channels
         num_outputs = 2
 
+        self.word_durations = word_durations
+
+        if word_durations:
+            self.word_durations_embedding = nn.Embedding(100, filter_size)
+
         self.in_layer = nn.Sequential(
             nn.Linear(in_channels, filter_size),
-            nn.BatchNorm1d(filter_size),
+            nn.LayerNorm(filter_size),
             nn.GELU(),
             nn.Linear(filter_size, filter_size),
-            nn.BatchNorm1d(filter_size),
+            nn.LayerNorm(filter_size),
             nn.GELU(),
         )
 
@@ -61,11 +67,18 @@ class ProminenceBreakTransformer(nn.Module):
             norm=nn.LayerNorm(filter_size),
         )
 
-        self.output_layer = nn.Linear(filter_size, num_outputs)
+        self.output_layer = nn.Sequential(
+            nn.Linear(filter_size, filter_size),
+            nn.LayerNorm(filter_size),
+            nn.GELU(),
+            nn.Linear(filter_size, num_outputs),
+        )
 
-    def forward(self, x):
+    def forward(self, x, word_durations=None):
         x = self.in_layer(x)
-        # x = self.positional_encoding(x)
-        # x = self.transformer(x)
+        if self.word_durations:
+            x = x + self.word_durations_embedding(word_durations)
+        x = self.positional_encoding(x)
+        x = self.transformer(x)
         x = self.output_layer(x)
         return x

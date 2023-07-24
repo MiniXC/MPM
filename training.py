@@ -24,7 +24,7 @@ def train_epoch(dl, model, optimizer, scheduler):
     bound_losses = deque(maxlen=100)
     for i, batch in tqdm(enumerate(dl)):
         x = batch["x"]
-        output = model(x)
+        output = model(x, batch["word_durations"])
         #output = model(batch["x"])
         # output has the shape (batch_size, sequence_length, 2)
         # this first output (in the last dimension) is the prominence prediction, the second is the boundary prediction
@@ -56,7 +56,7 @@ def valid_epoch(dl, model):
     for i, batch in tqdm(enumerate(dl)):
         with torch.no_grad():
             x = batch["x"]
-            output = model(x)
+            output = model(x, batch["word_durations"])
             #output = model(batch["x"])
             mask = batch["mask"].bool()
             for j in range(output.shape[0]):
@@ -116,7 +116,8 @@ def main():
 
     model = ProminenceBreakTransformer(
         dropout=0.2,
-        in_channels=256,
+        in_channels=1024,
+        word_durations=True,
     )
 
     optimizer = torch.optim.Adam(model.parameters(), lr=1e-4)

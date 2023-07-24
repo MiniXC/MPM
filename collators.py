@@ -33,6 +33,14 @@ class VocexCollator:
                 for i, w in enumerate(windows):
                     vocex_repr = self.vocex(w, sr, return_activations=True)
                     results.append(vocex_repr["activations"][0][-1])
+                    # use mel spectrogram instead
+                    # resample to 22050
+                    # w = torchaudio.transforms.Resample(16000, 22050)(torch.tensor(w).unsqueeze(0)).squeeze(0).numpy()
+                    # mel = torchaudio.transforms.MelSpectrogram(sample_rate=sr, n_fft=1024, hop_length=256, n_mels=80)(torch.tensor(w).unsqueeze(0)).squeeze(0).numpy()
+                    # # normalize
+                    # mel = np.log(mel + 1e-9)
+                    # mel = ((mel - mel.min()) / (mel.max() - mel.min())).T
+                    # results.append(mel)
                 results = np.concatenate(results).T
                 # resample by a factor of  16000 / 22050 = 0.7256
                 results = torch.tensor(results).unsqueeze(0)
@@ -70,5 +78,8 @@ class VocexCollator:
         batch["break"] = [np.array(b) for b in batch["break"]]
         batch["prominence"] = torch.tensor(np.array([np.pad(p, (0,max_len-p.shape[0])) for p in batch["prominence"]]))
         batch["break"] = torch.tensor(np.array([np.pad(b, (0,max_len-b.shape[0])) for b in batch["break"]]))
+        # pad word durations
+        batch["word_durations"] = [np.array(wd) for wd in batch["word_durations"]]
+        batch["word_durations"] = torch.tensor(np.array([np.pad(wd, (0,max_len-wd.shape[0])) for wd in batch["word_durations"]]))
         batch["mask"] = torch.tensor(mask)
         return batch

@@ -25,7 +25,7 @@ print("prominence:", prom_true, prom_false, np.round(prom_false/(prom_true+prom_
 print("break:     ", bound_true, bound_false, np.round(bound_false/(bound_true+bound_false)*100,1), (bound_true+bound_false))
 
 vocex_col = VocexCollator(
-    num_reprs=1,
+    num_reprs=4,
     override=True,
 )
 
