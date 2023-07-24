@@ -6,7 +6,9 @@ from collators import MPMCollator
 
 ds = load_dataset("cdminix/libritts-r-aligned")
 
-col = MPMCollator()
+col = MPMCollator(
+    mask_l=30,
+)
 
 dl = DataLoader(
     ds["dev"],
@@ -17,8 +19,5 @@ dl = DataLoader(
 )
 
 for item in tqdm(dl, total=len(dl)):
-    import matplotlib.pyplot as plt
-    plt.imshow(item["masked_pitch"])
-    plt.savefig("test.png")
-    raise
+    print(1 - item["mask"].sum() / (item["mask"].shape[0] * item["mask"].shape[1]))
     pass

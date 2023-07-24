@@ -15,6 +15,7 @@ from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_sc
 from accelerate.utils import ProjectConfiguration
 import wandb
 import os
+import argparse
 
 from mpm.model import MPM
 from collators import MPMCollator
@@ -40,6 +41,7 @@ def train_epoch(dl, model, optimizer, scheduler, accelerator, epoch):
         output["pitch"] = output["pitch"].permute(0, 2, 1)
         output["energy"] = output["energy"].permute(0, 2, 1)
         output["vad"] = output["vad"].permute(0, 2, 1)
+        print(mask.shape, output["pitch"].shape, batch["pitch"].shape)
         pitch_loss = torch.nn.functional.cross_entropy(output["pitch"], batch["pitch"]) * mask
         energy_loss = torch.nn.functional.cross_entropy(output["energy"], batch["energy"]) * mask
         vad_loss = torch.nn.functional.cross_entropy(output["vad"], batch["vad"]) * mask
@@ -119,32 +121,32 @@ def valid_epoch(dl, model, accelerator, stp):
     if accelerator.is_main_process:
         print("EVALUATION")
         print("Pitch Accuracy:", accuracy_score(pitch_true, pitch_preds))
-        print("Pitch F1:", f1_score(pitch_true, pitch_preds, average="macro"))
-        print("Pitch Precision:", precision_score(pitch_true, pitch_preds, average="macro"))
-        print("Pitch Recall:", recall_score(pitch_true, pitch_preds, average="macro"))
+        print("Pitch F1:", f1_score(pitch_true, pitch_preds, average="micro"))
+        print("Pitch Precision:", precision_score(pitch_true, pitch_preds, average="micro"))
+        print("Pitch Recall:", recall_score(pitch_true, pitch_preds, average="micro"))
         print("Energy Accuracy:", accuracy_score(energy_true, energy_preds))
-        print("Energy F1:", f1_score(energy_true, energy_preds, average="macro"))
-        print("Energy Precision:", precision_score(energy_true, energy_preds, average="macro"))
-        print("Energy Recall:", recall_score(energy_true, energy_preds, average="macro"))
+        print("Energy F1:", f1_score(energy_true, energy_preds, average="micro"))
+        print("Energy Precision:", precision_score(energy_true, energy_preds, average="micro"))
+        print("Energy Recall:", recall_score(energy_true, energy_preds, average="micro"))
         print("VAD Accuracy:", accuracy_score(vad_true, vad_preds))
-        print("VAD F1:", f1_score(vad_true, vad_preds, average="macro"))
-        print("VAD Precision:", precision_score(vad_true, vad_preds, average="macro"))
-        print("VAD Recall:", recall_score(vad_true, vad_preds, average="macro"))
+        print("VAD F1:", f1_score(vad_true, vad_preds, average="micro"))
+        print("VAD Precision:", precision_score(vad_true, vad_preds, average="micro"))
+        print("VAD Recall:", recall_score(vad_true, vad_preds, average="micro"))
         print(f"Pitch Loss: {torch.mean(torch.tensor(list(pitch_losses))).item()}")
         print(f"Energy Loss: {torch.mean(torch.tensor(list(energy_losses))).item()}")
         print(f"VAD Loss: {torch.mean(torch.tensor(list(vad_losses))).item()}")
         wandb.log({"eval/pitch_accuracy": accuracy_score(pitch_true, pitch_preds)}, step=stp)
-        wandb.log({"eval/pitch_f1": f1_score(pitch_true, pitch_preds, average="macro")}, step=stp)
-        wandb.log({"eval/pitch_precision": precision_score(pitch_true, pitch_preds, average="macro")}, step=stp)
-        wandb.log({"eval/pitch_recall": recall_score(pitch_true, pitch_preds, average="macro")}, step=stp)
+        wandb.log({"eval/pitch_f1": f1_score(pitch_true, pitch_preds, average="micro")}, step=stp)
+        wandb.log({"eval/pitch_precision": precision_score(pitch_true, pitch_preds, average="micro")}, step=stp)
+        wandb.log({"eval/pitch_recall": recall_score(pitch_true, pitch_preds, average="micro")}, step=stp)
         wandb.log({"eval/energy_accuracy": accuracy_score(energy_true, energy_preds)}, step=stp)
-        wandb.log({"eval/energy_f1": f1_score(energy_true, energy_preds, average="macro")}, step=stp)
-        wandb.log({"eval/energy_precision": precision_score(energy_true, energy_preds, average="macro")}, step=stp)
-        wandb.log({"eval/energy_recall": recall_score(energy_true, energy_preds, average="macro")}, step=stp)
+        wandb.log({"eval/energy_f1": f1_score(energy_true, energy_preds, average="micro")}, step=stp)
+        wandb.log({"eval/energy_precision": precision_score(energy_true, energy_preds, average="micro")}, step=stp)
+        wandb.log({"eval/energy_recall": recall_score(energy_true, energy_preds, average="micro")}, step=stp)
         wandb.log({"eval/vad_accuracy": accuracy_score(vad_true, vad_preds)}, step=stp)
-        wandb.log({"eval/vad_f1": f1_score(vad_true, vad_preds, average="macro")}, step=stp)
-        wandb.log({"eval/vad_precision": precision_score(vad_true, vad_preds, average="macro")}, step=stp)
-        wandb.log({"eval/vad_recall": recall_score(vad_true, vad_preds, average="macro")}, step=stp)
+        wandb.log({"eval/vad_f1": f1_score(vad_true, vad_preds, average="micro")}, step=stp)
+        wandb.log({"eval/vad_precision": precision_score(vad_true, vad_preds, average="micro")}, step=stp)
+        wandb.log({"eval/vad_recall": recall_score(vad_true, vad_preds, average="micro")}, step=stp)
         wandb.log({"eval/loss": torch.mean(torch.tensor(list(losses))).item()}, step=stp)
         wandb.log({"eval/pitch_loss": torch.mean(torch.tensor(list(pitch_losses))).item()}, step=stp)
         wandb.log({"eval/energy_loss": torch.mean(torch.tensor(list(energy_losses))).item()}, step=stp)
@@ -154,6 +156,13 @@ def valid_epoch(dl, model, accelerator, stp):
 
 
 def main():
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument("--bin_size", type=int, default=128)
+    parser.add_argument("--mask_p", type=float, default=0.08)
+    parser.add_argument("--mask_l", type=int, default=10)
+
+    args = parser.parse_args()
     
     accelerator = Accelerator()
 
@@ -162,9 +171,9 @@ def main():
         valid_ds = load_dataset('cdminix/libritts-r-aligned', split='dev[:25%]')
 
     conf = {
-        "bin_size": 128,
-        "mask_p": 0.08,
-        "mask_l": 10,
+        "bin_size": args.bin_size,
+        "mask_p": args.mask_p,
+        "mask_l": args.mask_l,
     }
 
     collator = MPMCollator(
@@ -205,7 +214,7 @@ def main():
 
     optimizer = torch.optim.Adam(model.parameters(), lr=5e-4)
 
-    num_epochs = 200
+    num_epochs = 5
 
     scheduler = get_linear_schedule_with_warmup(
         optimizer,
@@ -227,14 +236,14 @@ def main():
             eval_loss = valid_epoch(valid_dl, model, accelerator, (epoch+1)*len(train_dl))
             print(f"Epoch {epoch} train loss: {train_loss}")
             print(f"Epoch {epoch} eval loss: {eval_loss}")
-            if eval_loss < lowest_eval_loss:
-                lowest_eval_loss = eval_loss
-                early_stop_num_count = 0
-            else:
-                early_stop_num_count += 1
-            if early_stop_num_count == early_stop_num:
-                print("Early stopping")
-                break
+            # if eval_loss < lowest_eval_loss:
+            #     lowest_eval_loss = eval_loss
+            #     early_stop_num_count = 0
+            # else:
+            #     early_stop_num_count += 1
+            # if early_stop_num_count == early_stop_num:
+            #     print("Early stopping")
+            #     break
 
 
 if __name__ == "__main__":
