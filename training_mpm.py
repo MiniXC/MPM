@@ -41,7 +41,6 @@ def train_epoch(dl, model, optimizer, scheduler, accelerator, epoch):
         output["pitch"] = output["pitch"].permute(0, 2, 1)
         output["energy"] = output["energy"].permute(0, 2, 1)
         output["vad"] = output["vad"].permute(0, 2, 1)
-        print(mask.shape, output["pitch"].shape, batch["pitch"].shape)
         pitch_loss = torch.nn.functional.cross_entropy(output["pitch"], batch["pitch"]) * mask
         energy_loss = torch.nn.functional.cross_entropy(output["energy"], batch["energy"]) * mask
         vad_loss = torch.nn.functional.cross_entropy(output["vad"], batch["vad"]) * mask
