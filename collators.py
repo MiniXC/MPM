@@ -196,4 +196,5 @@ class MPMCollator:
         result["masked_vad"] = result["vad"] * result["mask"]
         if len(result["pad_mask"]) > 0:
             result["pad_mask"] = torch.stack(result["pad_mask"])
+        result["mask"] = 1 - result["mask"]
         return result

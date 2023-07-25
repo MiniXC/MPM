@@ -30,15 +30,16 @@ vocex_col = VocexCollator(
 )
 
 train_dl = DataLoader(
-    ds["train"],
+    ds["dev"],
     batch_size=8,
     collate_fn=vocex_col.collate_fn,
     shuffle=True,
-    num_workers=96,
+    num_workers=0,
 )
 
+mean_mask = []
+
 for item in tqdm(train_dl, total=len(train_dl)):
-    from matplotlib import pyplot as plt
-    plt.imshow(item["x"][0].T)
-    plt.savefig("test.png")
-    break
+    mean_mask.append(item["mask"].sum().item()/item["mask"].numel())
+
+print("mean mask:", np.mean(mean_mask))
