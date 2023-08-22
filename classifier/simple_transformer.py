@@ -3,6 +3,7 @@ from torch.nn import TransformerEncoderLayer
 from torch.nn import TransformerEncoder
 import torch
 import math
+from mpm.conformer_layer import ConformerLayer
 
 class PositionalEncoding(nn.Module):
     def __init__(self, d_model, max_len=5000, dropout=0.1):
@@ -28,7 +29,7 @@ class ProminenceBreakTransformer(nn.Module):
         self,
         in_channels=256,
         filter_size=256,
-        kernel_size=1,
+        kernel_size=7,
         dropout=0.1,
         nlayers=2,
         num_outputs=2,
@@ -56,15 +57,29 @@ class ProminenceBreakTransformer(nn.Module):
 
         self.positional_encoding = PositionalEncoding(filter_size)
 
+        # self.transformer = TransformerEncoder(
+        #     TransformerEncoderLayer(
+        #         filter_size,
+        #         2,
+        #         batch_first=True,
+        #         dropout=dropout,
+        #     ),
+        #     num_layers=nlayers,
+        #     norm=nn.LayerNorm(filter_size),
+        # )
+
         self.transformer = TransformerEncoder(
-            TransformerEncoderLayer(
+            ConformerLayer(
                 filter_size,
                 2,
+                conv_in=filter_size,
+                conv_filter_size=filter_size,
+                conv_kernel=(kernel_size, 1),
                 batch_first=True,
                 dropout=dropout,
+                conv_depthwise=False,
             ),
             num_layers=nlayers,
-            norm=nn.LayerNorm(filter_size),
         )
 
         self.output_layer = nn.Sequential(

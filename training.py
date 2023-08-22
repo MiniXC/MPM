@@ -14,7 +14,7 @@ from transformers import get_linear_schedule_with_warmup
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
 
 from classifier.simple_transformer import ProminenceBreakTransformer
-from collators import VocexCollator
+from collators import VocexCollator, MPMCollatorForEvaluationUsingModel
 
 
 def train_epoch(dl, model, optimizer, scheduler):
@@ -87,7 +87,17 @@ def valid_epoch(dl, model):
     print("Boundary F1:", f1_score(bound_true, bound_preds))
     print("Boundary Precision:", precision_score(bound_true, bound_preds))
     print("Boundary Recall:", recall_score(bound_true, bound_preds))
-    return torch.mean(torch.tensor(list(losses)))
+    eval_dict = {
+        "prominence_accuracy": accuracy_score(prom_true, prom_preds),
+        "prominence_f1": f1_score(prom_true, prom_preds),
+        "prominence_precision": precision_score(prom_true, prom_preds),
+        "prominence_recall": recall_score(prom_true, prom_preds),
+        "boundary_accuracy": accuracy_score(bound_true, bound_preds),
+        "boundary_f1": f1_score(bound_true, bound_preds),
+        "boundary_precision": precision_score(bound_true, bound_preds),
+        "boundary_recall": recall_score(bound_true, bound_preds),
+    }
+    return torch.mean(torch.tensor(list(losses))), eval_dict
 
 
 def main():
@@ -98,7 +108,14 @@ def main():
         train_ds = load_dataset('cdminix/bu_radio', split='train[:90%]')
         valid_ds = load_dataset('cdminix/bu_radio', split='train[91%:]')
 
-    collator = VocexCollator()
+    #collator = VocexCollator()
+
+    collator = MPMCollatorForEvaluationUsingModel(
+        vocex_path="cdminix/vocex",
+        mpm_model_path="last_mpm_model/pytorch_model.bin",
+        override=False,
+        bin_size=256,
+    )
 
     train_dl = DataLoader(
         train_ds,
@@ -116,8 +133,10 @@ def main():
 
     model = ProminenceBreakTransformer(
         dropout=0.2,
-        in_channels=1024,
-        word_durations=True,
+        in_channels=512,
+        word_durations=False,
+        filter_size=256,
+        nlayers=2,
     )
 
     optimizer = torch.optim.Adam(model.parameters(), lr=1e-4)
@@ -137,21 +156,25 @@ def main():
     early_stop_num = 5
     lowest_eval_loss = 100
     early_stop_num_count = 0
+    best_eval_dict = None
 
     for epoch in range(num_epochs):
         train_loss = train_epoch(train_dl, model, optimizer, scheduler)
-        eval_loss = valid_epoch(valid_dl, model)
+        eval_loss, eval_dict = valid_epoch(valid_dl, model)
         print(f"Epoch {epoch} train loss: {train_loss}")
         print(f"Epoch {epoch} eval loss: {eval_loss}")
         if eval_loss < lowest_eval_loss:
+            best_eval_dict = eval_dict
             lowest_eval_loss = eval_loss
             early_stop_num_count = 0
         else:
             early_stop_num_count += 1
         if early_stop_num_count == early_stop_num:
             print("Early stopping")
+            # save model
             break
 
+    print("Best eval dict:", best_eval_dict)
 
 if __name__ == "__main__":
     main()

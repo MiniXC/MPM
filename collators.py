@@ -5,6 +5,11 @@ import torch
 import numpy as np
 from pathlib import Path
 import warnings
+from mpm.model import MPM
+
+
+def resample(x, vpw=5):
+    return np.interp(np.linspace(0, 1, vpw), np.linspace(0, 1, len(x)), x)
 
 class VocexCollator:
     def __init__(self, vocex_path="cdminix/vocex", max_length=256, num_reprs=1, override=False, use_prosody=False):
@@ -198,3 +203,283 @@ class MPMCollator:
             result["pad_mask"] = torch.stack(result["pad_mask"])
         result["mask"] = 1 - result["mask"]
         return result
+
+class MPMCollatorForEvaluation:
+    def __init__(
+        self,
+        vocex_path="cdminix/vocex",
+        max_length=256,
+        mpm_model_path="mpm.pt",
+        override=False,
+        length_per_word=10,
+    ):
+        self.vocex = Vocex.from_pretrained(vocex_path)
+        self.max_length = max_length
+        self.mpm_model_path = mpm_model_path
+        self.mpm_model = torch.load(mpm_model_path)
+        self.override = override
+        self.length_per_word = length_per_word
+
+    def collate_fn(self, batch):
+        # essentially the same as the normal MPMCollator, but without masking
+        # and with hidden features extracted from the MPM model
+        # we do the same as in VocexCollator, but with the MPM model
+        if isinstance(batch, list):
+            batch = {k: [d[k] for d in batch] for k in batch[0]}
+        if isinstance(batch["audio"], str):
+            batch["audio"] = [batch["audio"]]
+        results_overall = []
+        for k, audio in enumerate(batch["audio"]):
+            if Path(audio).with_suffix(".npy").exists() and not self.override:
+                results = np.load(Path(audio).with_suffix(".npy"))
+                results_overall.append(results)
+            else:
+                file = Path(audio)
+                audio, sr = librosa.load(audio, sr=16000)
+                # create 6 second windows
+                windows = []
+                for i in range(0, len(audio), 96000):
+                    windows.append(audio[i:i+96000])
+                results_pitch = []
+                results_energy = []
+                results_vad = []
+                for i, w in enumerate(windows):
+                    # resample to 22050
+                    # w = torchaudio.transforms.Resample(16000, 22050)(torch.tensor(w).unsqueeze(0)).squeeze(0).numpy()
+                    vocex_repr = self.vocex(w, sr)
+                    pitch = self.vocex.model.scalers["pitch"].transform(vocex_repr["measures"]["pitch"])[0]
+                    energy = self.vocex.model.scalers["energy"].transform(vocex_repr["measures"]["energy"])[0]
+                    vad = vocex_repr["measures"]["voice_activity_binary"][0] * 2 - 1
+                    results_pitch.append(pitch)
+                    results_energy.append(energy)
+                    results_vad.append(vad)
+                results_pitch = np.concatenate(results_pitch)
+                results_energy = np.concatenate(results_energy)
+                results_vad = np.concatenate(results_vad)
+
+                # normalize
+                min_pitch=-2.5
+                max_pitch=2
+                min_energy=-2.5
+                max_energy=4
+                min_vad=-1
+                max_vad=1
+                results_pitch = (results_pitch - min_pitch) / (max_pitch - min_pitch)
+                results_energy = (results_energy - min_energy) / (max_energy - min_energy)
+                results_vad = (results_vad - min_vad) / (max_vad - min_vad)
+
+                # resample by a factor of  16000 / 22050 = 0.7256
+                results_pitch = torch.tensor(results_pitch).unsqueeze(0)
+                results_pitch = torchaudio.transforms.Resample(22050, 16000)(results_pitch).squeeze(0).T.numpy()
+                results_energy = torch.tensor(results_energy).unsqueeze(0)
+                results_energy = torchaudio.transforms.Resample(22050, 16000)(results_energy).squeeze(0).T.numpy()
+                results_vad = torch.tensor(results_vad).unsqueeze(0)
+                results_vad = torchaudio.transforms.Resample(22050, 16000)(results_vad).squeeze(0).T.numpy()
+
+                # take the mean according to batch["word_durations"] (an int in frames)
+                durations = np.cumsum(batch["word_durations"][k])
+                durations = np.insert(durations, 0, 0)
+                
+                results_pitch_per_word = []
+                results_energy_per_word = []
+                results_vad_per_word = []
+                overall = []
+
+                for i in range(len(durations)):
+                    if i == len(durations)-1:
+                        start = durations[i]
+                        results_pitch_per_word.append(results_pitch[start:])
+                        results_energy_per_word.append(results_energy[start:])
+                        results_vad_per_word.append(results_vad[start:])
+                    else:
+                        start = durations[i]
+                        end = durations[i+1]
+                        results_pitch_per_word.append(results_pitch[start:end])
+                        results_energy_per_word.append(results_energy[start:end])
+                        results_vad_per_word.append(results_vad[start:end])
+                    # interpolate/resample to n frames per word using np.interp
+                    n = self.length_per_word
+                    try:
+                        results_pitch_per_word[-1] = resample(results_pitch_per_word[-1], n)
+                    except:
+                        # empty
+                        results_pitch_per_word[-1] = np.zeros(n)
+                    try:
+                        results_energy_per_word[-1] = resample(results_energy_per_word[-1], n)
+                    except:
+                        # empty
+                        results_energy_per_word[-1] = np.zeros(n)
+                    try:
+                        results_vad_per_word[-1] = resample(results_vad_per_word[-1], n)
+                    except:
+                        # empty
+                        results_vad_per_word[-1] = np.zeros(n)
+                    # concatenate
+                    overall.append(np.concatenate([results_pitch_per_word[-1], results_energy_per_word[-1], results_vad_per_word[-1]]))
+
+                overall = np.array(overall)
+
+                results_overall.append(overall)
+
+                np.save(file.with_suffix(".npy"), overall_z)
+
+        results_overall = torch.tensor(np.array(results_overall))
+        # pad to max length
+        if self.max_length is None:
+            max_len = np.max([r.shape[0] for r in results_overall])
+        else:
+            max_len = self.max_length
+
+        mask = np.array([np.pad(np.ones(r.shape[0]), (0,max_len-r.shape[0])) for r in results_overall])
+        results_overall = torch.tensor(np.array([np.pad(r, ((0,max_len-r.shape[0]),(0,0))).T for r in results_overall]))
+
+        batch["x"] = results_overall.transpose(1,2)
+        # pad prominence and break
+        batch["prominence"] = [np.array(p) for p in batch["prominence"]]
+        batch["break"] = [np.array(b) for b in batch["break"]]
+
+        batch["prominence"] = torch.tensor(np.array([np.pad(p, (0,max_len-p.shape[0])) for p in batch["prominence"]]))
+        batch["break"] = torch.tensor(np.array([np.pad(b, (0,max_len-b.shape[0])) for b in batch["break"]]))
+        # pad word durations
+        batch["word_durations"] = [np.array(wd) for wd in batch["word_durations"]]
+        batch["word_durations"] = torch.tensor(np.array([np.pad(wd, (0,max_len-wd.shape[0])) for wd in batch["word_durations"]]))
+        batch["mask"] = torch.tensor(mask)
+        return batch
+                
+class MPMCollatorForEvaluationUsingModel:
+    def __init__(
+        self,
+        vocex_path="cdminix/vocex",
+        max_length=256,
+        mpm_model_path="mpm.pt",
+        override=False,
+        bin_size=128,
+    ):
+        self.vocex = Vocex.from_pretrained(vocex_path)
+        self.max_length = max_length
+        self.mpm_model_path = mpm_model_path
+        self.mpm_model_dict = torch.load(mpm_model_path)
+        self.mpm_model = MPM(bins=bin_size)
+        self.mpm_model.load_state_dict(self.mpm_model_dict)
+        self.override = override
+        self.bin_size = bin_size
+        min_pitch=-2.5
+        max_pitch=2
+        min_energy=-2.5
+        max_energy=4
+        min_vad=-1
+        max_vad=1
+        self.pitch_bins = torch.linspace(min_pitch, max_pitch, bin_size)
+        self.energy_bins = torch.linspace(min_energy, max_energy, bin_size)
+        self.vad_bins = torch.linspace(min_vad, max_vad, bin_size)
+
+
+    def collate_fn(self, batch):
+        # essentially the same as the normal MPMCollator, but without masking
+        # and with hidden features extracted from the MPM model
+        # we do the same as in VocexCollator, but with the MPM model
+        if isinstance(batch, list):
+            batch = {k: [d[k] for d in batch] for k in batch[0]}
+        if isinstance(batch["audio"], str):
+            batch["audio"] = [batch["audio"]]
+        results_overall = []
+        for k, audio in enumerate(batch["audio"]):
+            if Path(audio).with_suffix(".npy").exists() and not self.override:
+                results = np.load(Path(audio).with_suffix(".npy"))
+                results_overall.append(results)
+            else:
+                file = Path(audio)
+                audio, sr = librosa.load(audio, sr=16000)
+                # create 6 second windows
+                windows = []
+                for i in range(0, len(audio), 96000):
+                    windows.append(audio[i:i+96000])
+                results = []
+                for i, w in enumerate(windows):
+                    # resample to 22050
+                    # w = torchaudio.transforms.Resample(16000, 22050)(torch.tensor(w).unsqueeze(0)).squeeze(0).numpy()
+                    vocex_repr = self.vocex(w, sr)
+                    pitch = self.vocex.model.scalers["pitch"].transform(vocex_repr["measures"]["pitch"])[0]
+                    energy = self.vocex.model.scalers["energy"].transform(vocex_repr["measures"]["energy"])[0]
+                    vad = vocex_repr["measures"]["voice_activity_binary"][0] * 2 - 1
+                    pitch = torch.bucketize(pitch, self.pitch_bins).long()
+                    energy = torch.bucketize(energy, self.energy_bins).long()
+                    vad = torch.bucketize(vad, self.vad_bins).long()
+                    len_before = pitch.shape[0]
+                    # truncate to 513
+                    if len_before > 513:
+                        pitch = pitch[:513]
+                        energy = energy[:513]
+                        vad = vad[:513]
+                    elif len_before < 513:
+                        pitch = torch.cat([pitch, torch.zeros(513-len_before).long()])
+                        energy = torch.cat([energy, torch.zeros(513-len_before).long()])
+                        vad = torch.cat([vad, torch.zeros(513-len_before).long()])
+                    result = self.mpm_model(
+                        pitch.unsqueeze(0),
+                        energy.unsqueeze(0),
+                        vad.unsqueeze(0),
+                        return_reprs=True,
+                    )["reprs"][0].detach().numpy()
+                    # bring back to original length
+                    if len_before > 513:
+                        # pad
+                        result = np.pad(result, ((0,len_before-513),(0,0)))
+                    elif len_before < 513:
+                        # truncate
+                        result = result[:len_before]
+                    results.append(result)
+
+                results = np.concatenate(results).T
+                # resample by a factor of  16000 / 22050 = 0.7256
+                results = torch.tensor(results).unsqueeze(0)
+                results = torchaudio.transforms.Resample(22050, 16000)(results).numpy().T.squeeze(-1)
+
+                # take the mean according to batch["word_durations"] (an int in frames)
+                durations = np.cumsum(batch["word_durations"][k])
+                durations = np.insert(durations, 0, 0)
+
+                results_per_word = []
+                overall = []
+
+                for i in range(len(durations)):
+                    if i == len(durations)-1:
+                        start = durations[i]
+                        results_per_word.append(results[start:])
+                    else:
+                        start = durations[i]
+                        end = durations[i+1]
+                        results_per_word.append(results[start:end])
+                    # mean and std pool
+                    overall.append(np.concatenate([np.mean(results_per_word[-1],axis=0), np.std(results_per_word[-1],axis=0)]))
+
+                overall = np.array(overall)
+
+                results_overall.append(overall)
+
+                np.save(file.with_suffix(".npy"), overall)
+
+        # pad to max length
+        if self.max_length is None:
+            max_len = np.max([r.shape[0] for r in results_overall])
+        else:
+            max_len = self.max_length
+
+        mask = np.array([np.pad(np.ones(r.shape[0]), (0,max_len-r.shape[0])) for r in results_overall])
+
+        results_overall = np.array([np.pad(r, ((0,max_len-r.shape[0]),(0,0))).T for r in results_overall])
+        batch["x"] = torch.tensor(results_overall).transpose(1,2)
+        batch["x"][(torch.isnan(batch["x"]))|(torch.isinf(batch["x"]))] = 0
+
+        # pad prominence and break
+        batch["prominence"] = [np.array(p) for p in batch["prominence"]]
+        batch["break"] = [np.array(b) for b in batch["break"]]
+
+        batch["prominence"] = torch.tensor(np.array([np.pad(p, (0,max_len-p.shape[0])) for p in batch["prominence"]]))
+        batch["break"] = torch.tensor(np.array([np.pad(b, (0,max_len-b.shape[0])) for b in batch["break"]]))
+        # pad word durations
+        batch["word_durations"] = [np.array(wd) for wd in batch["word_durations"]]
+        batch["word_durations"] = torch.tensor(np.array([np.pad(wd, (0,max_len-wd.shape[0])) for wd in batch["word_durations"]]))
+        batch["mask"] = torch.tensor(mask)
+        return batch
+        

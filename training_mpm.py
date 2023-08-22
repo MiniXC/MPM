@@ -53,7 +53,7 @@ def train_epoch(dl, model, optimizer, scheduler, accelerator, epoch):
         pitch_losses.append(torch.mean(pitch_loss))
         energy_losses.append(torch.mean(energy_loss))
         vad_losses.append(torch.mean(vad_loss))
-        if i % 100 == 0:
+        if i % 500 == 0:
             if accelerator.is_main_process:
                 print(f"Pitch Loss: {torch.mean(torch.tensor(list(pitch_losses))).item()}")
                 print(f"Energy Loss: {torch.mean(torch.tensor(list(energy_losses))).item()}")
@@ -213,7 +213,7 @@ def main():
 
     optimizer = torch.optim.Adam(model.parameters(), lr=5e-4)
 
-    num_epochs = 5
+    num_epochs = 1
 
     scheduler = get_linear_schedule_with_warmup(
         optimizer,
@@ -231,7 +231,7 @@ def main():
 
     for epoch in range(num_epochs):
         train_loss = train_epoch(train_dl, model, optimizer, scheduler, accelerator, epoch)
-        if accelerator.is_main_process:
+        if accelerator.is_main_process and (epoch+1) % 5 == 0:
             eval_loss = valid_epoch(valid_dl, model, accelerator, (epoch+1)*len(train_dl))
             print(f"Epoch {epoch} train loss: {train_loss}")
             print(f"Epoch {epoch} eval loss: {eval_loss}")
@@ -243,6 +243,11 @@ def main():
             # if early_stop_num_count == early_stop_num:
             #     print("Early stopping")
             #     break
+    # save model
+    if accelerator.is_main_process:
+        accelerator.save_state("last_mpm_model")
+
+    
 
 
 if __name__ == "__main__":

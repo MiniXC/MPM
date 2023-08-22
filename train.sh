@@ -25,27 +25,56 @@
 # accelerate launch training_mpm.py --bin_size 2048 --mask_l 25
 # accelerate launch training_mpm.py --bin_size 2048 --mask_l 30
 # commands to additionally train with bin sizes [32, 64] and mask lengths [2, 5]
-accelerate launch training_mpm.py --bin_size 32 --mask_l 2
-accelerate launch training_mpm.py --bin_size 32 --mask_l 5
-accelerate launch training_mpm.py --bin_size 32 --mask_l 10
-accelerate launch training_mpm.py --bin_size 32 --mask_l 15
-accelerate launch training_mpm.py --bin_size 32 --mask_l 20
-accelerate launch training_mpm.py --bin_size 32 --mask_l 25
-accelerate launch training_mpm.py --bin_size 32 --mask_l 30
-accelerate launch training_mpm.py --bin_size 64 --mask_l 2
-accelerate launch training_mpm.py --bin_size 64 --mask_l 5
-accelerate launch training_mpm.py --bin_size 64 --mask_l 10
-accelerate launch training_mpm.py --bin_size 64 --mask_l 15
-accelerate launch training_mpm.py --bin_size 64 --mask_l 20
-accelerate launch training_mpm.py --bin_size 64 --mask_l 25
-accelerate launch training_mpm.py --bin_size 64 --mask_l 30
-accelerate launch training_mpm.py --bin_size 128 --mask_l 2
-accelerate launch training_mpm.py --bin_size 128 --mask_l 5
-accelerate launch training_mpm.py --bin_size 256 --mask_l 2
-accelerate launch training_mpm.py --bin_size 256 --mask_l 5
-accelerate launch training_mpm.py --bin_size 512 --mask_l 2
-accelerate launch training_mpm.py --bin_size 512 --mask_l 5
-accelerate launch training_mpm.py --bin_size 1024 --mask_l 2
-accelerate launch training_mpm.py --bin_size 1024 --mask_l 5
-accelerate launch training_mpm.py --bin_size 2048 --mask_l 2
-accelerate launch training_mpm.py --bin_size 2048 --mask_l 5
+# accelerate launch training_mpm.py --bin_size 32 --mask_l 2
+# accelerate launch training_mpm.py --bin_size 32 --mask_l 5
+# accelerate launch training_mpm.py --bin_size 32 --mask_l 10
+# accelerate launch training_mpm.py --bin_size 32 --mask_l 15
+# accelerate launch training_mpm.py --bin_size 32 --mask_l 20
+# accelerate launch training_mpm.py --bin_size 32 --mask_l 25
+# accelerate launch training_mpm.py --bin_size 32 --mask_l 30
+# accelerate launch training_mpm.py --bin_size 64 --mask_l 2
+# accelerate launch training_mpm.py --bin_size 64 --mask_l 5
+# accelerate launch training_mpm.py --bin_size 64 --mask_l 10
+# accelerate launch training_mpm.py --bin_size 64 --mask_l 15
+# accelerate launch training_mpm.py --bin_size 64 --mask_l 20
+# accelerate launch training_mpm.py --bin_size 64 --mask_l 25
+# accelerate launch training_mpm.py --bin_size 64 --mask_l 30
+# accelerate launch training_mpm.py --bin_size 128 --mask_l 2
+# accelerate launch training_mpm.py --bin_size 128 --mask_l 5
+# accelerate launch training_mpm.py --bin_size 256 --mask_l 2
+# accelerate launch training_mpm.py --bin_size 256 --mask_l 5
+# accelerate launch training_mpm.py --bin_size 512 --mask_l 2
+# accelerate launch training_mpm.py --bin_size 512 --mask_l 5
+# accelerate launch training_mpm.py --bin_size 1024 --mask_l 2
+# accelerate launch training_mpm.py --bin_size 1024 --mask_l 5
+# accelerate launch training_mpm.py --bin_size 2048 --mask_l 2
+# accelerate launch training_mpm.py --bin_size 2048 --mask_l 5
+# commands to additionally train with mask lengths [35, 40, 45, 50]
+accelerate launch training_mpm.py --bin_size 256 --mask_l 25
+# accelerate launch training_mpm.py --bin_size 32 --mask_l 40
+# accelerate launch training_mpm.py --bin_size 32 --mask_l 45
+# accelerate launch training_mpm.py --bin_size 32 --mask_l 50
+# accelerate launch training_mpm.py --bin_size 64 --mask_l 35
+# accelerate launch training_mpm.py --bin_size 64 --mask_l 40
+# accelerate launch training_mpm.py --bin_size 64 --mask_l 45
+# accelerate launch training_mpm.py --bin_size 64 --mask_l 50
+# accelerate launch training_mpm.py --bin_size 128 --mask_l 35
+# accelerate launch training_mpm.py --bin_size 128 --mask_l 40
+# accelerate launch training_mpm.py --bin_size 128 --mask_l 45
+# accelerate launch training_mpm.py --bin_size 128 --mask_l 50
+# accelerate launch training_mpm.py --bin_size 256 --mask_l 35
+# accelerate launch training_mpm.py --bin_size 256 --mask_l 40
+# accelerate launch training_mpm.py --bin_size 256 --mask_l 45
+# accelerate launch training_mpm.py --bin_size 256 --mask_l 50
+# accelerate launch training_mpm.py --bin_size 512 --mask_l 35
+# accelerate launch training_mpm.py --bin_size 512 --mask_l 40
+# accelerate launch training_mpm.py --bin_size 512 --mask_l 45
+# accelerate launch training_mpm.py --bin_size 512 --mask_l 50
+# accelerate launch training_mpm.py --bin_size 1024 --mask_l 35
+# accelerate launch training_mpm.py --bin_size 1024 --mask_l 40
+# accelerate launch training_mpm.py --bin_size 1024 --mask_l 45
+# accelerate launch training_mpm.py --bin_size 1024 --mask_l 50
+# accelerate launch training_mpm.py --bin_size 2048 --mask_l 35
+# accelerate launch training_mpm.py --bin_size 2048 --mask_l 40
+# accelerate launch training_mpm.py --bin_size 2048 --mask_l 45
+# accelerate launch training_mpm.py --bin_size 2048 --mask_l 50
